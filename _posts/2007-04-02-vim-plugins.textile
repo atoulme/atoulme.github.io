@@ -1,0 +1,13 @@
+---
+layout: post
+title: Vim plugins !
+---
+
+Get yourself your treat !
+Apparently Eclipse <a href="http://devblog.famundo.com/articles/2007/03/08/how-i-learned-to-love-vim-and-ditched-eclipse">isn't doing enough</a> to edit text, so here is a <a href="http://sourceforge.net/projects/vimplugin/">plugin</a> to finally have your <a href="http://yakuake.uv.ro/">console</a> <a href="http://tilda.sourceforge.net/wiki/index.php/Main_Page">back</a>.
+
+Here are some <a href="http://heather.cs.ucdavis.edu/~matloff/ProgEdit/ProgEdit.html">instructions</a> to learn how to use it. (still haven't read them all..)
+
+I am not a supporter of vim, not like this <a href="http://blog.labnotes.org/">gentleman</a> (well, more an anti-IDE than a pro-something), but I am using it to develop Ruby for the sake of trying and <a href="http://www.pragmaticprogrammer.com/titles/mjwti/">widening my horizon</a>.
+
+

@@ -1,0 +1,16 @@
+---
+layout: post
+title: From BPMN to BPEL at EclipseCon
+---
+
+Last contribution to <a href="http://www.lunar-ocean.com/blog/presentations-at-eclipsecon-2007/">EclipseCon</a>, our <a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3887">talk on the transformation from BPMN to BPEL</a>. This is a direct peek at my everyday work.
+
+Hugues did most of the job of preparing the talk and left me with the computation of a graph into a tree, which in itself is a good subject to talk about for hours.
+
+We had the pleasure of hosting the STP lead too. <a href="http://blogs.iona.com/ohurley/">Oisin Hurley  </a> introduced beautifully our <a href="http://blogs.iona.com/ohurley/2007/03/eclipsecon_day_3_1.html">talk</a>.
+
+The experience in itself was amazing, since more than 50 people showed up for the talk, including the GMF lead (thanks Rich !), and we had a few good questions.
+
+I think I agree with Hugues that we stunned the audience - we went into hardcore details right from the beginning and stayed there. :)
+
+More feedback <a href="http://www.intalio.com/news/intalio-leads-eclipse-stp-project/">here</a>.

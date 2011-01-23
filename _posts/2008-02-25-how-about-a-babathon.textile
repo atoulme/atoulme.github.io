@@ -1,0 +1,19 @@
+---
+layout: post
+title: How about a Babathon ?
+---
+
+Denis Roy just posted on the <a href="http://dev.eclipse.org/mhonarc/lists/eclipse.org-committers/msg00497.html">committers list</a> a call for help:
+
+bq. [..] we need you, the Eclipse committer, to help define the PDE .map files that are used to build your project's plugins.  Once your .map files are defined, we'll crawl through CVS, scanning for the externalized strings in the various .properties files, enabling them for translation using the web tool.  The end goal is to produce language packs that everyone can download and use.[..]
+
+
+To help out the work of the Babel committers, I proposed a <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=220253">"Babathon"</a>:
+bq. It would be very nice to organize an event similar to a Hackathon, that would
+concentrate the efforts of the community into translating as many Strings as
+possible. 
+
+Please vote for this <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=220253">bug</a> if you like it!
+
+
+PS: Please note that projects that are hosted on Subversion cannot be used with the Babel server yet, you can follow this <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=217196">issue</a> to track progress.

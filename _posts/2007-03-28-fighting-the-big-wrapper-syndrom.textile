@@ -1,0 +1,15 @@
+---
+layout: post
+title: Fighting the big wrapper syndrom
+---
+
+I have come to look into some code recently and found an Eclipse plugin that presents this method:
+
+<pre>
+public Image getImage(String key) {
+	return getImageRegistry().get(key);
+}
+</pre>
+The thing is, the @getImageRegistry()@ method is public. In hope of having something under control, my guess is that the developer wrapped the code into a pretty method.
+
+Do yourself a favor. Don't wrap stuff just for pleasure. Instead take ten minutes to read the code  and understand it, so that next time you write an Eclipse plugin, you won't bring your "Utilities" scum bag with you.

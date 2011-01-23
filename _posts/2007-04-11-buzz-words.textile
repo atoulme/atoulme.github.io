@@ -1,0 +1,6 @@
+---
+layout: post
+title: Buzz words ?
+---
+
+This <a href="http://www.google.com/trends?q=bpmn%2Cbpel%2Cbpm%2Csoa&ctab=0&geo=all&date=all">query</a> made me think that <a href="http://www.eclipse.org/stp/bpmn">BPMN</a> and <a href="http://itredux.com/blog/2007/03/07/bpel-works/">BPEL</a> really are real compared to other buzz words.

@@ -1,0 +1,14 @@
+---
+layout: post
+title: Home
+---
+
+Welcome to Lunar Ocean!
+
+My name is <a href="http://www.lunar-ocean.com/about">Antoine Toulme</a>, this is my personal website.
+
+Most of the action takes place on the <a href="http://www.lunar-ocean.com/blog">blog</a>. You can also check out my <a href="http://www.lunar-ocean.com/publications">publications</a>.
+
+If you feel like experimenting, you can try out <a href="http://www.lunar-ocean.com/foodie/">foodie</a>.
+
+Authorized users have access to the <a href="http://wiki.lunar-ocean.com">wiki</a> and <a href="http://tracks.lunar-ocean.com">the todo list</a>.

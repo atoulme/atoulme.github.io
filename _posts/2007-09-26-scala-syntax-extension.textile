@@ -1,0 +1,96 @@
+---
+layout: post
+title: Scala syntax extension
+---
+
+Follow up with <a href="http://www.lunar-ocean.com/blog/textile/">yesterday</a>:
+you can get my <a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2007/09/scala-syntax.zip' title='The Scala syntax gem extension'>Scala syntax gem extension here</a>, and read below for the instructions on how to install it.
+
+First here is the result:
+
+p. <pre class='syntax'>
+
+<span class="comment">/**
+ so much fun
+*/
+</span><span class="keyword">class </span><span class="constant">Auction(seller: Actor, </span><span class="ident">minBid: </span><span class="constant">Int, </span><span class="ident">closing: </span><span class="constant">Date) </span><span class="keyword">extends </span><span class="constant">Actor </span><span class="punct">{
+  </span><span class="keyword">val </span><span class="constant">StringForFun </span><span class="punct">= "</span><span class="string">hello</span><span class="punct">"
+  </span><span class="keyword">val </span><span class="ident">timeToShutdown </span><span class="punct">= </span><span class="constant">36000000</span><span class="punct"> </span><span class="comment">// msec
+</span><span class="punct">  </span><span class="keyword">val </span><span class="ident">bidIncrement </span><span class="punct">= </span><span class="constant">10
+</span><span class="punct">  </span><span class="keyword">def </span><span class="ident">act() </span><span class="punct">{
+    </span><span class="keyword">var </span><span class="ident">maxBid </span><span class="punct">= </span><span class="ident">minBid </span><span class="punct">- </span><span class="ident">bidIncrement
+    </span><span class="keyword">var </span><span class="ident">maxBidder: </span><span class="constant">Actor </span><span class="punct">= </span><span class="ident">null
+    </span><span class="keyword">var </span><span class="ident">running </span><span class="punct">= </span><span class="constant">true
+    </span><span class="keyword">while </span><span class="punct">(</span><span class="ident">running) </span><span class="punct">{
+      </span><span class="ident">receiveWithin </span><span class="punct">((</span><span class="ident">closing.getTime() </span><span class="punct">- </span><span class="ident">new </span><span class="constant">Date().getTime())) </span><span class="punct">{
+        </span><span class="keyword">case </span><span class="constant">Offer(bid, </span><span class="ident">client) </span><span class="punct">=>
+          </span><span class="keyword">if </span><span class="punct">(</span><span class="ident">bid </span><span class="punct">>= </span><span class="ident">maxBid </span><span class="punct">+ </span><span class="ident">bidIncrement) </span><span class="punct">{
+            </span><span class="keyword">if </span><span class="punct">(</span><span class="ident">maxBid </span><span class="punct">>= </span><span class="ident">minBid) maxBidder </span><span class="punct">! </span><span class="constant">BeatenOffer(bid)
+            </span><span class="ident">maxBid </span><span class="punct">= </span><span class="ident">bid; maxBidder </span><span class="punct">= </span><span class="ident">client; client </span><span class="punct">! </span><span class="constant">BestOffer
+          </span><span class="punct">} </span><span class="ident">else </span><span class="punct">{
+            </span><span class="ident">client </span><span class="punct">! </span><span class="constant">BeatenOffer(maxBid)
+          </span><span class="punct">}
+        </span><span class="keyword">case </span><span class="constant">Inquire(client) </span><span class="punct">=>
+          </span><span class="ident">client </span><span class="punct">! </span><span class="constant">Status(maxBid, </span><span class="ident">closing)
+        </span><span class="keyword">case </span><span class="constant">TIMEOUT </span><span class="punct">=>
+          </span><span class="keyword">if </span><span class="punct">(</span><span class="ident">maxBid </span><span class="punct">>= </span><span class="ident">minBid) </span><span class="punct">{
+            </span><span class="keyword">val </span><span class="ident">reply </span><span class="punct">= </span><span class="constant">AuctionConcluded(seller, </span><span class="ident">maxBidder)
+            maxBidder </span><span class="punct">! </span><span class="ident">reply; seller </span><span class="punct">! </span><span class="ident">reply
+          </span><span class="punct">} </span><span class="ident">else </span><span class="punct">{
+            </span><span class="ident">seller </span><span class="punct">! </span><span class="constant">AuctionFailed
+          </span><span class="punct">}
+          </span><span class="ident">receiveWithin(timeToShutdown) </span><span class="punct">{
+            </span><span class="keyword">case </span><span class="constant">Offer(_, </span><span class="ident">client) </span><span class="punct">=> </span><span class="ident">client </span><span class="punct">! </span><span class="constant">AuctionOver
+            </span><span class="keyword">case </span><span class="constant">TIMEOUT </span><span class="punct">=> </span><span class="ident">running </span><span class="punct">= </span><span class="constant">false
+          </span><span class="punct">}
+      }
+    }
+  }
+}
+</pre>
+
+
+
+You will need to add those CSS elements to display things correctly:
+
+<pre>
+pre {
+	background: #000000 repeat-x;
+	color: #00FF00;
+	font-family: arial, 'lucida console', sans-serif;
+	line-height: 160%;
+	font-size: 120%;
+}
+
+code {
+	color: #00EE00;
+	font-style: bold;
+	font-family: arial, 'lucida console', sans-serif;
+}	
+
+.comment { color: #333; font-style: italic; }
+.keyword { color: #eff; font-weight: bold; }
+.punct { color: #444; font-weight: bold; }
+.symbol { color: #0bb; }
+.string { color: #6b4; }
+.ident { color: #00b; }
+.constant { color: #66f; }
+.regex { color: #a82; }
+.number { color: #a33; }
+.expr { color: #227; }
+
+</pre>
+
+Then on your machine, you will need ruby and rubygems installed, and install redcloth and syntax:
+
+<pre>
+gem install syntax
+gem install redcloth
+</pre>
+
+Put your sample into a text file in the same folder as run.rb, then run:
+<pre>
+ruby run.rb myscala.txt > output.html
+</pre>
+
+That's about it. It'd be great to develop the same things for Java and CSS. In the mean time,  enjoy!

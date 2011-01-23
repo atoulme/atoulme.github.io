@@ -1,0 +1,17 @@
+---
+layout: post
+title: Intalio User Conference
+---
+
+I bring a message of love from my company, Intalio, to the Eclipse community.
+
+Folks, if you want to know the in and outs of BPM, are interested into BPMN or dig BPEL, we have cool discounts for you at the <a href="http://intaliocon.com/">Intalio user conference</a>.
+
+In particular, we will be addressing the <a href="http://intaliocon.com/sessions.php#2">extension capabilities of the BPMN modeler</a>, how to add a <a href="http://intaliocon.com/sessions.php#9">new form technology</a> to our Designer.
+
+There will also be some very cool stuff about <a href="http://intaliocon.com/sessions.php#13">SOA</a>, including REST sessions (<a href="http://intaliocon.com/sessions.php#restfulbpm">here</a> and <a href="http://intaliocon.com/sessions.php#15">here</a>).
+
+The conference is all about our users too, so they will have the opportunity to <a href="http://intaliocon.com/sessions.php#4">quizz us</a>, and get a live <a href="http://intaliocon.com/sessions.php#16">support session</a> with our <a href="http://onbpms.com">VP of support</a> himself.
+
+<a href="mailto:atoulme.nospam@intalio.nospam.com">Contact me</a> directly if you are interested!
+

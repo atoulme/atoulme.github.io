@@ -1,0 +1,14 @@
+---
+layout: post
+title: Tutorial on the BPMN modeler
+---
+
+I was a lucky presenter at <a href="http://www.lunar-ocean.com/blog/presentations-at-eclipsecon-2007/">EclipseCon 2007</a>. I got to talk about the <a href="http://www.eclipse.org/stp/bpmn">BPMN modeler</a>.
+
+<a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3595">A tutorial on the BPMN modeler</a>: a few guys have shown up, and the content of the tutorial was very technical. We hope to have many more people in the years to come, as people start using the modeler.
+
+The documentation for the tutorial is located <a href="http://wiki.eclipse.org/index.php/STP_BPMN_Presentation">here</a>, until it is published in the <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=165083">Eclipse Corner</a>.
+
+
+Here is a quick peek at what a model looks like:
+<img src="http://wiki.eclipse.org/images/4/44/EclipseConRegistrationProcess-final.gif" alt="EclipseCon BPMN modeler sample" />

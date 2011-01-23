@@ -1,0 +1,106 @@
+---
+layout: post
+title: Write a parser... A response to Tony Morris
+---
+
+This should have been a comment to <a href="http://blog.tmorris.net/haskell-scala-java-7-functional-java-java/">Tony Morris blog post</a> comparing the compositional properties of programs solving the same problem. The thing is, I'm not too happy with the way the problem is solved.
+
+Hi Tony, 
+
+sorry this is looking more and more like a FizzBuzz thing, but I can't resist posting my own solution to this one.
+
+I look at your code and I don't understand it. The way you solve the problem is incorrect in my opinion.
+I think the problem can be solved by looking at each character of the string and identify it as we parse them:
+1. it is an opening bracket. Fine, we store it.
+2. it is a closing bracket. We see if it matches the last opening bracket. If yes, we continue, if not, we leave and return false.
+3. it's something else, return false.
+
+Here is some code I wrote that does it:
+
+@<pre>
+public class Balancer {
+
+    private final static Map<Character, Character> _closingMatches = 
+        new HashMap<Character, Character>();
+    
+    
+    static {
+//        _closingMatches.put('}', '{');
+        _closingMatches.put(')', '(');
+        _closingMatches.put(']', '[');
+    }
+    
+    public static void balance(String str) {
+        if (str.length() % 2 == 1) {
+            System.err.println("Not balanced");
+            return;
+        }
+        
+        Stack<Character> opening = new Stack<Character>();
+        for (char c : str.toCharArray()) {
+            if (_closingMatches.containsKey(c)) {
+                if (opening.size() == 0 ||
+                        !_closingMatches.get(c).equals(opening.lastElement())) {
+                    System.err.println("not balanced");
+                    return;
+                } else {
+                    opening.pop();
+                }
+            } else if (_closingMatches.containsValue(c)) {
+                opening.add(c);
+            } else {
+                System.err.println("not balanced");
+                return;
+            }
+        }
+        
+        if (opening.size() == 0) {
+            System.err.println("Balanced!");
+        } else {
+            System.err.println("Not balanced");
+        }
+    }
+    
+    public static void main(String[] args) {
+        for (String str : args) {
+            balance(str);
+        }
+    }
+}
+</pre>@
+In particular have a look at how it is easy to add a new character, and change the behavior of the code by changing the series of if else.
+I would love to be able to code this in other languages like you did, but my only area of expertise besides Java is a bit of Ruby.
+
+So, here goes:
+@<pre>
+CLOSING_MATCHES = {')'=>'(', ']'=>'['}
+
+def balance(str) 
+  return false if ((str.size % 2) == 1)
+  opening = []
+  str.scan(/./) {|c| 
+    if (CLOSING_MATCHES.key? c)
+      if (CLOSING_MATCHES[c] != opening.last)
+        return false
+      else
+        opening.pop
+      end 
+    elsif (CLOSING_MATCHES.value? c)
+      opening << c
+    else
+      return false
+    end
+  }
+  return opening.empty?
+end
+for str in $* do
+  result = balance(str) ? "Balanced" : "Not balanced"
+  p result 
+end
+</pre>@
+
+I think what went wrong was the idea of tokens, though I'd be glad to be proven the contrary. 
+
+Two conclusions that go in the direction of your original topic:
+1. The code doesn't really matter. By default a code is not readable. 
+2. The algorithm is important. What makes code readable is when you can read the algorithm by looking at it. There you can reuse pieces of the algorithm, that seldom are taking place by introducing sub methods in the code, but most of the time are a quick copy/paste :)

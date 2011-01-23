@@ -1,0 +1,16 @@
+---
+layout: post
+title: Intalio|BPMS 5.1 is out
+---
+
+I'm very happy to announce that we made a new release of Intalio|BPMS.
+
+We have fixed bugs in this release, introduced a new tool named "Insert space" (it deserves a separate blog post that should come soon).
+
+Overall the modeling experience is now even smoother.
+
+We also upgraded Designer and Server to support java 6.
+
+You can get all this new stuff for free right now on our <a href="http://bpms.intalio.com">community web site</a>.
+
+Happy holidays!

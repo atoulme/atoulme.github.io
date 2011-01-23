@@ -1,0 +1,21 @@
+---
+layout: post
+title: EMF Compare Panel
+---
+
+Still on <a href="http://www.lunar-ocean.com/blog/presentations-at-eclipsecon-2007/">EclipseCon 2007</a> :
+
+The <a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3593">panel</a> was presented by Jean Bezivin, me, Cedric Brun, and Ed Merks, in this order.
+
+Jean talked about the need for a comparison engine, with some references to the Unix world and the diff method. 
+
+I talked about the <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=3593">requirements</a> we had chosen to follow.
+
+Cedric talked about the status of the project. He is the guy who actually touchedthe code for the last 6 months.
+
+Ed Merks welcomed our contribution and called for contributions.
+
+We had some very interesting <a href="http://wiki.eclipse.org/index.php/Model_Comparison_Panel_2007">questions</a>.
+
+
+

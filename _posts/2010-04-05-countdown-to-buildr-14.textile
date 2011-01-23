@@ -1,0 +1,12 @@
+---
+layout: post
+title: Countdown to Buildr 1.4
+---
+
+I was elected committer for Buildr about a month ago. Since then, I spent several hours a week helping the team getting the code ready for release.
+
+We have a good set of fixes and a few nice features stacking up for the release. Daniel added continuous compilation, a way to run Buildr in a loop to check that your code compiles while you play with it. Alex provided a nice build script so that it's easy to package Buildr on top of JRuby, and distribute it like you would get Apache Ant (we don't know yet how we'll distribute it, as JRuby is not exactly under the same license). If that's of interest for you, here is the <a href="https://issues.apache.org/jira/browse/BUILDR/fixforversion/12313152">list of fixes</a> in Jira and our <a href="http://people.apache.org/~toulmean/buildr/1.4.0/CHANGES">CHANGELOG</a> as of RC1.
+
+RC1 ? Yup, we released a first RC for 1.4 last week (<a href="http://people.apache.org/~toulmean/buildr/1.4.0">here</a> is the distro). If you have 5 minutes, please help us proofread the doc and discuss the site.
+
+We have 9 bugs remaining for 1.4. You can expect them to be squashed in the next 2 weeks!

@@ -1,0 +1,5 @@
+---
+layout: post
+title: Better routing of edges to and from gateways
+---
+

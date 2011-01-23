@@ -1,0 +1,14 @@
+---
+layout: post
+title: Collect praise for your Eclipse project
+---
+
+At <a href="http://www.intalio.com">Intalio</a>, my company, we find very important to collect feedback at the end of trainings. From that feedback, we sometimes extract <a href="http://intalio.com/customers/quotes/">very nice quotes</a> from actual customers.
+
+We pride ourselves with them and we display them on the website as a proof of our ability to deliver.
+
+And of course, it helps people to trust our product.
+
+So how about we do the same thing for our Eclipse projects ? I could imagine having a json array on the CVS website, from which I would randomly pick three quotes every time the home page is reloaded to place them on the right.
+
+Thoughts ? Quotes ? Please comment on this <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=256664">bug</a>.

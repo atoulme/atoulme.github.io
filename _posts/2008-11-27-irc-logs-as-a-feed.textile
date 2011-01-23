@@ -1,0 +1,12 @@
+---
+layout: post
+title: IRC logs as a feed
+---
+
+That might be old news to you ; I re-discovered that the Eclipse IRC log for #eclipse and #eclipse-e4 are stored on this <a href="http://echelog.matzon.dk/">server</a>. 
+
+However <a href="http://blog.hantsuki.org/">Remi</a> mentioned that the logs are rotated, so it's not really an archive.
+
+I'd think those logs would be better stored as a feed (RSS or Atom, whichever is easier to implement).
+
+The hard part is to have a bot, and we have <a href="http://wiki.eclipse.org/IRC_bot">KOS-MOS</a> already. What do you think ? 

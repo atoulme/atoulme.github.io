@@ -1,0 +1,18 @@
+---
+layout: post
+title: Funnel 0.1
+---
+
+I worked <a href="http://www.lunar-ocean.com/blog/push-your-feeds-into-funnel/">some more</a> on <a href="http://funnel.rubyforge.org">Funnel</a> over the week-end to turn it into something usable. You can get it <a href="http://rubyforge.org/frs/?group_id=4422">here</a>.
+
+The results look (In My Not So Humble Opinion) very good:
+<ul>
+<li>Funnel supports caching. It will register the feed if you ask it to, and will ping it back in case you update something. The data is stored in the database, maybe we can expose it if needed.</li>
+<li>Funnel updates asynchronously. You run a script to update the feed data, and another one to generate the feed file</li> 
+<li>I made a nice <a href="http://funnel.rubyforge.org">website</a>, that should be updated with more and more examples and documentation.</li>
+</ul>
+I still miss for now the background job that will trigger the update and generation scripts. It may be done using cron, which is fine for Unix-land.
+I will probably add a rake task to force an update, and a script to run an update thread in background.
+
+The admin interface is yet to be done. Once it is, I'll shoot for 1.0. Stay tuned!
+

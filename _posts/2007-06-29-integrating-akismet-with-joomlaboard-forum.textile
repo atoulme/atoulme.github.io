@@ -1,0 +1,59 @@
+---
+layout: post
+title: Integrating Akismet with Joomlaboard Forum
+---
+
+<a href="http://code.google.com/p/joomlaboard/">JoomlaBoard</a> is a very nice and simple forum that integrates to <a href="http://joomla.com/">Joomla</a> (one of the most common content management system available out there).
+
+All the code is GPL and PHP, so you can deal with it as you want.
+
+Recently we have had a lot of spam on our <a href="http://bpms.intalio.com">community website</a>. Apparently there are people determined enough to register to the website, then confirm their registration via email and finally post spam. We respond most of the time in a matter of minutes, but too late for the RSS feed not to pick it up. So instead I have looked at a way to spamproof the forum some more. Apparently <a href="http://akismet.com/">Akismet</a> is one of the best tools out there, so I thought I ought to try it out.
+
+I just used the <a href="http://www.achingbrain.net/stuff/akismet/">PHP class developed by Alex</a>. I copied it to the repertory components/com_joomlaboard/ in my Joomla instance.
+
+I looked into the <a href="http://joomlaboard.googlecode.com/svn/trunk/com_joomlaboard/post.php">post.php</a> file:
+
+<pre>
+    215                //check if the post must be reviewed by a Moderator prior to showing
+    216                //doesn't apply to admin/moderator posts
+    217                $holdPost=0;
+    218                if (!$is_moderator){
+    219                   $database->setQuery("SELECT review FROM #__sb_categories WHERE id=$catid");
+    220                   $holdPost=$database->loadResult();
+    221                }
+</pre>
+
+Hmmm, the @$holdPost@ variable really looks good. We do not want to delete the message right away, it would be great to have it just moderated.
+
+So I added those lines, which are an ugly copy/paste of the example provided with the PHP class, adapted to Joomlaboard:
+<pre>
+    222                // the forum is not moderated by default, so we check for spam
+    223                if ($holdPost == 0) {
+    224                   include 'Akismet.class.php';
+    225                   $WordPressAPIKey =  'xxxxxxxxxxxxx'; // replace it with your own key
+    226                   $MyBlogURL = 'http://bpms.intalio.com';
+    227
+    228                   $akismet = new Akismet($MyBlogURL ,$WordPressAPIKey);
+    229                   $akismet->setCommentAuthor($sb_authorname);
+    230                   $akismet->setCommentAuthorEmail($email);
+    231
+    232                   $akismet->setCommentType('forum');
+    233                   $akismet->setReferrer($_SERVER["HTTP_REFERER"]);
+    234                   $akismet->setCommentContent($message);
+    235                   //$akismet->setPermalink('http://www.example.com/blog/alex/someurl/');
+    236
+    237                  if($akismet->isCommentSpam()){
+    238                     $holdPost=1;
+    239                  }
+    240                }
+</pre>
+
+And then connected as John Smith to spam myself. I looked into the Akismet spam of my own blogs to get some crispy ones.
+
+<img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2007/06/moderated-spam.png' alt='Moderated spam' />
+
+Here is the <a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2007/06/post.txt' title='Changes to the post.php file'>diff</a> of the post.php file, for those interested to apply it quickly.
+
+Note that you will need to have an <a href="http://akismet.com/faq/">Akismet API key</a> to be able to connect to the Akismet service.
+
+Thanks to <a href="http://onbpms.com">Pascal</a> for letting me try this out !

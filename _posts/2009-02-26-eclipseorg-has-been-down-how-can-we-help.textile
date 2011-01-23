@@ -1,0 +1,21 @@
+---
+layout: post
+title: Eclipse.org has been down ; how can we help ?
+---
+
+Our webmasters are having a rough time, the downloads area is down because there were recent issues with mirrors. All my sympathy goes to them.
+
+I think we can help. I filed <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=266380">266380</a> today:
+
+bq. 
+Would it be feasible that we make I-builds and N-builds, that are most of the
+time only available on the Canada website, to be available as torrents ?
+
+People would help each other downloading them and depend a bit less on the
+server.
+
+I myself would be happy to set a high ratio on such torrents.
+
+
+I think we could have a script to create torrent files in the same way we have a script to push files to mirrors. I welcome your feedback, and I hope we can all help eclipse.org stay up soon.
+

@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Bug 308732: Gauge interest over a Languages TLP"
+---
+
+After our discussion during the <a href="http://wiki.eclipse.org/Architecture_Council/Meetings/April_8_2010">Arch council meeting</a> last week, I opened bug <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=308732">308732</a>:
+
+bq. This bug aims at gauging interest over a languages TLP. The Architecture
+Council debated of the current state and layout of the eclipse projects. I
+personally would find interesting - and would be ready to help and support -
+the idea that we should gather all projects that deal with languages, as in
+programmation languages together.
+
+I recently heard how the JSDT project was reusing JDT. I also see more projects
+maturing or coming in, like ScalaModules or IMP. I see synergies in those
+cases.
+I also see a better marketing for those projects by being associated under the
+same banner. Right now I would qualify it is hard to find a project if you
+don't know its name already, just by looking at the TLPs Eclipse advertises.
+
+This bug is opened for community input. If you have any facts that go or
+against this initiative, the council would like to hear them out.
+
+Your opinion is important. Please let us know what you think.

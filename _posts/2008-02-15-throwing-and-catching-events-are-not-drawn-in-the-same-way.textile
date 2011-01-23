@@ -1,0 +1,5 @@
+---
+layout: post
+title: Throwing and catching events are not drawn in the same way
+---
+

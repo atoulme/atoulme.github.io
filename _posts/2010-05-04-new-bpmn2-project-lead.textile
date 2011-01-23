@@ -1,0 +1,24 @@
+---
+layout: post
+title: New BPMN2 project lead
+---
+
+I was voted new BPMN2 project lead after earning <a href="http://kenn-hussey.blogspot.com/"><abbr title="Kenn is awesome">Kenn</abbr></a>'s trust. 
+
+Here is what we want to do:
+<ul>
+<li>Implement the reference metamodel for BPMN2</li>
+<li>Create a basic editor with enough graphics that we become mainstream (I mean, we'd like to see the same icons reused all over the world)</li>
+<li>Create a validation framework: rules applied to tasks, with warnings, errors, etc</li>
+</ul>
+
+Here is what we don't want to do:
+<ul><li>Create a diagram editor with BPMN2. That would happen in the SOA BPMN modeler.</li></ul>
+
+If you're interested, we are looking for contributors:
+<ul>
+<li>Your tasks as a committer: reply on bugs, reply on newsgroups, eventually do some marketing.</li>
+<li>Implement stuff as part of your commitment to the project to the extent that your groups is interested. Ie if you have no stake into doing a validation framework, that's ok.</li>
+<li>And help with doing the website.</li>
+
+All over more fun than paperwork, and a lot of community building. As lead I'll handle CQs, release reviews, move reviews, etc.

@@ -1,0 +1,33 @@
+---
+layout: post
+title: EMF::acts_as_ActiveRecords
+---
+
+Not sure you followed the latest news about Intalio, Inc. We just rolled out a new <a href="http://www.intalio.com">website</a>, and we are introducing a new project named <a href="http://itredux.com/2009/01/19/project-dogfood/">Dogfood</a>.
+
+The Dogfood project is exactly what it looks like: we are going to line up and eat our own software until it makes us sick of it. And then we will have some more.
+
+As part of the project, I am tasked to find a way to transform a spreadsheet with some clear conventions into a fully executable process.
+Our <a href="http://www.eclipse.org/bpmn/model/index.php">BPMN model being EMF-based</a>, I showed it to the team, and we feel it's simple enough that we can generate the XML from the spreadsheet.
+
+How do you generate a EMF-generated model those days ? You would fire up Eclipse, open the diagram editor and modify what you see on screen. Or you would open the default tree editor and make some changes.
+
+Here, we are looking at a different story. Indeed we want to generate our model without Eclipse. And why not without Java.
+
+My idea is to use the <a href="http://api.rubyonrails.org/classes/ActiveRecord/Base.html">ActiveRecord</a> way to generate a model by reading the ecore file(s). The bright part of the idea is that you can have ActiveRecord read the ecore files and load up the classes in memory. There is no actual generation. You change the ecore file, run again, everything is here.
+
+My hope is to be able to do this:
+<code lang="ruby">
+p = new Pool
+activity = new Activity
+activity.name = "sample activity"
+activity.graph = p
+other_activty = new Activity
+other_activity.graph = p
+s = new SequenceEdge
+s.source = activity
+s.target = other_activity
+@
+
+Did someone think of doing something like that before ? Is there someone crazy enough to read ecore files and create the metamodel inline around ? Does someone know of a way to use ActiveRecords with something that isn't a DB table ?
+

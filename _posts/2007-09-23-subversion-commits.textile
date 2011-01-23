@@ -1,0 +1,48 @@
+---
+layout: post
+title: Subversion commits
+---
+
+I did some hacking this week-end, and the result is called <a href="http://svn2rss.rubyforge.org">svn2rss</a>.
+
+It's a simple lib to parse a subversion log and create a RSS 2.0 feed out of it.
+
+Quick snippet to show you how it works:
+
+<pre class='syntax'>
+<span class="comment"># the module to include in your script.</span>
+<span class="constant">self</span><span class="punct">.</span><span class="ident">include</span> <span class="constant">Svn2rss</span>
+
+<span class="comment"># parse the svn log</span>
+<span class="ident">entries</span> <span class="punct">=</span> <span class="ident">parseSvnLog</span><span class="punct">("</span><span class="string">http://myfeed.com/rss</span><span class="punct">")</span>
+<span class="comment"># create your own feed</span>
+<span class="ident">feed</span> <span class="punct">=</span> <span class="ident">createRSSFeed</span><span class="punct">(</span><span class="ident">entries</span><span class="punct">,</span> 
+        <span class="punct">"</span><span class="string">http://myfeed.com/rss</span><span class="punct">",</span>
+        <span class="punct">"</span><span class="string">My very own title</span><span class="punct">",</span>
+        <span class="punct">"</span><span class="string">My description of the feed</span><span class="punct">",</span>
+        <span class="punct">"</span><span class="string">en</span><span class="punct">",</span> 
+        <span class="punct">"</span><span class="string">managingEditor@myfeed.com</span><span class="punct">",</span>
+        <span class="punct">"</span><span class="string">webmaster@myfeed.com</span><span class="punct">")</span>
+<span class="comment"># Well, as you can see the API is clearly not optimized. 
+# Still working on that particular point, so expect your API to break often till 1.0.</span>
+</pre>
+
+The implementation is coming with some complete examples:
+-<a href="http://svn2rss.rubyforge.org/svn/trunk/server/WEBrick.rb">create</a> a WEBrick server that will serve your feed.
+-<a href="http://svn2rss.rubyforge.org/svn/trunk/server/pushFTP.rb">create</a> a file to hold your changes and send it through FTP to a server.
+
+You can check out a live instance of svn2rss <a href="http://www.lunar-ocean.com/feed/svn2rss.rss">here</a>, and below is a snippet generated with <a href="http://itde.vccs.edu/rss2js/build.php">Feed2JS</a>.
+
+<script language="JavaScript" src="http://itde.vccs.edu/rss2js/feed2js.php?src=http%3A%2F%2Fwww.lunar-ocean.com%2Ffeed%2Fsvn2rss.rss&chan=title&num=5&desc=0&date=y&targ=y" type="text/javascript"></script>
+
+<noscript>
+<a href="http://itde.vccs.edu/rss2js/feed2js.php?src=http%3A%2F%2Fwww.lunar-ocean.com%2Ffeed%2Fsvn2rss.rss&chan=title&num=5&desc=0&date=y&targ=y&html=y">View RSS feed</a>
+</noscript>
+
+0.1 is out, so installing it is just a matter of muttering the magic works:
+
+<pre>
+sudo gem install svn2rss
+</pre>
+
+I hope you like it. It cuts the deal for me. It certainly isn't a replacement for some great tools like Fisheye, but it helps showcasing my works. More on that very soon.

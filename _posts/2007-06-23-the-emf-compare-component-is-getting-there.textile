@@ -1,0 +1,12 @@
+---
+layout: post
+title: The EMF Compare component is getting there
+---
+
+I was one of the <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=157166">first contributors to the EMF Compare component</a>, and I have to say I am glad to see it growing and maturing as the project lead, Cedric Brun, <a href="http://cedric.brun.free.fr/wordpress/?p=24">reports it</a>. Congratulations to Obeo for their hard work!
+
+The goal of this component is to compare effectively models, without using a UI.
+
+On my plate, I need to test it with some of our <a href="http://www.eclipse.org/stp/bpmn">BPMN models</a> and see how it tracks down the changes. BPMN is a bit tricky because of the extensive use of edges, instead of having attribute changes as in UML (most of th time, when I was developing my contribution to this component, I was using a class diagram).
+
+More <a href="http://www.eclipse.org/emft/projects/compare/">here</a>.

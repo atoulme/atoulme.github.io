@@ -1,0 +1,5 @@
+---
+layout: post
+title: Multiple event and event-based gateway a la BPMN 1.1 sauce
+---
+

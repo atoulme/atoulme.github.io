@@ -1,0 +1,8 @@
+---
+layout: post
+title: Tumbling !
+---
+
+I finally had a crack at <a href="http://www.tumblr.com">Tumblr</a> and managed integrating it with <a href="http://del.icio.us/toulmean">del.icio.us</a>. 
+
+In the sidebar you may the RSS feed for my very own tumblr now, <a href="http://watchlog.lunar-ocean.com/">Watchlog</a>. 

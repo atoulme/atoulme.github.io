@@ -1,0 +1,25 @@
+---
+layout: post
+title: JDTc
+---
+
+I worked with <a href="http://ketan.padegaonkar.name/">Ketan Padegaonkar</a> on creating a wrapper around the JDT compiler.
+
+Usually, you would call it by installing the <a href="http://download.eclipse.org/eclipse/downloads/drops/R-3.4.1-200809111700/details.php#JDTCORE">compiler jar</a>, and reference it while calling the java compiler:
+
+@<pre>
+java -classpath org.eclipse.jdt.core_3.2.0.jar org.eclipse.jdt.internal.compiler.batch.Main -classpath rt.jar A.java
+</pre>@ 
+
+Granted ruby and rubygems are installed on your system, installing JDTc is easy:
+
+@<pre>
+sudo gem install jdtc
+</pre>@
+
+JDTc installs the compiler for you, and places it at a convenient location. Then running the JDT compiler is a bit easier:
+@<pre>
+jdtc -classpath rt.jar A.java
+@</pre>
+
+A bit easier, hey ? 

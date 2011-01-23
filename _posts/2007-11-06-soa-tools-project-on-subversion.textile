@@ -1,0 +1,9 @@
+---
+layout: post
+title: SOA Tools Project On Subversion
+---
+
+<a href="http://dev.eclipse.org/mhonarc/lists/stp-dev/msg01163.html">Adrian Skehill and Matt just finished the migration of the STP project to Subversion.</a>
+
+Thanks for the awesome work guys!
+

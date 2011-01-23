@@ -1,0 +1,33 @@
+---
+layout: post
+title: How to add custom navigation links on the wiki.eclipse.org left bar 
+---
+
+This proved to be well hidden ; you can add your own links to the left bar of the wiki.eclipse.org website by adding them individually to the project metadata.
+
+<img src="http://www.lunar-ocean.com/wp-content/uploads/2009/01/picture-24.png" alt="leftnavbar-project-metadata" title="leftnavbar-project-metadata" width="321" height="151" class="alignright size-full wp-image-228" />
+<ol>
+<li>
+Log into portal.eclipse.org with your committer credentials
+</li>
+<li>
+Go to your project, and click on "Maintain project meta-data"
+</li>
+<li>
+Click to edit the "project left nav" property
+</li>
+<li>
+Now you can enter your link information:
+</li>
+<li>
+Just save it, and do it as often as needed.
+</li>
+<li>
+Go to your <a href="http://wiki.eclipse.org/STP/BPMN_Component">wiki page</a> and edit it
+</li>
+<li>
+Add this to the page: {{#eclipseproject:your.project.id}}
+I prefer <a href="http://wiki.eclipse.org/STP/BPMN_Component/Wiki_guidelines">using a template</a> for this though.
+</li>
+</ol>
+

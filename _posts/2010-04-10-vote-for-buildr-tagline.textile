@@ -1,0 +1,12 @@
+---
+layout: post
+title: Vote for Buildr tagline
+---
+
+We are seriously thinking of updating the Buildr tagline. 
+We exchanged proposals over the mailing list in this <a href="http://buildr.markmail.org/thread/eribw7jxzt5ltxxb">thread</a>. 
+If you'd like to vote on the tagline, the Doodle poll is <a href="http://doodle.com/ey6c6ne52radyeue">here</a>. 
+You can vote for more than one proposal. 
+My favorites are "lean builds", "Ready, Set, Build!" and "Build Like You Code".
+
+Results soon!

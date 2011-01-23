@@ -1,0 +1,17 @@
+---
+layout: post
+title: Publications
+---
+
+<ul>
+<li><a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/11/presentation-of-emf-compare-utility.pdf'>Presentation of EMF Compare Utility (September 2006)</a></li>
+My first paper, a presentation of my work on a comparison engine for <a href="http://www.eclipse.org/emf">EMF</a>.
+<li><a href="http://wiki.eclipse.org/index.php/STP_BPMN_Presentation_Hands_on_tutorial">EclipseCon 2007: Tutorial on the Eclipse BPMN modeler</a></li>
+Our very first presentation of the STP BPMN modeler, co-authored with Hugues Malphettes.
+<li><a href="http://www.eclipse.org/stp/bpmn/eclipsecon2007/Modeling_BPM_For_Execution_BPMN_2_BPEL.pdf">EclipseCon 2007: From modelling to execution in the Enterprisee -- using BPMN and BPEL</a></li>
+Our talk on how to combine BPMN and BPEL, given at EclipseCon 2007 to a crowded room.
+<li><a href="http://wiki.eclipse.org/STP/BPMN_Component/EclipseCon2008">EclipseCon 2008: Get the most of the BPMN modeler</a></li>
+A complete talk on how to extend the BPMN modeler in many ways. All examples given are accessible in the BPMN modeler code repository for you to play with.
+<li><a href="http://live.eclipse.org/node/657">The BPMN modeler webinar</a></li>
+A webinar on the BPMN modeler, lasting 50 minutes and delivered in February 2009. It covers everything there is to know about it!
+</ul>

@@ -1,0 +1,17 @@
+---
+layout: post
+title: Can't ssh your box ? Stop messing with /etc/shadow!
+---
+
+I had the weirdest error ever. I could connect with a public key to my remote user. The key was showing as accepted. Yet the connection was closed on startup.
+
+@
+debug1: Server accepts key: pkalg ssh-rsa blen 256
+debug2: input_userauth_pk_ok: fp ***
+debug1: read PEM private key done: type RSA
+Connection closed by 128.128.128.128
+@
+
+The solution was to look in /etc/shadow. There was a typo in the file.
+
+Note that I didn't find a trace of the problem in the syslog, messages, dmesg, etc.

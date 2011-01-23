@@ -1,0 +1,19 @@
+---
+layout: post
+title: Interested in BPMN ? Contact me if you dare
+---
+
+If you are interested into <a href="http://www.eclipse.org">Eclipse</a> and the projects I am contributing to, you might wonder how to get in and talk to us directly.
+
+If you want to ask questions and contribute, you may send an e-mail to the stp-dev@eclipse.org mailing-list (register <a href="https://dev.eclipse.org/mailman/listinfo/stp-dev">here</a>).
+
+If you have questions regarding the use of our BPMN modeler, please send an e-mail to the stp-user@eclipse.org mailing-list (after registering <a href="https://dev.eclipse.org/mailman/listinfo/stp-user">here</a>), or get Thunderbird and ask a question on the <a href="http://www.eclipse.org/newsgroups/">newsgroup.</a>
+
+Now here is the deal if you want to contribute code to the project. If you find a bug or have an enhancement, jut code it, then  open a <a href="https://bugs.eclipse.org">bug</a> about it. Make sure it is assigned to the STP BPMN project !
+
+Finally, attach the fix to the bug entry, and we will review it. After several of those contributions, you may be <a href="http://www.eclipse.org/projects/dev_process/new-committer.php">voted</a> a <a href="http://www.eclipse.org/legal/committerguidelines.php">committer.</a>
+
+Just make sure that your company is okay with it, if you do this as a work assignment.
+
+If you have questions regarding our commercial product, just register <a href="http://bpms.intalio.com">here</a> !
+

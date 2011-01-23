@@ -1,0 +1,13 @@
+---
+layout: post
+title: Good programmers come by the dozen
+---
+
+You just don't become a <a href="http://moishelettvin.blogspot.com/2007/01/less-programming-more-skill.html">good programmer through sheer force</a> :
+
+bq. I didn't miss the long hours or the stress, but I missed being surrounded by lots of really smart people, and sitting down in front of a computer to just crank out code.
+
+I start experiencing that too (meaning, being surrounded by smart people). Chad Fowler <a href="http://www.pragmaticprogrammer.com/titles/mjwti/">wrote</a> it was like being the worst player of the band. Your skills are leveraged by the overall technical skills.
+
+And we do have sometimes good discussions (when we don't talk about <a href="http://www.lunar-ocean.com/blog/maven-firefighter/">Maven</a>).
+

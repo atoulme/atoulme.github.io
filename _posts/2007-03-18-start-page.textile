@@ -1,0 +1,10 @@
+---
+layout: post
+title: Start page
+---
+
+Welcome to Lunar Ocean !
+
+There is more on the author on the <a href="http://www.lunar-ocean.com/blog/about/">About</a> page.
+
+Feel free to drop <a href="mailto:admin@lunar-ocean.com">me</a> a line if you have questions.

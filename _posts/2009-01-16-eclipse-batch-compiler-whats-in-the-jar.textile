@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Eclipse batch compiler: what's in the jar ?"
+---
+
+So I was annoying <a href="http://www.whiptail.org">one person</a> too much with Eclipse and how it rules the universe, and he asked back: what is exactly the Eclipse batch compiler doing ?
+
+So I just went to the Eclipse website, and looked for the Eclipse compiler. I ultimately found out the <a href="http://www.eclipse.org/jdt/core/dev.php">page</a> where release notes are posted, you need to look at each version to get an idea though.
+
+The Eclipse help system for sure has a nice documentation on <a href="http://help.eclipse.org/help32/index.jsp?topic=/org.eclipse.jdt.doc.isv/guide/jdt_api_compile.htm">how to use the compiler</a>, but it doesn't explain in too much detail what it does.
+
+This <a href="http://www-128.ibm.com/developerworks/blogs/page/Wayner?entry=did_you_know_that_eclipse">post</a> by Wayne, yet again naked in icy water, was more insightful.
+
+bq. It does wonderful things. My personal <abbr title="Note the canadian tone">favourite</abbr> thing about the Eclipse Java compiler is the fact that it will compile code that contains errors. That is, when you compile code that has errors in it, the compiler will flag those errors for you and then generate the .class file anyway. You can actually run and debug the code and, should the runtime actually run into your errors, it will then throw an exception.
+
+
+So now I'm looking if someone compiled a feature list of the compiler somewhere in case I missed something. If you happen to have one hanged to the wall, I'd take it happily.

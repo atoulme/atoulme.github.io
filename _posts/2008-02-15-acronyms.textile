@@ -1,0 +1,26 @@
+---
+layout: post
+title: Acronyms
+---
+
+p. I was puzzled to see this <a href="http://sob.apotheon.org/?p=351">post</a> from Chad showing up in my feeds reader with a nice underlined word, <abbr title"just like that">animated when mousing over it</abbr>.
+
+<br/>
+
+p. It so occurs that the <a href="http://www.w3schools.com/tags/tag_acronym.asp">@acronym@</a> tag can be used to do that. No Javascript involved.
+This might be an old trick, but it just works. Thanks Chad!
+
+
+
+p. UPDATE: See the comments, use abbr instead.
+
+
+
+p. UPDATE 2: See Chad's <a href="http://sob.apotheon.org/?p=352">post</a>: 
+
+bq.    1. @<acronym>@: a tag that is supported by more browsers now, but may become obsolete in the future, judging by a proposed specification that may one day become a standard
+   2. @<abbr>@: a tag that, right now, isn't supported properly by the browser with the single biggest share of the market — and, thus, the browser used by the most potential visitors or customers at your website
+
+
+
+

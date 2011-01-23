@@ -1,0 +1,48 @@
+---
+layout: post
+title: Playing with the RSS and Atom Ruby libraries
+---
+
+<ul>
+In order to create a <a href="http://www.lunar-ocean.com/blog/rssfying-the-intalio-community/">feed</a> for the Intalio community,
+
+I have been checking out the various libraries available out there in Ruby.
+
+My first goal is to be able to parse both RSS and Atom feeds.
+
+In chronogical order, here are my finds:
+
+<li><a href="http://feed-normalizer.rubyforge.org/">Feed Normalizer</a></li>
+
+Feed Normalizer does a pretty good job at parsing both RSS and Atom feeds.
+
+Feed Normalizer uses a list of parsers with priority to parse the feeds. It appears the best parser is simple-rss, none other supporting Atom.
+So basically using Feed Normalizer is facading simple-rss nicely.
+
+<li><a href="http://simple-rss.rubyforge.org/">simple-rss</a></li>
+
+Simple-rss is a GPL library that parses RSS and Atom feeds. That's cool, but simple-rss missed the issued attribute on the Atom feeds, so there is no way to get the publication date.
+
+I opened a <a href="http://rubyforge.org/tracker/index.php?func=detail&aid=13980&group_id=893&atid=3517">bug</a> regarding this issue.
+
+
+<li><a href="http://rubyforge.org/projects/atom">Atom</a></li>
+
+Atom sounded like a good library, but from what I saw there was no RSS support.
+
+<li><a href="http://rubyforge.org/projects/feedtools">FeedTools</a></li>
+
+FeedTools is apparently the most accomplished library I have seen.
+
+Apparently its caching mechanism is good, but not perfect and generating a feed with it is taking more and more time.
+
+<li>Conclusion
+All the libraries I have been looking into don't have much documentation, and are more or less maintained.
+
+I am still looking at the solutions available:
+<ul>
+<li>Create some new parsers on feed-normalizer to handle Atom nicely.</li>
+<li>Create my very own parser to parse any feed out there. I prefer this function because I could handle the feeds as Atom by default, instead of losing their information with RSS.</li>
+</ul>
+
+</ul>

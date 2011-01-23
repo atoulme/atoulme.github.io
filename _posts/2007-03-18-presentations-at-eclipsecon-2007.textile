@@ -1,0 +1,10 @@
+---
+layout: post
+title: Presentations at EclipseCon 2007
+---
+
+I was presenting at <a href="http://www.intalio.com/news/intalio-at-eclipsecon-2007/">EclipseCon</a> last week.
+
+I had <a href="http://www.eclipsecon.org/2007/index.php?page=presenters/#Antoine_Toulm%C3%A9">three public appearances</a> (a lot for a young gal like me !).
+
+	

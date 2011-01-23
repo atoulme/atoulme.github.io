@@ -1,0 +1,9 @@
+---
+layout: post
+title: Java on Mac
+---
+
+Apparently, Java is going to require some work on Apple, as this <a href="http://fishbowl.pastiche.org/2007/06/22/java_on_apple_is_dooooooomed">post</a> puts it. On top of that, <a href="http://www.eclipsezone.com/eclipse/forums/t97750.rhtml">Leopard won't run Eclipse as is</a>.
+
+What I like is that both articles are optimistic and just want to get past it.
+

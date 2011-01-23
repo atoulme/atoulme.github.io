@@ -1,0 +1,55 @@
+---
+layout: post
+title: Get more, get BPMN 0.8!
+---
+
+Tonight with the release of STP M5, the BPMN modeler will come bundled with a pile of improvements.(see <a href="http://www.lunar-ocean.com/blog/graphical-goodies-for-the-bpmn-modeler/">last week post</a> to get the overview).
+
+<ul>
+<li>
+Better group support
+We have now a good support of groups. They add activities when resizing or moving, and activities update their groups when resizing and moving, or being created.
+There seems that there are a few glitches on the popupbar edit policy, which tends to show at the center of the pool when Ctrl+Space is hit on top of a group.
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/groups-look-and-feel.png' title='Groups look and feel'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/groups-look-and-feel.png' alt='Groups look and feel' /></a>
+</li>
+<li>
+Icons everywhere
+Hugues added icons for the multiple events and the signal events. We have a very fancy collection of icons now. They do not all reflect the BPMN 1.1 style, we are working on that.
+</li>
+<li>
+Complex gateway palette item
+Just added, still hot from the compiler.
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/support-for-complex-gateways.png' title='Support for complex gateways'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/support-for-complex-gateways.png' alt='Support for complex gateways' /></a>
+</li>
+
+<li>
+Throwing and catching shapes
+In BPMN 1.1, the throwing or catching property is dictated by the messages on the event, or is user selected.
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/shapes-filling-depending-on-their-messages.png' title='Shapes filling depending on their messages'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/shapes-filling-depending-on-their-messages.thumbnail.png' alt='Shapes filling depending on their messages' /></a>
+We added an action for the user to select that one, in case the event has no messages.
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/select-throwing-or-catching-shape.png' title='Select throwing or catching shape action'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/select-throwing-or-catching-shape.png' alt='Select throwing or catching shape action' /></a>
+</li>
+
+<li>
+We have worked on adding support for TODO, XXX and FIXME tasks on text annotations.
+
+Meaning you can take a text annotation, and write "TODO buy milk" in its label.
+Automagically, a task marker will show on save and you will see the task in the Tasks view. The task supports the "Go To" action through the GMF goodness.
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/bpmn-support-for-task-annotations.png' title='BPMN support for task annotations'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/bpmn-support-for-task-annotations.png' alt='BPMN support for task annotations' /></a>
+</li>
+<li>
+Message connections between pools
+We have added a little menu item for the end connection menu, so that you can connect to the underlying pool.
+Pool messages don't look good yet though: we have a specific framework to create anchors that was very specific to activities,
+and we won't have cycles to work on that just now.
+</li>
+<li>
+Pool message handles
+Grab a pool handle and drag all you can, those handles will enable you to connect to an other pool or activity with a messaging edge.
+</li>
+<li>
+Sequence edges and messaging edges support associations with artifacts
+This seems to be a very stable new feature.
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/associations-on-edges.png' title='Associations on edges'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/associations-on-edges.png' alt='Associations on edges' /></a>
+</li>
+</ul>

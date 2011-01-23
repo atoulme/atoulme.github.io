@@ -1,0 +1,14 @@
+---
+layout: post
+title: 5.0 RC1 is out !
+---
+
+Yay !
+
+It's good to push some piece of software out of the door. After months of hard work, Intalio|BPMS Designer 5.0 RC1 is out.
+
+Get <a href="http://bpms.intalio.com/component/option,com_remository/Itemid,48/func,select/id,26/">it</a> while it's hot!
+
+Here is a <a href="http://www.intalio.com/news/rc1-new-functionality-fixes-and-enhancements/">list</a> of all the good stuff coming with this release.
+
+Intalio|BPMS Designer is bundled with the BPMN modeler of the STP project.

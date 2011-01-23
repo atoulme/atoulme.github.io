@@ -1,0 +1,10 @@
+---
+layout: post
+title: jBPM integrates the BPMN modeler
+---
+
+I'm not sure if <a href="http://www.jboss.com/products/jbpm">jBPM</a> uses the code from <a href="http://www.eclipse.org/jwt/">JWT</a> or <a href="http://www.eclipse.org/stp/im/">STP-IM</a>, but it apparently created <a href="http://docs.jboss.org/tools/3.0.0.CR1/en/jboss_bpmn_convert_ref_guide/html/bpmn2jpdl.html">a powerful transformation wizard</a> to transform BPMN into jPDL.
+
+I'm glad they chose the <a href="http://www.eclipse.org/bpmn">BPMN modeler</a> as the base for their work.
+
+jBPM folks, would you like to be listed on our <a href="http://www.eclipse.org/bpmn/integrators.php">integrators page</a> ? If you like your ride with our project, please consider <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=256664">sending a quote</a>!

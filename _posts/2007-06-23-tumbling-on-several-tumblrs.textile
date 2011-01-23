@@ -1,0 +1,10 @@
+---
+layout: post
+title: Tumbling on several tumblrs
+---
+
+I really love Tumblr, and I love filling up my <a href="http://watchlog.lunar-ocean.com">watchlog</a>,
+
+but it gets a bit messy when you have two Tumblr accounts: you never really know on which you are logged, and it becomes painful quickly.
+
+So.. any firefox brilliant extension for that ? Or just a better bookmarklet from the guys ?

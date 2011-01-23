@@ -1,0 +1,1167 @@
+--- !ruby/object:Comment 
+author_email: ""
+author_name: Start page at Lunar Ocean
+author_url: http://www.lunar-ocean.com/blog/start-page/
+content: "[...] About [...] "
+created_at: 2007-03-18 11:54:32 -07:00
+post_url: http://www.lunar-ocean.com/2007/02/03/about/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: "Antoine\xE2\x80\x99s ? Lunar Ocean"
+author_url: http://www.toulme.name/antoine/blog/?p=141
+content: "[...] Je viens d\xE2\x80\x99ouvrir un deuxieme blog, Lunar Ocean. [...] "
+created_at: 2007-03-19 00:14:39 -07:00
+post_url: http://www.lunar-ocean.com/2007/03/18/start-page/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: Tutorial on the BPMN modeler at Lunar Ocean
+author_url: http://www.lunar-ocean.com/blog/tutorial-on-the-bpmn-modeler/
+content: "[...] Archives          ? Presentations at EclipseCon 2007 [...] "
+created_at: 2007-03-18 12:04:39 -07:00
+post_url: http://www.lunar-ocean.com/2007/03/18/presentations-at-eclipsecon-2007/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: EMF Compare Panel at Lunar Ocean
+author_url: http://www.lunar-ocean.com/blog/emf-compare-panel/
+content: "[...] on EclipseCon 2007 [...] "
+created_at: 2007-03-18 17:34:31 -07:00
+post_url: http://www.lunar-ocean.com/2007/03/18/presentations-at-eclipsecon-2007/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: From BPMN to BPEL at EclipseCon at Lunar Ocean
+author_url: http://www.lunar-ocean.com/blog/from-bpmn-to-bpel-at-eclipsecon/
+content: "[...] contribution to EclipseCon, our talk on the transformation from BPMN to BPEL. This is a direct peek at my everyday [...] "
+created_at: 2007-03-18 18:15:22 -07:00
+post_url: http://www.lunar-ocean.com/2007/03/18/presentations-at-eclipsecon-2007/
+
+--- !ruby/object:Comment 
+author_email: assaf@labnotes.org
+author_name: Assaf
+author_url: http://labnotes.org
+content: Feed readers look at content type, not the URL. And unless you specified otherwise, Rails will apply the XML content type.
+created_at: 2007-03-24 12:17:19 -07:00
+post_url: http://www.lunar-ocean.com/2007/03/24/adding-rss-to-rails/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: admin
+author_url: http://antoine.toulme.name
+content: |-
+  I tried initially to specify the content type as application/rss+xml as described <a href="http://townx.org/blog/elliot/ruby_tuesday_rss_feeds_in_rails" rel="nofollow">here</a>.
+  either on the response or in general.
+  
+  
+  I am running over fastcgi, so I might need to specify that in the config file. This <a href="http://www.fngtps.com/2006/09/uror-part-1-set-the-content-type" rel="nofollow">page</a> helped me figure that out.
+  
+  I am overlapping over some family time, so it will be for later !
+created_at: 2007-03-24 13:50:34 -07:00
+post_url: http://www.lunar-ocean.com/2007/03/24/adding-rss-to-rails/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: admin
+author_url: http://antoine.toulme.name
+content: |-
+  Thanks a lot Assaf.
+  
+  I had a hard time having this work, even after you tipped me off today.
+  
+  I got the feed read by Google Reader by adding this to my code:
+  
+  render :action => :rss, :content_type => 'application/rss+xml'
+  
+  and that did the trick.
+created_at: 2007-03-26 21:16:19 -07:00
+post_url: http://www.lunar-ocean.com/2007/03/24/adding-rss-to-rails/
+
+--- !ruby/object:Comment 
+author_email: antoine@toulme.name
+author_name: Antoine
+author_url: http://www.lunar-ocean.com
+content: Well, I just don't want to have my post seen as a flame directed against this guy. He did a good job at solving the problem in a <a href="http://weblog.raganwald.com/2007/04/we-havent-heard-it-all-before.html" rel="nofollow">unheard</a> way.
+created_at: 2007-04-03 19:11:28 -07:00
+post_url: http://www.lunar-ocean.com/2007/04/02/fizzbuzzing-bad-for-server-bandwidth/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: Good programmers come by the dozen at Lunar Ocean
+author_url: http://www.lunar-ocean.com/blog/good-programmers-come-by-the-dozen/
+content: "[...] Archives          ? Maven firefighter [...] "
+created_at: 2007-04-05 08:46:19 -07:00
+post_url: http://www.lunar-ocean.com/2007/04/05/maven-firefighter/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: admin
+author_url: http://antoine.toulme.name
+content: The request was just accepted. Thanks to Gunnar and Chris for guiding me and approving the request!
+created_at: 2007-06-23 12:06:16 -07:00
+post_url: http://www.lunar-ocean.com/2007/06/10/eclipse-rss-feed/
+
+--- !ruby/object:Comment 
+author_email: caniszczyk@gmail.com
+author_name: Chris Aniszczyk
+author_url: http://mea-bloga.blogspot.com
+content: "Eclipse has guidelines for version numbering that I can recommend for you: http://wiki.eclipse.org/index.php/Version_Numbering"
+created_at: 2007-06-23 11:37:25 -07:00
+post_url: http://www.lunar-ocean.com/2007/06/23/osgidoesnotlike5-token-versions/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  oh thanks, I was still hanging to this one:
+  
+  http://dev.eclipse.org/mhonarc/lists/equinox-dev/msg00301.html
+created_at: 2007-06-23 12:10:41 -07:00
+post_url: http://www.lunar-ocean.com/2007/06/23/osgidoesnotlike5-token-versions/
+
+--- !ruby/object:Comment 
+author_email: alex.blewitt@gmail.com
+author_name: Alex Blewitt
+author_url: http://alblue.blogspot.com
+content: |-
+  Note that OSGi only supports 3 numeric identifiers; the 4th one is textual. So if you have 1.2.3.10, that's less than 1.2.3.4. 
+  
+  Bottom line: only use 3 numeric identifiers, and start the 4th with an alphabetic, even if you're going to include numeric/date version information there to make it clear it's not numeric.
+  
+  alex.
+created_at: 2007-06-23 12:53:45 -07:00
+post_url: http://www.lunar-ocean.com/2007/06/23/osgidoesnotlike5-token-versions/
+
+--- !ruby/object:Comment 
+author_email: nickboldt@gmail.com
+author_name: Nick Boldt
+author_url: http://divby0.blogspot.com
+content: |-
+  Agreed -- use something alphabetic for the 4th part. However, nothing stops you from doing something like 1.0.0.v200706251234, which not only adds more information (a datestamp) than 1.0.0.foo, but also guarantees that integration builds in a branch will be able to install on top of older ones (and the Update Manager wizard will respect that too).
+  
+  I think all the bugs around use of "_" in qualifiers have been squashed by now, but just in case I recommend avoiding the use of underscores in favour of dashes, thus: 1.0.0.v200706251234-something-else-useful-here.
+created_at: 2007-06-25 10:15:17 -07:00
+post_url: http://www.lunar-ocean.com/2007/06/23/osgidoesnotlike5-token-versions/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: Thanks guys, I will keep that in mind for the next builds. For now keeping a build number a la SWT makes more sense to us. In time we'll switch gently.
+created_at: 2007-06-25 10:26:38 -07:00
+post_url: http://www.lunar-ocean.com/2007/06/23/osgidoesnotlike5-token-versions/
+
+--- !ruby/object:Comment 
+author_email: cedric.pineau@gmail.com
+author_name: "C\xC3\xA9dric"
+author_url: ""
+content: "You didn't get it : GPL and alike are not about developper's freedom but user's freedom."
+created_at: 2007-09-06 15:48:37 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/06/no-gpl-libs-for-lift/
+
+--- !ruby/object:Comment 
+author_email: zoo_blog@mnnr.org
+author_name: dz
+author_url: ""
+content: |-
+  It's not reducing your freedom -- you are free to NOT implement new features by use of GPL/LGPL code.  It's an explicit trade.  Say I wrote the GPL software in question.
+  You may use my code, for whatever purposes you like, in exchange that I (or anyone else) can use your code.
+  
+  Don't like it?  Then don't use the work contributed by the Free Software Community as GPL & LGPL licensed work.  Write the code yourself and maintain it yourself (and by extension, pay for it yourself).
+created_at: 2007-09-06 16:00:24 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/06/no-gpl-libs-for-lift/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: Playing with the RSS and Atom Ruby libraries at Lunar Ocean
+author_url: http://www.lunar-ocean.com/blog/playing-with-the-rss-and-atom-ruby-libraries/
+content: "[...] Archives          ? RSSifying the Intalio community [...] "
+created_at: 2007-09-17 13:20:07 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/16/rssfying-the-intalio-community/
+
+--- !ruby/object:Comment 
+author_email: antoine@lunar-ocean.com
+author_name: Antoine
+author_url: http://lunar-ocean.com
+content: |-
+  Pascal,
+  true that a planet is already taken. I am sure our marketing forces will find a nice suiting name for this ! :)
+created_at: 2007-09-19 12:33:02 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/16/rssfying-the-intalio-community/
+
+--- !ruby/object:Comment 
+author_email: psq@intalio.com
+author_name: Pascal
+author_url: http://onbpms.com
+content: "Interesting idea.  Planet.intalio.com sounds nice, although you could reach for something bigger: universe.intalio.com :)"
+created_at: 2007-09-17 10:39:35 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/16/rssfying-the-intalio-community/
+
+--- !ruby/object:Comment 
+author_email: blandin@intalio.com
+author_name: Arnaud
+author_url: ""
+content: |-
+  galaxy.intalio.com
+  
+  +1
+created_at: 2007-10-22 01:00:30 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/16/rssfying-the-intalio-community/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: Push your feeds into Funnel at Lunar Ocean
+author_url: http://www.lunar-ocean.com/blog/push-your-feeds-into-funnel/
+content: "[...] have continued my experiment with the RSS libs a bit, and have built a first prototype that I call [...] "
+created_at: 2007-09-27 23:58:51 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/17/playing-with-the-rss-and-atom-ruby-libraries/
+
+--- !ruby/object:Comment 
+author_email: jo@bozo.com
+author_name: Jo
+author_url: http://fakesteve.blogspot.com/2007/08/this-is-sergey-and-larrys-idea-of-sick.html
+content: |-
+  You hired them ?
+  http://fakesteve.blogspot.com/2007/08/this-is-sergey-and-larrys-idea-of-sick.html
+created_at: 2007-09-21 05:12:39 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/21/meanwhile-at-intalio/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  Ouch. Well looks like Ismael has taken Steve's place then.
+  
+  Ismael's building a <a href="http://itredux.com/blog/2007/09/11/redux-model-1/" rel="nofollow">very</a> <a href="http://itredux.com/blog/2007/09/13/form-factor/" rel="nofollow">nice</a> <a href="http://itredux.com/blog/2007/09/14/bring-your-own-iphone/" rel="nofollow">mac-Based</a> <a href="http://itredux.com/blog/2007/09/15/redux-reverso/" rel="nofollow">gadget</a> from <a href="http://itredux.com/blog/2007/09/18/form-factor-evolution/" rel="nofollow">hardware</a> to <a href="http://itredux.com/blog/2007/09/20/whats-in-the-box/" rel="nofollow">software</a>.
+  
+  I'm looking forward to seeing a prototype!
+created_at: 2007-09-21 05:42:09 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/21/meanwhile-at-intalio/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: Textile at Lunar Ocean
+author_url: http://www.lunar-ocean.com/blog/textile/
+content: "[...] was really very helpful, and I liked the way the syntax gem just transformed my ruby code into a nice color block. (I am still looking for the right shade of grey for the comments [...] "
+created_at: 2007-09-26 02:08:56 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/24/subversion-commits/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: Testing svn2rss at Lunar Ocean
+author_url: http://www.lunar-ocean.com/blog/testing-svn2rss/
+content: "[...] Archives          ? Subversion commits [...] "
+created_at: 2007-09-25 01:24:30 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/24/subversion-commits/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: Scala syntax extension at Lunar Ocean
+author_url: http://www.lunar-ocean.com/blog/scala-syntax-extension/
+content: "[...] Archives          ? Textile [...] "
+created_at: 2007-09-27 00:03:11 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/26/textile/
+
+--- !ruby/object:Comment 
+author_email: Alex.Blewitt@gmail.com
+author_name: Alex Blewitt
+author_url: http://alblue.blogspot.com
+content: |-
+  I really like the idea of being able to customise the colours via CSS. I can't say I share your particular choice of colours, but I've argued that Eclipse should be able to handle a global colouring for IDEs based on what the user wants, rather than what the developer of the IDE wants.
+  
+  You should definitely file this as a suggestion into https://bugs.eclipse.org for consideration into the generic IDE project.
+created_at: 2007-09-27 06:49:59 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/27/scala-syntax-extension/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  Ok I opened a <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=204828" rel="nofollow">bug</a>.
+  
+  See you there!
+created_at: 2007-09-28 00:06:37 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/27/scala-syntax-extension/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  Alex,
+  
+  regarding my choice of colors, I still have to refine them (a lot), for now I want to keep on posting content and I'll update them.
+  
+  The Eclipse syntax coloring is something that could certainly be achieved much in the same way the Ruby tokenizer works.
+  
+  From what I remember, text editors may have portions of text recognized in the same way.
+  
+  So maybe a new extension point ? I'll file a bug and we can continue the discussion there.
+created_at: 2007-09-27 08:26:52 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/27/scala-syntax-extension/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  Hmm.. you're right. I'll stick to that going forward.
+  
+  I am preparing a much better feed for the Eclipse part, and it should do a better job at rendering the feed in feeds readers too.
+  
+  
+  Sorry for the inconvenience.
+created_at: 2007-09-28 06:03:56 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/28/push-your-feeds-into-funnel/
+
+--- !ruby/object:Comment 
+author_email: bananeweizen@gmx.de
+author_name: Bananeweizen
+author_url: ""
+content: |-
+  Could you please be a little less generous with tagging your blog entries? At least for me the last 5 or so "Eclipse" tagged posts (and their syndication on planeteclipse) didn't bring any Eclipse related information.
+  I clearly see that your posts are interesting (for people with knowledge about Scala, rss or whatever), but I like to stay focused on Eclipse when reading planeteclipse entries.
+created_at: 2007-09-28 05:55:50 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/28/push-your-feeds-into-funnel/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: OK I created a <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=204909" rel="nofollow">request for enhancement</a> against the PlanetEclipse admins.
+created_at: 2007-09-28 07:11:39 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/28/push-your-feeds-into-funnel/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: Funnel 0.1 at Lunar Ocean
+author_url: http://www.lunar-ocean.com/blog/funnel-01/
+content: "[...] Archives          ? Push your feeds into Funnel [...] "
+created_at: 2007-10-01 01:53:22 -07:00
+post_url: http://www.lunar-ocean.com/2007/09/28/push-your-feeds-into-funnel/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  This URL works for the advanced search:
+  
+  https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&classification=Modeling&product=GMF&long_desc_type=allwordssubstr&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0=
+created_at: 2007-10-02 02:30:22 -07:00
+post_url: http://www.lunar-ocean.com/2007/10/02/bugzilla-wont-let-me-look/
+
+--- !ruby/object:Comment 
+author_email: digulla@hepe.com
+author_name: Aaron Digulla
+author_url: ""
+content: |-
+  Actually, using StringBuffer is bad for performance. This old myth is from Java 1.1 days when the compiler did insane things when concatenating strings.
+  
+  Starting from version 1.2, the compiler generates the code above internally, so you win nothing but loose code readability.
+  
+  With versions 5, the compiler is using StringBuilder which is much faster than StringBuffer because it's not synchronized, so this "enhancement" actually harms performance.
+  
+  Another one chalked up for "futile/harmful optimization attempt" :-)
+created_at: 2007-12-18 01:38:52 -08:00
+post_url: http://www.lunar-ocean.com/2007/12/18/nls-and-stringbuffer/
+
+--- !ruby/object:Comment 
+author_email: mthibberd@gmail.com
+author_name: MarkH
+author_url: http://www.markh.id.au
+content: |-
+  Agree that your solution looks OK. However, I must express a bit of concern with the quick fix listed in the Eclipse M4 notes. There is something which already does this - it is called a compiler - and it does a much better job. For example if you convert string concatenation to StringBuffer calls on JDK 5+ your code will actually be SLOWER. This is due to the fact that the JDK 5+ code knows about StringBuilder (basically non-synchronized StringBuffer - specifically for these localized examples).
+  
+  Again, I agree that your solution works well for code that may be internationalized but I just thought I would include a quick comment to make sure no one fell for the old always use StringBuffer myth.
+  
+  
+  NOTE: there is a case to use StringBuffer when you are streaming - ie, concatenating in a loop.
+created_at: 2007-12-18 01:59:01 -08:00
+post_url: http://www.lunar-ocean.com/2007/12/18/nls-and-stringbuffer/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: "misto\xE2\x80\x99s blog ? Archives ? Verwirrung um StringBuilder und StringBuffer bei Eclipse"
+author_url: http://blog.misto.ch/archives/491
+content: "[...] wurde der QuickFix auch schon an anderer Stelle kritisiert, allerdings nicht das Kernproblem: I know using StringBuffers is better for [...] "
+created_at: 2007-12-18 02:00:48 -08:00
+post_url: http://www.lunar-ocean.com/2007/12/18/nls-and-stringbuffer/
+
+--- !ruby/object:Comment 
+author_email: stephan.michels@gmail.com
+author_name: Stephan Michels
+author_url: ""
+content: Furthermore, using StringBuffer makes your code slower than the String concatenation, because StringBuffer is synchronized. And the compiler use StringBuilder for a String concatenation.
+created_at: 2007-12-18 02:51:11 -08:00
+post_url: http://www.lunar-ocean.com/2007/12/18/nls-and-stringbuffer/
+
+--- !ruby/object:Comment 
+author_email: gerd@gerdcastan.de
+author_name: Gerd Castan
+author_url: http://gerd@gerdcastan.de
+content: |-
+  Hi,
+  
+  >I know using StringBuffers is better for performance. 
+  Thats wrong (it was right in Java 1.0)
+  
+  It is the compiler's task to make this optimization. And indeed, the Java 1.5 compiler uses StringBuffers.
+  Since Java 6, the compiler uses StringBuilder if possible, which has an even better performance. This better performance can only be achieved, if there is NO explicit reference to StringBuffer.
+  
+  So using StringBuffer in this case is a really bad idea that prevents performance optimizations. And you're right, it makes the code less readable.
+  
+  Cheers, Gerd
+created_at: 2007-12-18 03:21:32 -08:00
+post_url: http://www.lunar-ocean.com/2007/12/18/nls-and-stringbuffer/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  Tom, even if you are not, at some point you'll need to internationalize your product. In that case, you will need to be able to place the bindings in the string in different places, depending on the language.
+  
+  Aaron, this is a valid point! I had confused the two. I'll update the blog post and will open a bug.
+created_at: 2007-12-18 04:12:37 -08:00
+post_url: http://www.lunar-ocean.com/2007/12/18/nls-and-stringbuffer/
+
+--- !ruby/object:Comment 
+author_email: tom.schindl@bestsolution.at
+author_name: Tom Schindl
+author_url: ""
+content: ... but not everybody is doing plugin/rcp-development
+created_at: 2007-12-18 00:10:32 -08:00
+post_url: http://www.lunar-ocean.com/2007/12/18/nls-and-stringbuffer/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: Intalio, Leader in Open Source BPMS ? Meet Intalio at EclipseCon 2008!
+author_url: http://www.intalio.com/news/meet-intalio-at-eclipsecon-2008/
+content: "[...] [Original post on Lunar Ocean] [...] "
+created_at: 2008-03-10 15:36:21 -07:00
+post_url: http://www.lunar-ocean.com/2007/12/19/im-speaking-at-eclipsecon-2008/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: Get more, get BPMN 0.8! at Lunar Ocean
+author_url: http://www.lunar-ocean.com/blog/get-more-get-bpmn-08/
+content: "[...] with the release of STP M5, the BPMN modeler will come bundled with a pile of improvements.(see last week post to get the [...] "
+created_at: 2008-02-20 03:32:34 -08:00
+post_url: http://www.lunar-ocean.com/2008/02/15/graphical-goodies-for-the-bpmn-modeler/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: Eclipse SOA Tools Blog ? Blog Archive ? Get the most of EclipseCon by attending to the BPMN modeler tutorial
+author_url: http://dev.eclipse.org/blogs/soatools/2008/02/15/get-the-most-of-eclipsecon-by-attending-to-the-bpmn-modeler-tutorial/
+content: "[...] all that cool stuff just checked in the [...] "
+created_at: 2008-02-15 03:54:45 -08:00
+post_url: http://www.lunar-ocean.com/2008/02/15/graphical-goodies-for-the-bpmn-modeler/
+
+--- !ruby/object:Comment 
+author_email: assaf@labnotes.org
+author_name: Assaf
+author_url: http://labnotes.org
+content: Use abbr instead, acronym is deprecated in HTML 5, time to start not using it.
+created_at: 2008-02-15 08:49:38 -08:00
+post_url: http://www.lunar-ocean.com/2008/02/15/acronyms/
+
+--- !ruby/object:Comment 
+author_email: ren@apotheon.org
+author_name: apotheon
+author_url: http://sob.apotheon.org
+content: |-
+  No . . . you'd better stick with acronym for now.
+  
+  1. HTML 5 isn't a standard yet.
+  
+  2. XHTML still supports the acronym tag.
+  
+  3. The abbr tag is not supported by Internet Explorer.
+  
+  Also . . . make sure your CSS provides styling for the acronym tag to give it that underline, if you want everyone to see the underline.  While Firefox automatically styles acronym tags that way, that styling is not part of the HTML/XHTML standard, and IE doesn't provide any default styling for the acronym tag.  This means that text in an acronym tag in IE doesn't automatically render any differently than other text, and this behavior is actually standards compliant.
+  
+  So . . . to summarize:
+  
+  Use acronym instead of abbr for now, because IE doesn't support abbr.
+  
+  Make sure your site's CSS includes styling for the acronym tag so that acronyms will stand out from the surrounding text.
+created_at: 2008-02-15 10:16:41 -08:00
+post_url: http://www.lunar-ocean.com/2008/02/15/acronyms/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: "Chad Perrin: SOB ? tooltips for text on the Web"
+author_url: http://sob.apotheon.org/?p=352
+content: "[...] at Lunar Ocean, Antoine Toulme commented on my use of the <acronym> tag. He was apparently not familiar with the <acronym> tag in HTML 4 and XHTML 1.x. For those who [...] "
+created_at: 2008-02-15 10:56:21 -08:00
+post_url: http://www.lunar-ocean.com/2008/02/15/acronyms/
+
+--- !ruby/object:Comment 
+author_email: assaf@labnotes.org
+author_name: Assaf
+author_url: http://labnotes.org
+content: |-
+  IE 6 will show the abbr tag, just not the tooltip.  IE 7 fixes that bug.  So look at your stats and decide if you even care.
+  
+  Seeing that IE 6 is diminishing, I would not change the content to suite IE 6, maybe resort to a PHP/JavaScript hack to make abbr behave like acronym.  But on my blog IE 6 usage is low and dropping steadily, that I don't care enough to hack the template.  If I don't care to hack the template, I definitely don't care to create the wrong content.
+created_at: 2008-02-15 11:38:43 -08:00
+post_url: http://www.lunar-ocean.com/2008/02/15/acronyms/
+
+--- !ruby/object:Comment 
+author_email: ren@apotheon.org
+author_name: apotheon
+author_url: http://sob.apotheon.org
+content: "\"IE 6 will show the abbr tag, just not the tooltip.\"\n\n\
+  . . . which is what differentiates text with the abbr or acronym tag from untagged text.  Kinda pointless.\n\n\
+  \"Seeing that IE 6 is diminishing, I would not change the content to suite IE 6, maybe resort to a PHP/JavaScript hack to make abbr behave like acronym.\"\n\n\
+  I have readers who would be inconvenienced by a JavaScript hack, to say nothing of the fact that's a \"solution\" that requires more effort for the same effects in fewer cases.\n\n\
+  \"If I don\xE2\x80\x99t care to hack the template, I definitely don\xE2\x80\x99t care to create the wrong content.\"\n\n\
+  You must have a very weird definition of the terms in the phrase \"the wrong content\" here."
+created_at: 2008-02-15 15:23:18 -08:00
+post_url: http://www.lunar-ocean.com/2008/02/15/acronyms/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: Thanks!
+created_at: 2008-02-15 09:00:44 -08:00
+post_url: http://www.lunar-ocean.com/2008/02/15/acronyms/
+
+--- !ruby/object:Comment 
+author_email: assaf@labnotes.org
+author_name: Assaf
+author_url: http://labnotes.org
+content: "Wrong content: any time you use the acronym tag for an abbreviation.  An acronym, however, is also an abbreviation."
+created_at: 2008-02-15 16:08:40 -08:00
+post_url: http://www.lunar-ocean.com/2008/02/15/acronyms/
+
+--- !ruby/object:Comment 
+author_email: alex@buglabs.net
+author_name: Alex Kravets
+author_url: ""
+content: This is very useful project, thanks!
+created_at: 2008-02-25 08:08:29 -08:00
+post_url: http://www.lunar-ocean.com/2008/02/24/manifest-reader-in-ruby/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: Thanks Alex, I hope it comes handy for you! Don't hesitate to mail the <a href="http://groups.google.com/group/manifest-dev" rel="nofollow">Manifest google group</a> in case you have questions, comments, or suggestions.
+created_at: 2008-02-25 08:13:30 -08:00
+post_url: http://www.lunar-ocean.com/2008/02/24/manifest-reader-in-ruby/
+
+--- !ruby/object:Comment 
+author_email: doug.schaefer@windriver.com
+author_name: Doug Schaefer
+author_url: http://cdtdoug.blogspot.com
+content: Oh, Babathon. I read something else the first time... :)
+created_at: 2008-02-25 12:42:15 -08:00
+post_url: http://www.lunar-ocean.com/2008/02/25/how-about-a-babathon/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: Recent Links Tagged With "facebox" - JabberTags
+author_url: http://www.jabbertags.com/popular/facebox
+content: "[...] public links >> facebox   Facebox on the Eclipse website Saved by gabruce on Thu 16-10-2008   Senko Rasic: jQuery JavaScript toolkit - korisni linkovi Saved [...] "
+created_at: 2008-10-17 12:49:26 -07:00
+post_url: http://www.lunar-ocean.com/2008/03/06/facebox-on-the-eclipse-website/
+
+--- !ruby/object:Comment 
+author_email: mike.milinkovich@eclipse.org
+author_name: Mike Milinkovich
+author_url: ""
+content: |-
+  Every single page on eclipse.org has a "Legal" link on the top right corner and a "Terms of Use" link on the bottom left corner. Either of those links will get you right to the EPL.
+  
+  Why not link to the EPL you ask? Because the way you give/receive content on eclipse.org is actually via the "Licenses" section in the Terms of Use. So legally speaking (IANAL, TINLA), it is more accurate to refer people to the terms of use.
+  
+  I hope this helps!
+created_at: 2008-03-06 21:56:58 -08:00
+post_url: http://www.lunar-ocean.com/2008/03/06/where-is-my-epl/
+
+--- !ruby/object:Comment 
+author_email: tom.schindl@bestsolution.at
+author_name: Tom Schindl
+author_url: ""
+content: |-
+  I reply like this:
+  ------8<------
+  You have mailed me offline of public forums. I only answer questions voluntarily in the public so that others who may face the same problem in future know how to solve it. If you want my private/my companies support we can offer you payed consulting hours. Please also note that you should try to solve the problem yourself with the information already around before requesting help.
+  ------8<------
+created_at: 2008-06-12 04:55:22 -07:00
+post_url: http://www.lunar-ocean.com/2008/06/12/please-post-to-the-newsgroup/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: Tom, that's a nice wording, I like it.
+created_at: 2008-06-12 05:01:26 -07:00
+post_url: http://www.lunar-ocean.com/2008/06/12/please-post-to-the-newsgroup/
+
+--- !ruby/object:Comment 
+author_email: kim@pookzilla.com
+author_name: Kim Horne
+author_url: http://eclipse.pookzilla.net
+content: When I get a question out of the blue I anonymize it and then formulate the answer into a blog posting.
+created_at: 2008-06-12 05:10:50 -07:00
+post_url: http://www.lunar-ocean.com/2008/06/12/please-post-to-the-newsgroup/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  I have opened a bug to make this simple for all committers:
+  
+  https://bugs.eclipse.org/bugs/show_bug.cgi?id=237041
+created_at: 2008-06-13 03:26:07 -07:00
+post_url: http://www.lunar-ocean.com/2008/06/12/please-post-to-the-newsgroup/
+
+--- !ruby/object:Comment 
+author_email: webmaster@eclipse.org
+author_name: Denis Roy
+author_url: http://www.eclipse.org/
+content: These are great... Thanks!
+created_at: 2008-09-18 06:16:23 -07:00
+post_url: http://www.lunar-ocean.com/2008/09/18/using-eclipse-wiki-templates/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  My point is that it is ok to have a CVS repo, it is still very easy to fork it as git does that well.
+  
+  It seems you are having more of an issue with the Eclipse team refusing your patches ?!
+created_at: 2008-10-10 07:49:38 -07:00
+post_url: http://www.lunar-ocean.com/2008/10/10/how-git-can-help-eclipse/
+
+--- !ruby/object:Comment 
+author_email: djo@coconut-palm-software.com
+author_name: Dave Orme
+author_url: http://coconut-palm-software.com/the_new_visual_editor/doku.php
+content: |-
+  I like Git.
+  
+  But it doesn't work as well under Windows as it might.  And it doesn't have a mature Eclipse plugin.
+  
+  Mercurial has both of these things.
+  
+  However, it doesn't front-end another existing repository as nicely as GIT.
+  
+  So here's how I see things:
+  
+  If you want to front-end another repository (CVS or SVN), and don't care about Eclipse integration, Git's your tool.
+  
+  If you want an actual replacement for CVS or SVN, Mercurial looks like the better choice right now due to the better Windows support and having a decent Eclipse plugin.
+created_at: 2008-10-16 11:33:50 -07:00
+post_url: http://www.lunar-ocean.com/2008/10/10/how-git-can-help-eclipse/
+
+--- !ruby/object:Comment 
+author_email: moritz@eysholdt.de
+author_name: Moritz Eysholdt
+author_url: ""
+content: |-
+  Talking about GIT, check out how Linus Torvalds presents GIT at the Googleplex. Enjoy the technical details and the geeky humor :-)
+  
+  http://www.youtube.com/watch?v=4XpnKHJAok8
+  
+  regards,
+    Moritz
+created_at: 2008-10-10 13:20:57 -07:00
+post_url: http://www.lunar-ocean.com/2008/10/10/how-git-can-help-eclipse/
+
+--- !ruby/object:Comment 
+author_email: Alex.Blewitt@gmail.com
+author_name: Alex Blewitt
+author_url: http://alblue.blogspot.com
+content: I think a GIT repo would be great. Not only does it help developers, it also helps those who would like to patch Eclipse because of bugs that won't/can't be fixed in the main trunk. I've submitted a few patches which will never see the light of day because (in their opinion) it does the wrong thing. Forking Eclipse is too much high maintenance because of a single bugfix, but having a GIT repo might make it easier to keep up-to-date with the main tree whilst still permitting custom bugfixes for those that can't persuade the Eclipse team to adopt them.
+created_at: 2008-10-10 07:40:56 -07:00
+post_url: http://www.lunar-ocean.com/2008/10/10/how-git-can-help-eclipse/
+
+--- !ruby/object:Comment 
+author_email: Ed.Merks@gmail.com
+author_name: Ed Merks
+author_url: http://www.ed-merks.blogspot.com/
+content: |-
+  I've always disliked features.  When EMF had one big one, people complained.  Now we have approaching to one per plugin.  They're a pain to manage and I hope they go away.
+  
+  Your p2 ideas sound good.  It should be easy for someone to install all the fragments for their language of choice.  You should open bugzillas for these ideas.
+created_at: 2008-10-25 04:58:07 -07:00
+post_url: http://www.lunar-ocean.com/2008/10/24/babel-committer-rights-and-updates/
+
+--- !ruby/object:Comment 
+author_email: webmaster@eclipse.org
+author_name: Denis Roy
+author_url: http://eclipse.org
+content: I intentionally prevent search engines from indexing Bugzilla. Bugzilla performance is very important, and having 3-4 spiders constantly hitting it is simply too much.  If you're going to do a search site:bugs.eclipse.org why not go straight to the source?
+created_at: 2008-10-31 10:07:31 -07:00
+post_url: http://www.lunar-ocean.com/2008/10/31/disastrous-experiment-with-bugzilla/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  Denis, today it is too hard and too slow to do searches on Bugzilla. It is good for some searches, but indexing the data is very important. Plus, if you don't know first hand what you are looking for, you will get in trouble quite easily.
+  
+  If you index with google, I bet you will get _less_ stress on Bugzilla as people will rely on google to search.
+created_at: 2008-10-31 10:11:19 -07:00
+post_url: http://www.lunar-ocean.com/2008/10/31/disastrous-experiment-with-bugzilla/
+
+--- !ruby/object:Comment 
+author_email: gunnar@wagenknecht.org
+author_name: Gunnar
+author_url: http://wagenknecht.org/
+content: Not sure where the problem is. The Bugzilla feeds work fine. The problem you mentioned is actually not a Bugzilla problem but one with a security certificate on dev.eclipse.org. But that's a totally different thing.
+created_at: 2008-10-31 09:06:17 -07:00
+post_url: http://www.lunar-ocean.com/2008/10/31/disastrous-experiment-with-bugzilla/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: Interesting. So maybe this is an Eclipse problem ? Can we fix that ?
+created_at: 2008-10-31 09:15:30 -07:00
+post_url: http://www.lunar-ocean.com/2008/10/31/disastrous-experiment-with-bugzilla/
+
+--- !ruby/object:Comment 
+author_email: Ed.Merks@gmail.com
+author_name: Ed Merks
+author_url: http://www.ed-merks.blogspot.com/
+content: It might be a stupid idea, but I wonder if there are slow periods for bugzilla when allowing it to be crawled and indexed might not be noticed...  Or perhaps it could be indexed locally...
+created_at: 2008-11-01 04:21:49 -07:00
+post_url: http://www.lunar-ocean.com/2008/10/31/disastrous-experiment-with-bugzilla/
+
+--- !ruby/object:Comment 
+author_email: webmaster@eclipse.org
+author_name: Denis Roy
+author_url: http://eclipse.org
+content: |-
+  Antoine, game on. I'm willing to bet with you. What are the stakes?  Hint: I used to allow external indexing before, and have since disabled it.
+  
+  There is a bug open for this in Community/Bugzilla.  Feel free to comment there.
+created_at: 2008-11-03 08:34:25 -08:00
+post_url: http://www.lunar-ocean.com/2008/10/31/disastrous-experiment-with-bugzilla/
+
+--- !ruby/object:Comment 
+author_email: antoine@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://www.lunar-ocean.com/blog
+content: |-
+  Hey Denis, how about a beer ? I will be probably attending at EclipseCon, so that would leave enough time to build stats.
+  
+  I found the bug reference, here it is:
+  https://bugs.eclipse.org/bugs/show_bug.cgi?id=214067
+  
+  Denis, how does Mozilla deal with this on their own Bugzilla ?
+created_at: 2008-11-03 09:11:46 -08:00
+post_url: http://www.lunar-ocean.com/2008/10/31/disastrous-experiment-with-bugzilla/
+
+--- !ruby/object:Comment 
+author_email: bob.swift@charter.net
+author_name: Bob Swift
+author_url: ""
+content: I don't go to Eclipse bugzilla very often, but, performance is horrible - minutes to create an issue.  Gave up trying to see if issue already reported.  Regarding comments about Google, please make it searchable there!!!  I don't know how developers put up with it.
+created_at: 2008-11-22 11:26:31 -08:00
+post_url: http://www.lunar-ocean.com/2008/10/31/disastrous-experiment-with-bugzilla/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  Hi Bob, well now you know... I am a committer and I can't put up with it myself.
+  
+  I'll follow up on this, stay tuned.
+created_at: 2008-11-22 13:07:54 -08:00
+post_url: http://www.lunar-ocean.com/2008/10/31/disastrous-experiment-with-bugzilla/
+
+--- !ruby/object:Comment 
+author_email: dschaefer@rogers.com
+author_name: Doug Schaefer
+author_url: http://cdtdoug.blogspot.com
+content: |-
+  +1.
+  
+  I heard rumors though that Egit wasn't ready for prime time. But clearly the momentum in the open source community is behind git and I think it even offers great support for the forking/merging that we need to do commercially to support Eclipse based products that are delivered on different timelines than Eclipse.
+  
+  Thanks for pointing out the bug. I'll definitely throw my support behind this.
+created_at: 2008-12-05 08:46:29 -08:00
+post_url: http://www.lunar-ocean.com/2008/12/05/would-you-like-the-eclipse-foundation-to-support-a-git-repository/
+
+--- !ruby/object:Comment 
+author_email: eu@md.pp.ru
+author_name: Eugene Kuleshov
+author_url: http://jroller.com/eu
+content: You may also want to look at Tycho. http://blogs.sonatype.com/people/?p=945
+created_at: 2008-12-11 08:21:40 -08:00
+post_url: http://www.lunar-ocean.com/2008/12/11/building-eclipse-plugins-with-buildr/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: Eric, would you like to join the effort ?
+created_at: 2008-12-12 15:35:43 -08:00
+post_url: http://www.lunar-ocean.com/2008/12/11/building-eclipse-plugins-with-buildr/
+
+--- !ruby/object:Comment 
+author_email: oisin.hurley@gmail.com
+author_name: Oisin
+author_url: http://oisinh.wordpress.com
+content: Excited to see you are taking a go at this, making a complicated eclipse build happen with buildr could be a great way to increase the consumability of Eclipse projects source code :)
+created_at: 2008-12-11 17:21:18 -08:00
+post_url: http://www.lunar-ocean.com/2008/12/11/building-eclipse-plugins-with-buildr/
+
+--- !ruby/object:Comment 
+author_email: eclipse-news@rizzoweb.com
+author_name: Eric Rizzo
+author_url: ""
+content: |-
+  There is a huge gaping hole in the community for something that will build update sites headlessly. We've spend more than 3 developer-months getting something that works based on PDE Build, but it is hacked together and still does not handle some things well. If you could include Update Site building in your scope, that would be a great benefit to the community.
+  Also, running plugin tests (JUnit) seems to be a common need; PDE Build sort-of supports it, but not for JUnit4, which is simply ridiculous if you ask me. See https://bugs.eclipse.org/bugs/show_bug.cgi?id=153429
+created_at: 2008-12-11 11:50:28 -08:00
+post_url: http://www.lunar-ocean.com/2008/12/11/building-eclipse-plugins-with-buildr/
+
+--- !ruby/object:Comment 
+author_email: pascal_rapicault@ca.ibm.com
+author_name: Pascal Rapicault
+author_url: ""
+content: |-
+  PDE Build is the right way and should always be preferred because it is in its mandate to support building all the runtime artifacts of eclipse (features, plugins, products, etc.). The releng script is just a layering over PDE that takes care of the complete SDK build and Buckminster also eventually calls PDE / PDE Build.
+  Consequently recommending people to use other technologies is fine. However potential users have to be made aware that by doing this they are buying out of the evolutions of the build technology that matches the Runtime environment (for example support for Execution Environment, or p2 metadata generation integration, ...).
+created_at: 2008-12-11 12:09:01 -08:00
+post_url: http://www.lunar-ocean.com/2008/12/11/building-eclipse-plugins-with-buildr/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  Ed, you should open a bug against Planet Eclipse I guess.
+  
+  All my feeds look in order.
+created_at: 2009-01-08 00:14:56 -08:00
+post_url: http://www.lunar-ocean.com/2008/12/19/eclipse-just-had-a-japanese-smoothie/
+
+--- !ruby/object:Comment 
+author_email: ed.merks@gmail.com
+author_name: Ed Merks
+author_url: http://www.ed-merks.blogspot.com/
+content: If I have a Japanese smoothie at http://www.planeteclipse.org/planet/ every single day, I think I might die!  I can only hope I die quickly!!
+created_at: 2009-01-07 19:21:24 -08:00
+post_url: http://www.lunar-ocean.com/2008/12/19/eclipse-just-had-a-japanese-smoothie/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: The idea is to get away from Ant actually. More about it soon.
+created_at: 2008-12-30 01:45:09 -08:00
+post_url: http://www.lunar-ocean.com/2008/12/29/jdtc/
+
+--- !ruby/object:Comment 
+author_email: fullung@gmail.com
+author_name: Albert Strasheim
+author_url: ""
+content: |-
+  Using the ECJ jar with Ant is another way.
+  
+  Put something like:
+  
+  build.compiler=org.eclipse.jdt.core.JDTCompilerAdapter
+  
+  in a properties file, include it in your build.xml:
+  
+  
+  
+  and add the ECJ jar to the Ant classpath.
+created_at: 2008-12-29 16:15:47 -08:00
+post_url: http://www.lunar-ocean.com/2008/12/29/jdtc/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: Yes, that helps understand the challenge Chris. Thanks!
+created_at: 2009-01-19 20:50:07 -08:00
+post_url: http://www.lunar-ocean.com/2009/01/17/eclipse-batch-compiler-whats-in-the-jar/
+
+--- !ruby/object:Comment 
+author_email: Olivier_Thomann@ca.ibm.com
+author_name: Olivier Thomann
+author_url: ""
+content: |-
+  The feature that creates what we call problem method and problem types is not specific to the Eclipse batch compiler. This is more for the Eclipse compiler.
+  The batch compiler is the Eclipse compiler used in a batch environment. So you need to set up the command line properly: classpath, ext dirs, warning level, debug options,...
+  If you want to get problem types and methods from a batch compilation, you need a specific command line argument.
+  If you grab the jar from the Eclipse download page, you get an executable jar that starts the batch compiler. It can be used for apt compilation (JDK6) as well.
+  
+  The jar contains all the classes required to call the Eclipse compiler in a batch environment. For the features provided by the batch compiler, they are pretty much the same for the Eclipse compiler within Eclipse.
+created_at: 2009-01-19 09:13:08 -08:00
+post_url: http://www.lunar-ocean.com/2009/01/17/eclipse-batch-compiler-whats-in-the-jar/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: Olivier, I know that much. I'm interested into having an exhaustive list of differences between javac and ecj, and see how much of it supports OSGi (are calls to packages not exposed with Export-Package detected ?).
+created_at: 2009-01-19 09:17:41 -08:00
+post_url: http://www.lunar-ocean.com/2009/01/17/eclipse-batch-compiler-whats-in-the-jar/
+
+--- !ruby/object:Comment 
+author_email: caniszczyk@gmail.com
+author_name: Chris Aniszczyk
+author_url: http://mea-bloga.blogspot.com
+content: |-
+  Antoine, ECJ has no idea about OSGi or anything. It's a straight up Java compiler that's fast.
+  
+  On top of ECJ, JDT provides the ability to set access rules which are used by projected like PDE so you get warnings when you use classes that are internal or not exposed via Export-Package. 
+  
+  I hope that helps.
+created_at: 2009-01-19 10:02:29 -08:00
+post_url: http://www.lunar-ocean.com/2009/01/17/eclipse-batch-compiler-whats-in-the-jar/
+
+--- !ruby/object:Comment 
+author_email: caniszczyk@gmail.com
+author_name: Chris Aniszczyk
+author_url: http://mea-bloga.blogspot.com
+content: PDE also have a setting for this if you go to the Plug-in Development compiler warnings page. Catch your missing NLS entries in MANIFEST.MF and plugin.xml files.
+created_at: 2009-01-20 06:19:45 -08:00
+post_url: http://www.lunar-ocean.com/2009/01/20/eclipse-committers-turn-your-nls-warnings-on/
+
+--- !ruby/object:Comment 
+author_email: sflaniga@redhat.com
+author_name: Sean Flanigan
+author_url: ""
+content: |-
+  Antoine> setting the non-externalized string flag as an error when compiling
+  If a project is meant to be internationalised, *shouldn't* a non-externalised string should be an error?  
+  
+  Chris> PDE also have a setting for this...
+  I didn't know about that one, thanks Chris!
+created_at: 2009-01-20 16:00:40 -08:00
+post_url: http://www.lunar-ocean.com/2009/01/20/eclipse-committers-turn-your-nls-warnings-on/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  Hey Sean, well I wanted to be nice. I think the level of error should be raised depending on the phase of development you are in.
+  
+  If you need to externalize before you can run your code, you are doomed to failure. You also may want to avoid externalizing the code for the tests.
+created_at: 2009-01-20 20:46:26 -08:00
+post_url: http://www.lunar-ocean.com/2009/01/20/eclipse-committers-turn-your-nls-warnings-on/
+
+--- !ruby/object:Comment 
+author_email: sflaniga@redhat.com
+author_name: Sean Flanigan
+author_url: ""
+content: |-
+  True and true.  Shouldn't force the developer to externalise strings (in the code under test) before running unit tests, for instance.
+  
+  However, I think it's reasonable to expect externalised strings before checking code in.  (And the wizards (or quick-fix) make it pretty easy to "ignore" non-externalised strings in test code, in bulk.)
+created_at: 2009-01-20 21:09:25 -08:00
+post_url: http://www.lunar-ocean.com/2009/01/20/eclipse-committers-turn-your-nls-warnings-on/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  The ugly truth, at least from my own experience, is that some manual testing is required and that requirements themselves change over time as we discover more of the solution. Also, with CVS, you have no choice but to check-in, while with Git you can commit changes locally every so often, so you keep your focus. I hate having modified files hanging around on my local copy.
+  
+  So we tend to have I-builds provided to QA that aren't externalized. Externalization is an effort that requires a lot of time from devs, and we are ready to commit to that effort when the code is mature.
+  
+  It all depends on the development process of the company you work for I suppose.
+created_at: 2009-01-20 21:49:56 -08:00
+post_url: http://www.lunar-ocean.com/2009/01/20/eclipse-committers-turn-your-nls-warnings-on/
+
+--- !ruby/object:Comment 
+author_email: sflaniga@redhat.com
+author_name: Sean Flanigan
+author_url: ""
+content: |-
+  Okay, that makes sense.  Externalisation can be non-trivial, especially when trying to choose good keys in the resource bundles.  
+  
+  But I still like the idea of NON-NLS sledgehammers in RC builds.   ;-)
+created_at: 2009-01-20 23:05:30 -08:00
+post_url: http://www.lunar-ocean.com/2009/01/20/eclipse-committers-turn-your-nls-warnings-on/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: Let's open a bug against the AC, see where it goes.
+created_at: 2009-01-20 23:09:27 -08:00
+post_url: http://www.lunar-ocean.com/2009/01/20/eclipse-committers-turn-your-nls-warnings-on/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  OK, here it is:
+  https://bugs.eclipse.org/bugs/show_bug.cgi?id=261766
+created_at: 2009-01-20 23:16:33 -08:00
+post_url: http://www.lunar-ocean.com/2009/01/20/eclipse-committers-turn-your-nls-warnings-on/
+
+--- !ruby/object:Comment 
+author_email: ferparra83@gmail.com
+author_name: Fernando Parra
+author_url: http://ferparra.blogspot.com
+content: I'm sorry, but is that BPP or BPM??
+created_at: 2009-02-05 04:26:31 -08:00
+post_url: http://www.lunar-ocean.com/2009/02/05/intaliobpp-and-xmpp/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: Hi Fernando, BPP stands for Business Process Platform. We want to not only address BPM, but also surround it with enough applications and components that it becomes a platform. The XMPP server connection is one aspect, but you should also look at our BAM, our Business Rules Engine, our Database Connector, etc.
+created_at: 2009-02-05 05:59:08 -08:00
+post_url: http://www.lunar-ocean.com/2009/02/05/intaliobpp-and-xmpp/
+
+--- !ruby/object:Comment 
+author_email: ""
+author_name: MercurialEclipse 1.3.1019 ? Ismael Juma
+author_url: http://blog.juma.me.uk/2009/02/18/mercurialeclipse-131019/
+content: "[...] Ismael Juma 7:31 pm   With the talk about DVCSs as active as ever in the Eclipse world, I thought I\xE2\x80\x99d mention the release of [...] "
+created_at: 2009-02-18 11:31:09 -08:00
+post_url: http://www.lunar-ocean.com/2009/02/17/letter-to-the-stp-pmc-please-express-interest-over-a-dvcs/
+
+--- !ruby/object:Comment 
+author_email: caniszczyk@gmail.com
+author_name: Chris Aniszczyk
+author_url: http://eclipsesource.com
+content: |-
+  Cool, thanks for getting the word out Antoine.
+  
+  You may also want to consider setting up your blog options so people get a full feed instead of just a bit when getting syndicated by PlanetEclipse.
+created_at: 2009-02-17 17:08:16 -08:00
+post_url: http://www.lunar-ocean.com/2009/02/17/letter-to-the-stp-pmc-please-express-interest-over-a-dvcs/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: No, Chris, I'll keep my feed truncated since this is my personal weblog. The BPMN modeler weblog will always be fully available as a feed for PlanetEclipse though.
+created_at: 2009-02-18 07:32:20 -08:00
+post_url: http://www.lunar-ocean.com/2009/02/17/letter-to-the-stp-pmc-please-express-interest-over-a-dvcs/
+
+--- !ruby/object:Comment 
+author_email: jamesblackburn@gmail.com
+author_name: James Blackburn
+author_url: ""
+content: I've also logged into it a few times.  And the signal to noise is a huge issue.  I'd much rather take the time to compose a reply on newsgroups, the mailing list, or bugzilla if it comes to that.  At least then someone with the same issue has a chance of finding a response through google...
+created_at: 2009-02-20 13:23:24 -08:00
+post_url: http://www.lunar-ocean.com/2009/02/19/cdt-on-irc/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  Well, it's got worse I think. Eventually, you could log in, and every time you have a recurring question, add a command to KOS-MOS to make it easy for rcjsuen and others like me to reply automatically.
+  
+  Dealing with people with poor English is hard, but just imagine dealing with Frenchies...
+created_at: 2009-02-19 07:27:46 -08:00
+post_url: http://www.lunar-ocean.com/2009/02/19/cdt-on-irc/
+
+--- !ruby/object:Comment 
+author_email: recoskie@ca.ibm.com
+author_name: Chris Recoskie
+author_url: ""
+content: |-
+  I used to log on to it regularly, but I found that I was constantly swamped with questions.  And not particularly good ones.  95% of the tiem it was issues with GCJ screwing up Eclipse, or general "I don't know how to create C programs properly" issues that had nothing to do with CDT itself.  Dealing with all the people with poor English was an issue at times too.
+  
+  If the signal to noise ratio were better, I'd log on more probably, but I found it was taking too much away from my productivity, for not a lot of good use of my time.
+created_at: 2009-02-19 07:22:35 -08:00
+post_url: http://www.lunar-ocean.com/2009/02/19/cdt-on-irc/
+
+--- !ruby/object:Comment 
+author_email: oisin.hurley@gmail.com
+author_name: Oisin
+author_url: http://oisinh.wordpress.com
+content: |-
+  Better to have an #eclipse-cdt channel, and then add a command to KOS-MOS that just replies "go to #eclipse-cdt" that can be invoked when someone asks a pertinent CDT question.
+  
+  Specialization is the order of the day, methinks.
+created_at: 2009-02-20 13:57:56 -08:00
+post_url: http://www.lunar-ocean.com/2009/02/19/cdt-on-irc/
+
+--- !ruby/object:Comment 
+author_email: jacek.pospychala@gmail.com
+author_name: jacek
+author_url: ""
+content: |-
+  That'd be cool. But for how many questions appearing on IRC that'd be useful? Who'd decide to send a post? Who'd figure in post's sender field?
+  Maybe better personally redirect questioner to newsgroup? If he won't go there, then his question wasn't worth posting.
+created_at: 2009-02-21 00:04:11 -08:00
+post_url: http://www.lunar-ocean.com/2009/02/20/irc-and-newsgroups/
+
+--- !ruby/object:Comment 
+author_email: ralph@eclipse.org
+author_name: Ralph Mueller
+author_url: ""
+content: |-
+  So - tell your CEO to show.
+  
+  He's be happy.
+  We'd be happy.
+  
+  Thanks
+  Ralph
+created_at: 2009-02-26 14:23:58 -08:00
+post_url: http://www.lunar-ocean.com/2009/02/26/da-open-source-executive-strategy-summit/
+
+--- !ruby/object:Comment 
+author_email: admin@lunar-ocean.com
+author_name: Antoine Toulme
+author_url: http://antoine.toulme.name
+content: |-
+  But Ralph, my CEO has a big attention deficit disorder.
+  
+  So sitting down all day to listen to stuff he has access to through analysts reports, our lawyers, and a couple of lunches with innovators is not good enough, in my humble opinion, to retain his attention.
+created_at: 2009-02-26 15:03:24 -08:00
+post_url: http://www.lunar-ocean.com/2009/02/26/da-open-source-executive-strategy-summit/
+
+--- !ruby/object:Comment 
+author_email: carl@novoda.com
+author_name: Carl
+author_url: ""
+content: |-
+  I get the following:
+  
+  
+  ruby1.8 /home/acsia/dev/ruby/buildr-android/_buildr --buildfile buildr.buildfile compile
+  ruby1.8: No such file or directory -- /home/acsia/dev/ruby/buildr-android/_buildr (LoadError)
+  
+  
+  I somewhat understand the reasoning to the error but a bit unsure on how to setup a plugin for testing. Any pointers?
+created_at: 2011-01-03 14:38:53 -08:00
+post_url: http://www.lunar-ocean.com/2009/09/16/how-to-create-a-plugin-for-buildr/
+
+--- !ruby/object:Comment 
+author_email: renat.zubairov@sopera.de
+author_name: Renat Zubairov
+author_url: http://blog.sopera.com
+content: |-
+  Hello Antoine, 
+  
+  Great news, my congratulations! The BPMN2 project wasn't really active recently, I hope now things will change!
+  
+  Renat
+created_at: 2010-05-05 12:52:35 -07:00
+post_url: http://www.lunar-ocean.com/2010/05/04/new-bpmn2-project-lead/
+

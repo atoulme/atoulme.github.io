@@ -1,0 +1,6 @@
+---
+layout: post
+title: 1st BPMN International Workshop
+---
+
+Just saw flying by a <a href="http://bpt.hpi.uni-potsdam.de/BPMN2009/CallForPapers">call for papers</a> for the 1st BPMN International Workshop. It is happening in Postdam, and is housed by the <a href="http://bpt.hpi.uni-potsdam.de/Oryx/Team">Oryx team</a>. I would have loved to participate but at that time I will be in Iceland enjoying my honeymoon. Too bad, for once I could have had a jetlag free presentation.

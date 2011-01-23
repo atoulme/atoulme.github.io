@@ -1,0 +1,20 @@
+---
+layout: post
+title: Eclipse OMG symposium 2010
+---
+
+<img src="http://www.lunar-ocean.com/wp-content/uploads/2010/06/speaker_tag.jpg" alt="Eclipse OMG Symposium Speaker Tag" title="Eclipse OMG Symposium Speaker Tag" width="240" height="320" class="alignright size-full wp-image-367" />
+I was lucky to present at the Eclipse OMG symposium this year.
+
+The <a href="http://www.omg.org/news/meetings/tc/mn/special-events/Eclipse.htm">agenda</a> of the symposium comprised of several sections: Assets and Models, Specification And Authoring, UML and Specification Conformance.
+
+As part of the Specification Conformance session, I spoke about <a href="http://www.bpmn.org">BPMN 2.0</a> and our plans for the <a href="http://www.eclipse.org/modeling/mdt/?project=bpmn2">Eclipse project</a>.
+
+We have major contributions piling up, in particular from SAP. Reiner worked on the  final metamodel from the specification and provided the project with an ecore model. 
+
+I am also seeing interest from both sides, Eclipse and OMG, to work on a test suite for BPMN 2.0. That's maybe the most exciting part of the new Revision Task Force ! 
+
+My slides are posted on Slideshare:
+<div style="width:425px" id="__ss_4578184"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/toulmean/bpmn-20-slide-deck-2" title="Bpmn 2.0 Eclipse OMG/Symposium">Bpmn 2.0 Eclipse OMG/Symposium</a>*<object id="__sse4578184" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=bpmn2-0slidedeck-2-100622144010-phpapp02&stripped_title=bpmn-20-slide-deck-2" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse4578184" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=bpmn2-0slidedeck-2-100622144010-phpapp02&stripped_title=bpmn-20-slide-deck-2" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object></div>
+
+Thanks again for the OMG to organize this event ! I was happy to meet in person with other members of the FTF. Looking forward to our next call.

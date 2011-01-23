@@ -1,0 +1,18 @@
+---
+layout: post
+title: Open the internal web browser with Firefox (when Safari is default)
+---
+
+Somehow I had the feeling that I was in control when it came to specifying the browser I wanted to open.
+
+Apparently, it's true for external browsers. For internal browsers, ie those that show in a view or an editor in Eclipse, not so much.
+
+What happens is that the information get lost. You specify the browser type when you do the call to open the browser:
+
+@<pre>
+PlatformUI.getWorkbench().getBrowserSupport().createBrowser(SWT.MOZILLA, ...);
+</pre>@
+
+But this is simply ignored by the internal editor. Not for too long though, since I attached a patch to <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=259171">259171</a> fixes the problem.
+
+Your feedback on this is welcome, of course please feel free to comment on the bug rather than here.

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Programmers from Le Havre: please contact me !"
+---
+
+p. I am looking for programmers living in or near h4. **Le Havre, France**
+
+. 
+
+I  am eager to start a programming user group down here, with technical presentations, meetups, and hum, beers.
+
+
+<br/>
+If you are interested, please <a href="mailto:antoine@no-spam.lunar-ocean.com">contact me</a>.

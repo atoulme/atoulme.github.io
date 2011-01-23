@@ -1,0 +1,10 @@
+---
+layout: post
+title: Eclipsepedia and BPMN samples
+---
+
+This week we have made good progress in creating <a href="http://wiki.eclipse.org/STP/BPMN_Component/Samples">samples</a> and <a href="http://wiki.eclipse.org/STP/BPMN_Component/Developing_with_the_STP_BPMN_modeler">getting real on extension documentation</a>.
+
+In my opinion though, the font used for the source code is too small. I opened a <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=220101">bug</a> regarding this issue, please voice your opinion there!
+
+PS: I have added some guidelines to format source code to the <a href="http://wiki.eclipse.org/Help:Editing">help page</a>. I hope this helps someone. :)

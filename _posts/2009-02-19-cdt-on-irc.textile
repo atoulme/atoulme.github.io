@@ -1,0 +1,12 @@
+---
+layout: post
+title: CDT on IRC ?
+---
+
+<a href="http://www.eclipse.org/cdt/">CDT</a>, as in C Development Tools, is currently under represented on IRC, as in Internet Relay Chat.
+
+We get a lot of questions about it on the <a href="irc://irc.freenode.net/eclipse">#eclipse</a> channel on Freenode. Some people complain about content assist not working, some have more specific C questions, and so far it sounds like we can't help with them.
+
+CDT committers, if you have some bandwidth left, please come down here, it's all fun and community gathering. 
+
+If you don't have time, I understand.

@@ -1,0 +1,50 @@
+---
+layout: post
+title: Graphical goodies for the BPMN modeler
+---
+
+We have worked hard on the BPMN modeler and have a few things to show off.
+
+
+h3. Some semantic changes
+
+
+<ul>
+        <li>Associations can target sequence and messaging edges.</li>
+At the semantic level only. We are actively working on making it possible to connect them in the diagram.
+	<li>Pools hold messaging edges.</li>
+We haven't worked on making it possible in the editor as well, but the semantic model accepts those now.
+</ul>
+
+
+h3. Support for BPMN 1.1
+
+
+We are heading for basic support of BPMN 1.1. You can deactivate it in the BPMN Diagrams preference page.
+<ul>
+	<li><abbr title="How could we live without them ?">Signal events</abbr></li>
+They really don't look good yet, and we are looking for help on <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=219070">that</a>
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/signal-events.png' title='Signal events'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/signal-events.png' alt='Signal events' /></a>.
+	<li>The look and feel of shapes is BPMN 1.1 compliant</li>
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/multiple-events-bpmn-11-representation.png' title='Multiple event and event-based gateway a la BPMN 1.1 sauce'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/multiple-events-bpmn-11-representation.png' alt='Multiple event and event-based gateway a la BPMN 1.1 sauce' /></a>
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/bpmn11-event-shapes.png' title='Throwing and catching events are not drawn in the same way'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/bpmn11-event-shapes.png' alt='Throwing and catching events are not drawn in the same way' /></a>
+</ul>
+<li><abbr title="A picture is worth a thousand words here.">Routing of sequence edges with gateways has drastically improved.</abbr></li>
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/tmp.jpg' title='Nice looking diagram'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/tmp.thumbnail.jpg' alt='Nice looking diagram' /></a>
+h3. More
+
+
+<ul>
+	<li>We have added the link and multiple events to the palette.</li>
+We miss images for those items right now, as well as the ones for the signal event. Working on that bit.
+<li>Only one connection handle shows at a time in the diagram.</li>
+We wanted to have only one connection handle showing at a time. That way when you mouse over the shapes, they don't animate all at the same time.
+	<li>Terminate events are better centered</li>
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/better-centered-terminate-events.png' title='Better centered terminate end events'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/better-centered-terminate-events.png' alt='Better centered terminate end events' /></a>
+<li>Improvements over lanes</li>
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/pools-with-colorful-lanes.png' title='Lanes'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/pools-with-colorful-lanes.thumbnail.png' alt='Lanes' /></a>
+Lanes can now have a background color, and they resize in a better way that they used to.
+	<li>We have fixed a <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=218761">pesky bug</a> when using the BPMN modeler in a different editing domain.</li>
+</ul>
+
+We hope you enjoy those improvements, will be inspired by them and will give us a hand at the next Eclipse bug day!

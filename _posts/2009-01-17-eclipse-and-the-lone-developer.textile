@@ -1,0 +1,21 @@
+---
+layout: post
+title: Eclipse and the lone developer
+---
+
+<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=261408">Ketan asked the Architecture Council yesterday</a> what they should be doing for him.
+
+He is working on a <a href="www.eclipse.org/swtbot/">pet project</a>, that he brought to maturity on his own. He joined Eclipse to get more support, and hopefully more coverage.
+
+There is a price when you join Eclipse though ; you have to obey to the guidelines, use SVN or CVS, learn how to use Phoenix.
+
+The Eclipse website is actually backed by CVS. My major concern for that practice is that everything that is checked on the website has to have a wipe-cleaned IP, as much as the IP of our code. So, for example, there is no jQuery support on the eclipse.org website. The Eclipse staff waited for six months or so for the IP of YUI to be accepted. That's really too bad, I only needed jQuery dumb UI functions to make my website look good, I will have to learn YUI instead. Oh well.
+The bottom of the issue is that the Eclipse Foundation wants to have a unified UI. I think. Well, <a href="http://www.eclipse.org/higgins/">Higgins website</a> is quite different from the rest of the website. So I guess you could go ahead, and hack your own thing -in PHP on the Eclipse.org CVS, that is, alas.
+
+To reply to you informally, Ketan, you are not going to get any help from Eclipse on the short term. The organization is a monolith targeted at companies. I feel your pain, and I think you should consider keeping two repositories, one on github, one on Eclipse, and do a synchronization every now and then. As long as you wrote all the code, it's ok. If someone wants to contribute, he should clone your github repo, make a patch, and attach it to a bug. As long as you can go on like this, it should be ok.
+
+On the long term, the IP policies are important at Eclipse, and I hope that you'll like using Babel to internationalize your code. I also think that moving to Eclipse is giving way more coverage to your code and your project. Didn't you have some requests from the platform committers last week on IRC ?
+
+I think you started a nice conversation, and I'm sure the AC and yourself would have some cool ideas for Eclipse to help the lone developer. I just wish it was as easy to open an Eclipse project as it is to open a Rubyforge one.
+
+

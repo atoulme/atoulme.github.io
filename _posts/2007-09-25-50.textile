@@ -1,0 +1,23 @@
+---
+layout: post
+title: 5.0
+---
+
+I started working for <a href="http://www.intalio.com">Intalio</a> more than a year ago.
+
+At the time I was a young software engineer with some skills regarding the Eclipse platform. 
+I grabbed a seat, and stayed there learning how to code with a team, parsing XML, understanding BPEL, hacking WSDL and groking Ruby.
+
+Working for Intalio is fun. I personally feel like I am constantly rewarding myself. Every feature we bring in is a new skill, a new technology we master.
+There is no forbidden path to achievement, we always take the shortest one, and that means slashing into code, rewriting, beautifying, migrating fearlessly.
+
+In a small structure like this one, one thing continues to astonish me: we don't discuss objectives. We all know where we fit and bend together to make it work.
+
+For the last year we have been running a marathon, rewriting most of the Designer. I am proud of announcing to you that it is available for everyone and for free <a href="http://bpms.intalio.com/index.php">out there</a>.
+
+<a href="http://itredux.com/blog/2007/09/24/from-vision-to-execution/">Ismael</a> thanks all the persons that made it possible, and I'd like to thank them too, not only the team today, but the team I did not have the chance to know two or three years ago.
+
+After this release, nothing has changed. We are still focused on the product and delivering the best experience to our customers.
+We already started digging and have some finds for 5.1.
+
+More on all this very soon.

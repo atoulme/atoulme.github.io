@@ -1,0 +1,13 @@
+---
+layout: post
+title: Textile
+---
+
+When creating the documentation for <a href="http://svn2rss.rubyforge.org">svn2rss</a>, I fell on the awesome "<a href="http://newgem.rubyforge.org">newgem</a>" gem that Rubyforge provides to help outputting a website and releasing gems.
+
+It was really very helpful, and I liked the way the syntax gem just transformed my ruby code into a <a href="http://www.lunar-ocean.com/blog/subversion-commits/">nice color block</a>. (I am still looking for the right shade of grey for the comments though)
+
+I would like to provide an <a href="http://syntax.rubyforge.org/chapter-4.html">extension of the syntax gem</a> to do the same thing for scala. (I still have to learn the language first, hopefully the pdfs on the <a href="http://scala-lang.org">website</a> will be entertaining).
+
+I haven't been able to find a previous work in this area. Feel free to comment if you happen to have something already working.
+

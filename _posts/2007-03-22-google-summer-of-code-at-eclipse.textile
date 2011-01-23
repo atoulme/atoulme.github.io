@@ -1,0 +1,10 @@
+---
+layout: post
+title: Google Summer of Code at Eclipse
+---
+
+If you are a student and interested into Eclipse, you can participate to the <a href="http://code.google.com/soc/">Google Summer of Code</a> on one of the ideas that the Eclipse Foundation proposes <a href="http://wiki.eclipse.org/index.php/Google_Summer_of_Code_2007_Ideas">here</a>.
+
+Please give us some <a href="mailto:stp-dev@eclipse.org">feedback</a> or directly add to the <a href="http://wiki.eclipse.org/index.php/Google_Summer_of_Code_2007_Ideas">page</a> the ideas you have for the <a href="http://www.eclipse.org/stp/bpmn">BPMN modeler</a> and <a href="http://www.eclipse.org/emft/projects/">EMF Compare</a> !
+
+This is an unique opportunity, getting paid and get some experience easily.

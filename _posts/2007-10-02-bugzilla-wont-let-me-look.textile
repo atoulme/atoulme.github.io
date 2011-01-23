@@ -1,0 +1,18 @@
+---
+layout: post
+title: Bugzilla won't let me look
+---
+
+Bad surprise this morning:
+
+trying to look for all the open bugs of <a href="http://www.eclipse.org/gmf">GMF</a> is just not possible apparently.
+
+If you try to <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=specific&order=relevance+desc&bug_status=__open__&product=&content=+">work around the limitation</a> by searching for a space " ", it results into an error:
+
+bq. You may not search, or create saved searches, without any search terms.
+
+The help links look broken: I created the <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=205151">bug 205151</a> for that.
+
+As for the listing of all open bugs, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=205152">any workaround or fix is welcome</a>.
+
+

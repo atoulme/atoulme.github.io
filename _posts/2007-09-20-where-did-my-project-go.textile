@@ -1,0 +1,23 @@
+---
+layout: post
+title: Where did my project go ?
+---
+
+There is a particular point in Eclipse I dislike.
+
+Importing projects.
+
+Well actually that is not true, importing a project directly from an archive or a directory is awesome.
+
+The thing is, sometimes you found the archive, you double-click on it, and then:
+
+nothing.
+
+The wizard detected that another project in your workspace was bearing the same name. So it just didn't show it.
+
+The current workaround consists of opening the archive and look at the same of the folder. Then it's time to come back in Eclipse and delete the project to replace it.
+
+This is rather a problem for me as our QA team at <a href="http://www.intalio.com">Intalio</a> has a huge panel of tests, and attaches its processes to the bugs.
+So I am confronted to this problem, if no quite everyday, at least two or three times a week. And as QA tests always have the same name, I have taken the (bad) habit to delete projects as soon as I suspect that I am experiencing the bug - sometimes I get it right, and the "Test" project was guilty, sometimes I just lose time...
+
+If you are in the same case and feel compelled to see this bug closed, feel free to comment <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=173994">the bug 173994</a>.

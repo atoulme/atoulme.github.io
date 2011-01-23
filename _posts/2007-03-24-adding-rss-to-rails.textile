@@ -1,0 +1,14 @@
+---
+layout: post
+title: Adding RSS to Rails
+---
+
+Adding a RSS feed to a Rails app is a work of a couple of hours.
+
+I followed the instructions detailed <a href="http://townx.org/blog/elliot/ruby_tuesday_rss_feeds_in_rails">here.</a>
+
+Then I had to do some tweaking. I was missing tags in my XML, or they were not correctly populated, so I used this <a href="http://en.wikipedia.org/wiki/RSS_(file_format)">wikipedia page</a> to keep the structure in mind.
+
+The final test was the <a href="http://feedvalidator.org">Feed Validator</a>, which made the job really easy.
+
+I am still having some issues, I need to try to change the address from rss.xml to feed.rss to see if the extension is the reason for Thunderbird to offer to download the file instead of parsing it.

@@ -1,0 +1,8 @@
+---
+layout: post
+title: The BPMN modeler has moved to git
+---
+
+As announced on the infamous <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257706">git bug</a>, the <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=307579">BPMN modeler moved to git</a>.
+
+I have changed the <a href="http://www.eclipse.org/bpmn/source_code.php">source code page</a> of the project to reflect the move. As soon as we have the new build machine, we will port a new build for it.

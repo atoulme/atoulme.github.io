@@ -1,0 +1,13 @@
+---
+layout: post
+title: I'm speaking at EclipseCon 2008
+---
+
+<a href="http://www.eclipsecon.org/2008/"> 
+<img border="0" src="http://www.eclipsecon.org/2008/image/130x100_speaking.gif" height="100" width="130" alt="I'm speaking at EclipseCon 2008"/>
+</a>
+
+
+I will be <a href="http://www.eclipsecon.org/2008/index.php?page=sub/&id=496">talking</a> about the <a href="http://eclipse.org/stp/bpmn">BPMN modeler</a> in a tutorial session, along with Hugues Malphettes and Alex Boisvert. You can chat with us on this <a href="http://ec2008lists.greenmeetingsystems.com/mailman/listinfo/ec2008-tutorial496">mailing list</a> if you have questions, or would like to help with the tutorial. 
+
+Please leave a comment if you want to meet for a beer! 

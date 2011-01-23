@@ -1,0 +1,31 @@
+---
+layout: post
+title: About
+---
+
+<div style="float: left ; padding : 10px"><img src="http://www.lunar-ocean.com/wp-content/uploads/2008/10/photo-4.jpg" alt="" title="Antoine Toulme" width="250" height="187" class="wp-image-121" /></a></div>
+My name is <a href="http://antoine.toulme.name">Antoine Toulme</a>. Welcome to Lunar Ocean.
+<a href="http://www.lunar-ocean.com/wp-content/uploads/2008/10/photo-4.jpg">
+I am the project lead of the <a href="http://www.eclipse.org/stp/bpmn">BPMN modeler</a> hosted by the <a href="http://www.eclipse.org/stp">SOA Tools Platform</a>. I also am a committer on the <a href="http://www.eclipse.org/babel">Babel project</a>.
+
+
+I used to be a committer on the <a href="http://www.eclipse.org/emft/projects/compare/#compare">EMF Compare Component</a>, which is hosted by the <a href="http://www.eclipse.org/emft">EMF Technology project</a>, I made the initial contribution but didn't follow through.
+
+On the side, I develop a requirements tracker named <a href="http://recker.rubyforge.org">Recker</a> and a feeds funnel <a href="http://funnel.rubyforge.org">Funnel</a>, all ruby-based.
+
+Disclaimer: I work for <a href="http://www.intalio.com">Intalio</a> and will only talk about <a href="http://www.intalio.com/category/news/blog-posts/">Intalio</a> when talking about BPM or BPMN, just like my <a href="http://onbpms.com/2007/02/02/what-to-expect/">colleague here</a>. The opinions expressed in this blog only reflects my own. My employer is blogging <a href="http://intalio.com">here</a> if you want to know more.
+
+Feel free to contact <a href="mailto:admin.nospam@lunar-ocean.com">me</a>.
+
+<a href="http://www.linkedin.com/in/toulmean"><img width="160" height="33" border="0" alt="LinkedIn profile" src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.gif" /></a>
+
+<div style="border: 1px solid gray; border-radius: 5px;
+ padding: 10px; background-color: #ccc; -moz-border-radius:10px;"><p  style="text-align: center">This blog is named Lunar Ocean after one of my favorite places, <a href="http://maps.google.com/maps?f=q&hl=en&q=325+Mirada+Rd,+Half+Moon+Bay,+CA+94019&sll=37.494543,-122.461389&sspn=0.00176,0.004227&ie=UTF8&ll=37.494471,-122.461309&spn=0.00176,0.004227&t=k&z=19&om=1">a coffee shop on Miramar Beach in Half Moon Bay, CA</a>.
+
+</div>
+
+<a id="catchy" href="#"></a>
+<div style="border: 1px solid gray; border-radius: 5px;
+ padding: 10px; background-color: #ccc; -moz-border-radius:10px;"><p  style="text-align: center">The catchy sentence "Always one character away from perfetcion" only really means that I am a typo away from achieving my goals.
+
+</div>

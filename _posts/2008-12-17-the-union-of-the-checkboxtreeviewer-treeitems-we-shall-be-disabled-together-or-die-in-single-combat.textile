@@ -1,0 +1,21 @@
+---
+layout: post
+title: "The Union of The CheckBoxTreeViewer TreeItems : We shall be disabled together, or die in single combat!"
+---
+
+Dear committer, prepare your jFace-foo !
+
+We have a case where we have a CheckBoxTreeViewer that represents a list of elements.
+
+The list in itself is informative. The user is going to be very interested into what is selected, and what isn't.
+
+It's certain that at some point he will expand the tree to look at some nodes, come back, etc.
+
+Right now, you cannot disable the checkboxes of a CheckBoxTreeViewer without disabling the whole tree.
+So that means that your users cannot check checkboxes (that was the intent), but they also cannot expand the tree.
+
+What if you'd like to disable some checkboxes only ? That's unsupported too.
+
+Unfortunately, there is no solution for  this problem so far. I filed <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=259092">259092</a> earlier today to investigate the issue, and it seems you can <a href="http://tom-eclipse-dev.blogspot.com/2008/10/disable-parts-swt-tabletree-with.html">try to add a listener</a> to revert the check event when the user clicks on checkboxes. Users would still see the items as enabled though, and given the complexity of the interface, adding a tooltip, a new decoration is just going to be confusing.
+
+If you have a spare vote to cast for this bug, a comment, and idea, and ideally a patch, let's talk about it on the <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=259092">bug</a>!

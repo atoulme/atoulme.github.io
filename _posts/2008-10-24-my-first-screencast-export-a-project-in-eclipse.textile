@@ -1,0 +1,14 @@
+---
+layout: post
+title: "My first screencast: export a project in Eclipse"
+---
+
+I just created my first <a href="http://www.youtube.com/watch?v=ytqlBH6_nIk">screencast</a>. It is meant to help our users export their projects properly in an Eclipse environment.
+
+The quality is not perfect, I will work on that for the next ones.
+
+<object width="800" height="600"><param name="movie" value="http://www.youtube.com/p/DF3D532DF18BB29A"></param><embed src="http://www.youtube.com/p/DF3D532DF18BB29A&ap=%2526fmt%3D18" type="application/x-shockwave-flash" width="800" height="600"></embed></object>
+
+<a href="http://bpms.intalio.com/bpms-screencasts/export-a-project.html">You can find this screencast on the Intalio community website.</a>
+
+UPDATE: I have moved from embedding a single screencast to using a Youtube playlist. I have updated this page with the embedded playlist. Have fun!

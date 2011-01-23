@@ -1,0 +1,15 @@
+---
+layout: post
+title: The BPMN modeler is hosted on github. Fork it today.
+---
+
+<a href="http://oisinh.wordpress.com/">Oisin</a> <a href="http://dev.eclipse.org/mhonarc/lists/stp-pmc/msg00428.html">hinted</a> he was into experimenting with git:
+bq. Perhaps someone could come up with a github mirror of one of the components and we could see how that works?
+
+
+Come fork me on <a href="http://github.com/atoulme/bpmn-modeler/tree/master">github</a>! I'll try to keep in sync with the current trunk, which should work as long as no svn switch happens.
+
+One member of the STP PMC reacted to my call. I am still waiting for others to show themselves and share their wisdom.
+
+Next in line - pushing <a href="http://www.eclipse.org/babel">Babel</a> over to github. Let's see if <a href="http://dev.eclipse.org/blogs/eclipsewebmaster/">Denis</a>, our trusty webmaster, likes it!
+

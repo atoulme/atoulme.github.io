@@ -1,0 +1,50 @@
+---
+layout: post
+title: Tracks
+---
+
+One of my resolutions for 2009 is to have a working system to organize myself. I need to empty my mind somewhere, and paper solutions don't work anymore.
+I also have issues with scheduling items. I don't have so much to plan, I really need to use deadlines though.
+
+I tried <a href="http://www.rtm.com">Remember the milk</a> in the past. It's super easy, but you need to enter a subscription to access the iphone interface.
+
+I also tried using <a href="http://www.sugarcrm.com">SugarCRM</a>, but the interface is too complex.
+
+I headed to Chandler, tried the desktop application, installed the server. I didn't like having one more application running on the laptop, as nice as it looks. The server was consuming quite a lot of memory too, and my modest VPS didn't like it.
+
+I tried the tasks list in <a href="http://mail.google.com">gmail</a> ; not too convinced yet, it's lacking features to organize items.
+
+h3. Tracks
+
+
+I found Tracks by accident. I was looking if somebody had done a todo list with Rails, before I started eventually having to do one. 
+
+It looks awesome. It has a good multi-user support, you can manage projects, you can create tasks with contexts, you can share them. You can publish them in ical format or RSS. 
+
+h3. Installing Tracks on your VPS
+
+
+To install <a href="http://www.getontracks.org/">Tracks</a>, I downloaded the latest release, unzipped it in a directory owned by www-data, and used <a href="http://www.modrails.com/">Passenger</a> for the configuration:
+
+@<pre>
+<VirtualHost 67.207.128.50>
+   DocumentRoot /var/tracks/public
+   ServerAdmin admin@localhost
+   ServerName tracks.lunar-ocean.com 
+   ErrorLog /var/log/apache2/tracks-error.log
+   CustomLog /var/log/apache2/tracks-access.log combined
+   <Directory /var/tracks/public>
+      AllowOverride All
+  </Directory>
+</VirtualHost>
+</pre>
+@
+
+I tried using MySQL as the backend for the application, but there was an error while creating the database schema. Using Sqlite, as it is recommended by default, works just fine.
+
+h3. If there was really something to complain about...
+
+
+I spotted a few inconveniences so far:
+<a href="http://www.getontracks.org/">Tracks</a> is licensed as GPL. That's a problem for me when I intend to build on software that uses this license, that shouldn't be the case for me. 
+Deadlines can be set on dates only, you can't give them a particular time. I'll try looking at the code and proposing a patch to the Tracks team if that helps.

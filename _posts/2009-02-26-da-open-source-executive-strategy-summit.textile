@@ -1,0 +1,17 @@
+---
+layout: post
+title: Da Open Source Executive Strategy Summit
+---
+
+Wow, I received an email to RSVP to <a href="http://www.eclipse.org/org/foundation/membersminutes/20090326StrategySummit/agenda.php">ECSS</a>, the <a href="http://www.eclipse.org/org/foundation/membersminutes/20090326StrategySummit/agenda.php">EclipseCon Strategy Summit</a>.
+
+The program consists of an analyst report, a pound of legal advice, two servings of feedback on open source strategies and a final panel.
+
+The content looks good, there's plenty of good and experienced speakers, it's all well scheduled and planned.
+
+Though, I tend to believe this kind of day would be better served by an unconference style.
+I think it would really be thrilling for executives to come down that day, listen to an analyst keynote to get in the mood, and then grab a whiteboard and make their agenda for the day.
+
+I believe that my CEO would be absolutely thrilled to participate to a meeting like that : get to know more people, more projects, coordinate efforts, and maybe even discuss open source strategy.
+
+<small>Of course you should take all this with a grain of salt. Last time I checked there was still written "Software Engineer" on my name tag.</small>

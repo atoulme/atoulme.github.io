@@ -1,0 +1,22 @@
+---
+layout: post
+title: Because there is really no need for so many !!!
+---
+
+I would like to request an amendment to RFC 1855. 
+
+My request concerns the use of punctuation in communications, either one-to-one or one-to-many.
+
+My request goes along this recommandation:
+Use mixed case. UPPER CASE LOOKS AS IF YOU'RE SHOUTING. 
+
+People tend to overuse exclamation marks to emphasize a sentence and actually just give the feeling they are shouting:
+Upper case looks as if you're shouting !
+
+The repetition of exclamation marks reinforces the effect:
+Upper case looks as if you're shouting !!!
+
+However, this might be interpreted differently depending of our culture. I think the Indian culture uses this type of expression more often as they want to express emphasis over a sentence.
+I think this might need to be addressed from a cultural point of view. Ultimately, we would need to offer other ways of using emphasis. For example, starting a sentence with "What is particularly important is ...", adding emphasis by the use of adjectives "We really need ...", or taking a bit more time to explain the sentence: "In this case, we need more information from such and such as our process indicates. We need ...".
+
+I wasn't able to contact the RFC author, and I figured I'd paste this somewhere.

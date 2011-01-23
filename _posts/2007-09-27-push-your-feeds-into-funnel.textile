@@ -1,0 +1,69 @@
+---
+layout: post
+title: Push your feeds into Funnel
+---
+
+I have continued my <a href="http://www.lunar-ocean.com/blog/playing-with-the-rss-and-atom-ruby-libraries/">experiment</a> with the RSS libs a bit, and have built a first prototype that I call <a href="http://funnel.rubyforge.org/">Funnel</a>.
+
+Funnel takes the feeds declared in the feeds table.
+
+In a separate thread, it runs a script that looks at the feed, and if there is a new item or an item that looks like it is updated, it runs a filter on it.
+
+The filter is completely extensible, so that I can add antispam measures later like I did <a href="http://www.lunar-ocean.com/blog/integrating-akismet-with-joomlaboard-forum/">here</a>.
+
+Once the item is accepted, it is picked up by the feed when building it using <a href="http://builder.rubyforge.org">Builder</a>.
+
+
+<style type='text/css'>
+ #mpledge-widget-1 a:hover { filter: alpha(opacity=85); opacity: 0.85; }
+ #mpledge-widget-1 img { border: none; }
+</style>
+<div id='mpledge-widget-1' project='funnel' site='http://micropledge.com/'>
+ <a href='http://micropledge.com/projects/funnel?do=pledge'>
+  <img src='http://micropledge.com/projects/funnel/widget-1-image.png' alt='Support this project with microPledge' width='177' height='75' />
+
+ </a>
+</div>
+<script type='text/javascript' src='http://static.micropledge.com/widgets.js'>
+</script>
+
+_I fund this project with Micropledge.  Micropledge is a really cool website to get your open source projects funded. <a href="http://mycropledge.com">Check it out</a>!_
+
+At this point, I achieved my primary goal but have new  issues I need to deal with.
+
+<ul>
+	<li>I want to record the feed optionally. I want to make it possible for the user to record completely the items in the items table, so that he does not have to bother about them.</li>
+	<li>I use Rails. While this gives a nice frame to my application, it is clearly overkill for some uses of Funnel. I think I should make it available in different little gems, and the core gem would provide pretty much as simple as <a href="http://svn2rss.rubyforge.org">Svn2Rss</a> is.</li>
+	<li>The feed is not cached. It is currently recreated every time someone asks for it. Like Svn2Rss, I need to create an asynchronous way to output it.
+</ul>
+
+If I have those core components working, I can easily create an administration interface and a UI to show my feed.
+
+
+If you are interested into this project, you can fund it and/or join the mailing list:
+
+
+                <table border=0 style="background-color: #fff; padding: 5px;" cellspacing=0>
+  |
+    <img src="http://groups.google.com/groups/img/3nb/groups_bar.gif" height=26 width=132 alt="Google Groups">
+
+  |
+
+  <td style="padding-left: 5px">
+    **Subscribe to Funnel Atom and RSS merger**
+  |
+
+  <form action="http://groups.google.com/group/funnel-talk/boxsubscribe">
+  <td style="padding-left: 5px;">
+    Email: <input type=text name=email>
+           <input type=submit name="sub" value="Subscribe">
+
+  |
+
+</form>
+<td align=right>
+  <a href="http://groups.google.com/group/funnel-talk">Visit this group</a>
+|
+
+
+

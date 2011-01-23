@@ -1,0 +1,12 @@
+---
+layout: post
+title: Eclipse Live !
+---
+
+<a href="http://live.eclipse.org/">Wow</a> ! I am very impressed with the look and feel of this new website. 
+
+I really hope it will attract readers, I already have some <a href="http://onbpms.com">screencast</a> ideas for the website.
+
+Now, when will we be moving from <a href="https://bugs.eclipse.org">Bugzilla</a> to <a href="http://www.atlassian.com/software/jira/">Jira</a>... ? and from the <a href="news://news.eclipse.org">newsgroups</a> to something more mainstream ?
+
+Update: I heard a <a href="http://eclipsewebmaster.blogspot.com/2007/06/new-toys-for-committers.html">new version of Bugzilla will be installed after Europa</a>. Thanks Denis!

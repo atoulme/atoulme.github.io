@@ -1,0 +1,8 @@
+---
+layout: post
+title: Eclipse just had a japanese smoothie
+---
+
+The <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=237745">huge contribution</a> made by the Blanco project, sponsored by NEC, and watched over by Mori-San, was effectively added to the Babel database today.
+
+Thanks to everyone for your hard work on making this happen.

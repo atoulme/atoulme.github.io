@@ -1,0 +1,6 @@
+---
+layout: post
+title: A word of caution when using the Capistrano multistage plugin
+---
+
+When using the <a href="http://weblog.jamisbuck.org/2007/7/23/capistrano-multistage">multistage plugin</a>, which is pretty much required for anything serious on <a href="http://www.capify.org/">Capistrano</a>, do not use the word "stage" to describe one of the stages. It provokes a name conflict down the road.

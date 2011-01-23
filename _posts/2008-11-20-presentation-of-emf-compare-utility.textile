@@ -1,0 +1,6 @@
+---
+layout: post
+title: Presentation of EMF Compare Utility
+---
+
+My first paper, a presentation of my work on a comparison engine for EMF.

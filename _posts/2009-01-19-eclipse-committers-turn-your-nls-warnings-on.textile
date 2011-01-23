@@ -1,0 +1,12 @@
+---
+layout: post
+title: Eclipse committers, turn your NLS warnings on
+---
+
+I just came to realize that it is possible for the Eclipse compiler to track the missing NON-NLS entries, ie it can detect non-externalized strings.
+
+Please consider opening your Eclipse, go to the preferences, then open Java>Compiler>Error/warnings and look for the option "Non-externalized strings".
+
+Please push that option so that it issues warnings whenever it finds a non-externalized string.
+
+Otherwise, I'll keep sending people to the <a href="http://dev.eclipse.org/mhonarc/lists/cross-project-issues-dev/msg02943.html">cross-project list</a>, or I'll ask the AC to consider setting the non-externalized string flag as an error when compiling the Galileo RCs. I hope I won't have to do that.

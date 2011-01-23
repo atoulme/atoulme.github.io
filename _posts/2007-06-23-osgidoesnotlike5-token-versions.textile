@@ -1,0 +1,81 @@
+---
+layout: post
+title: OSGi.does.not.like.5 token versions
+---
+
+I switched to Eclipse 3.3 for fun (and the <a href="http://www.eclipse.org/org/press-release/20070612cb_europareviews.php">T-shirt</a> was tempting too), and banged into my first obstacle. Now the four digits scheme is strictly enforced for the version numbers. 
+That's ok with me, I just changed the version numbers to add one more '.' somewhere.
+
+The thing is... our build system adds the build number as a new token.
+
+So when building my new artifact, I had a version like this 1.0.0.0.001. That's quite ugly. Well, I didn't put too much attention into it.
+
+Then switching to Eclipse 3.3 would not happen.
+
+Here is the stacktrace you get when trying to activate a plugin with 5 tokens:
+
+<pre>org.osgi.framework.BundleException: 
+Exception in org.eclipse.update.internal.configurator.ConfigurationActivator.start() of bundle org.eclipse.update.configurator.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:1018)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:974)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:346)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:350)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1118)</pre>
+
+with a nested stacktrace:
+
+<pre>Caused by: org.eclipse.core.runtime.CoreException: 
+Cannot create configuration in file:/home/atoulme/eclipse/configuration/
+	at org.eclipse.update.internal.configurator.Utils.newCoreException(Utils.java:96)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.initialize(ConfigurationActivator.java:111)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.start(ConfigurationActivator.java:69)</pre>
+
+with a root exception:
+
+<pre>org.eclipse.core.runtime.CoreException: Cannot create configuration in file:/home/atoulme/eclipse/configuration/
+	at org.eclipse.update.internal.configurator.Utils.newCoreException(Utils.java:96)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.initialize(ConfigurationActivator.java:111)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.start(ConfigurationActivator.java:69)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:999)
+	at java.security.AccessController.doPrivileged(Native Method)</pre>
+
+Ordinarily, having a stacktrace means you already won. You just have to go at the right line of code, fix the problem and get the thing running.
+In this case, the bundles that were throwing the exception are completely out of the Eclipse SDK workspace code, so the only option I had was to go look at it on cvs.
+I ended downloading the code, compiling it in my 3.2.2 workspace and add a line in the @getPlatformConfiguration()@ method.
+
+<pre>**
+	 * Creates and starts the platform configuration.
+	 * @return the just started platform configuration
+	 */
+	private PlatformConfiguration getPlatformConfiguration(URL installURL, Location configLocation) {
+		try {
+			PlatformConfiguration.startup(installURL, configLocation);
+		} catch (Exception e) {
+			System.err.println("THERE WAS AN EXCEPTION" + e);
+			e.printStackTrace();
+			if (platformTracker != null) {
+				String message = e.getMessage();
+				if (message == null)
+					message = ""; //$NON-NLS-1$
+				Utils.log(Utils.newStatus(message, e));
+			}
+		}
+		return PlatformConfiguration.getCurrent();
+
+	}</pre>
+
+Suddenly, I had the right stacktrace popping up:
+
+<pre>
+THERE WAS AN EXCEPTIONjava.lang.IllegalArgumentException: invalid format
+java.lang.IllegalArgumentException: invalid format
+        at org.osgi.framework.Version.<init>(Version.java:143)
+        at org.osgi.framework.Version.parseVersion(Version.java:209)
+        at org.eclipse.update.internal.configurator.VersionedIdentifier.<init>(VersionedIdentifier.java:21)
+</pre>
+
+Please look at the <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.osgi/osgi/src/org/osgi/framework/Version.java?view=markup">constructor of the Version class</a> if you want to know more on the version string parsing. It says it better than an hundred words.
+
+I hope this helps people migrating to Eclipse 3.3. I am 100% guilty of not respecting the OSGi standard (and I am now running to get this all fixed, and up and running with the latest RC!). 
+
+I opened a <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=194102">bugzilla entry</a> to report this hidden stacktrace, feel free to comment it!

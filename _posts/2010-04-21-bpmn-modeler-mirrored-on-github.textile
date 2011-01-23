@@ -1,0 +1,14 @@
+---
+layout: post
+title: BPMN modeler mirrored on github
+---
+
+<a href="http://www.lunar-ocean.com/the-bpmn-modeler-has-moved-to-git/">Remember last week</a>, when I was telling you that the BPMN modeler had moved to git ?
+
+<a href="http://ketan.padegaonkar.name/">Ketan</a> and I maintain the <a href="http://www.github.com/eclipse">eclipse</a> account on github. We opened a support request and here we go:
+
+http://github.com/eclipse/bpmnmodeler
+
+The BPMN modeler is now mirrored on github! If you need another Eclipse project to be mirrored, open a support request on github and ask us to open an empty repository with the name of the project.
+
+Kudos to the github team for their reactivity and their outstanding service!

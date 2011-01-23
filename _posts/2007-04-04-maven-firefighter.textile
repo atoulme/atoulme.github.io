@@ -1,0 +1,19 @@
+---
+layout: post
+title: Maven firefighter
+---
+
+I am honored to work near <a href="http://blog.labnotes.org">Assaf</a>, with who I had this talk today (through email):
+Me - Assaf, what's taking you ?
+Why isn't <a href="http://fishbowl.pastiche.org/2007/04/03/an_open_letter_to_maven_2">this</a> already in your <a href="http://bytesized.labnotes.org">tumblr</a> ?*
+Come on, 12 hours offset are unacceptable :)
+Me - Oh crap - messed up, <a href="http://fishbowl.pastiche.org/2007/04/03/an_open_letter_to_maven_2">didn't see it</a>.
+Sorry.**
+Assaf-and I already e-mailed him to let him know.
+Me-<a href="http://bytesized.labnotes.org/post/594049">In your previous life you  were a firefighter.</a>
+
+Now I am looking for a nice red fire truck that could be used as a logo (in SVG) for <a href="http://buildr.rubyforge.org">Buildr</a>, the new Maven reap(e)r !
+
+An other approach to build Java is <a href="http://raven.rubyforge.org/">Raven</a>, which is quite mature now I think.
+* Poor french humour
+** Stupid french guy blushing in front of his browser

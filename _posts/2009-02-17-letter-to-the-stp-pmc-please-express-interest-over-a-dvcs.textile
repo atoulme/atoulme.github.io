@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Letter to the STP PMC: Please express interest over a DVCS"
+---
+
+I sent out an email to the STP PMC yesterday night:
+
+bq. 
+Hi all,
+
+STP has proven to be cutting edge in many ways regarding the Eclipse development process. In particular, we were amongst the first to adopt a Subversion repository.
+
+The reason why we went for those repositories are varied. First, I think most of us acknowledged that CVS was not fitting the bill so much anymore. We were also increasingly using SVN at work, and had gone through the hurdles of mastering it.
+
+Some time passed. git and mercurial came along and revolutionized quite a few things. Just look at github and how the commit rate of rails changed since they moved there (around the 5th minute on this video of the Rails commit history [0])
+
+I opened a bug about the possibility to move to git [1], and a webmaster hinted that supporting git would be considered if a couple of top level projects were asking for it.
+
+That's why I'm asking you to please cast an informal vote for this move. Please consider also voting on [1].
+
+Thanks,
+
+Antoine
+
+
+[0]: http://vimeo.com/2979844?pg=embed&sec=2979844
+[1]: https://bugs.eclipse.org/bugs/show_bug.cgi?id=257706
+
+
+Do you want to see DVCS support at Eclipse ? Please consider writing to your PMC today.
+

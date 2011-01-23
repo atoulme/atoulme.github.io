@@ -1,0 +1,8 @@
+---
+layout: post
+title: Committer on the BPMN project
+---
+
+I have just become a <a href="http://dev.eclipse.org/mhonarc/lists/stp-dev/msg00552.html">committer</a> on the <a href="http://www.eclipse.org/stp">STP</a> project, more exactly on the <a href="http://www.eclipse.org/stp/bpmn/">BPMN</a> component, on which I have been contributing for some time already.
+
+This is part of my job at <a href="http://www.intalio.com">Intalio, Inc</a>. More <a href="http://www.intalio.com/news/intalio-leads-eclipse-stp-project/">there</a> !

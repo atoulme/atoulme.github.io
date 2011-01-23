@@ -1,0 +1,20 @@
+---
+layout: post
+title: Testing svn2rss
+---
+
+So my latest <a href="http://www.lunar-ocean.com/blog/subversion-commits/">cool app</a> is asking Subversion the latest changes over the repository.
+
+It pretty much does this:
+
+<pre>
+svn log #{your_url} --limit #{when_you_d_like_to_stop}
+</pre>
+
+Then, for every revision, it runs a diff:
+
+<pre>
+svn diff #{rev1}:#{rev2}
+</pre>
+
+After playing around for some time with all those commands, my advice is to run svn2rss with Subversion 1.4, as my tests were taking more than 2 minutes to complete.

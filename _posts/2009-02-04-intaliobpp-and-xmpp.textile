@@ -1,0 +1,19 @@
+---
+layout: post
+title: Intalio|BPP and XMPP
+---
+
+This subject is dear to my heart but frankly low level priority.
+
+I looked at a way for our product, <a href="http://www.intalio.com">Intalio|BPP</a>, to interact with a <abbr title="like Google Talk">XMPP server</abbr>. Apparently, there are some libraries that deal with this. The <a href="http://home.gna.org/xmpp4r/">XMPP4R library</a>, the <a href="http://servicemix.apache.org/servicemix-xmpp.html">XMPP lib that comes with ServiceMix</a>, are two alternatives.
+
+I tried to use XMPP4R with JRuby, but apparently there is a bug in JRuby that makes it hang. I never got the message through anyways.
+I don't feel like playing with ServiceMix.
+
+So, to the heart of the matter: I <a href="http://www.nabble.com/WSDL-with-HTTP-binding-REST-interface-WSDL-with-XMPP-bindings-for-XMPP-server-td21799264.html">asked</a> the guys on jabber.org if they have a WSDL to interact with the server.
+I understand that the server may have bindings with XMPP, eventually HTTP ?
+I have seen <a href="http://nethu.org/2007/07/07/axis2c-xmpp-transport-is-ready/">reports</a> about Axis2 supporting XMPP as transportation layer, so eventually we could get that.
+
+What do you think ?
+
+Now the folks on jabber.org never came back to me. Am I missing something ? Is there another place where I should be looking ?

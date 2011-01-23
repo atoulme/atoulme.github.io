@@ -1,0 +1,14 @@
+---
+layout: post
+title: Where is my EPL ?
+---
+
+_I have been meaning to post that one for a long time, please pardon my dust._
+
+I had an odd question from a STP user the other day:
+"So", he said, "what license are you guys working with ?"
+It sounded too obvious. Then he added that he had browsed the website without finding the license page.
+
+Truth is, compared to the Apache websites who always have a direct link to the license, in Eclipse you have to browse for the <a href="http://www.eclipse.org/legal/">Legal Resources</a> to grab your copy of the <a href="http://www.eclipse.org/org/documents/epl-v10.php">EPL</a>.
+
+So how about adding a link somewhere in the Phoenix template to send to our license ? If you think that is a good idea, please vote for <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=198975">Bug 198975 – Add a link to the EPL</a>.

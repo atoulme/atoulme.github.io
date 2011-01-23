@@ -1,0 +1,10 @@
+---
+layout: post
+title: Yes, Intalio|Designer runs on your platform of choice.
+---
+
+Just to reassure everybody that <a href="http://www.intalio.com/products/designer/">Intalio|Designer</a> runs on all the main platforms out there. Windows, of course, but also Linux and Mac, for both 32 and 64 architectures. Apparently that's not so common, as <a href="http://groups.google.com/group/BPMNforum/browse_thread/thread/55c9e9411c353168?hl=en">a BPMN forum member reminded us</a> ! 
+
+If you'd like to have support for your platform of choice besides those, you should definitely open a <a href="http://www.intalio.com/community/demand-driven-development/">demand driven development project</a> about it.
+
+This support for multiple platforms of course comes from our choice to develop on top of the <a href="http://www.eclipse.org">Eclipse platform</a> and <a href="http://www.eclipse.org/swt">SWT</a>.

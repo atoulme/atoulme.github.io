@@ -1,0 +1,25 @@
+---
+layout: post
+title: Use the EMF Content Parser extension point to resolve content types
+---
+
+I am currently working on the BPMN 2.0 metamodel, using EMF to generate a Java model and a basic editor to edit .bpmn files.
+
+At the same time, I maintain the BPMN modeler.
+
+Everything was running smoothly until I tried to self host with both projects in my workspace. I saw my BPMN modeler trying to open BPMN2 files, and vice-versa.
+
+It simply was because both registered the .bpmn file extension.
+
+By looking at the possibilities Eclipse gave me, I noticed this cool extension:
+<script src="http://gist.github.com/357157.js"></script>
+
+Awesome! So it's possible to set a content type according to the namespace of the XML document.
+
+Now how do I use this with EMF ? The solution is quite simple:
+
+<script src="http://gist.github.com/357159.js?file=EMF+use+of+content+types.xml"></script>
+
+Problem solved!
+
+PS: While playing with content types, I noticed the schema folder for the plugin @org.eclipse.core.contenttype@ is missing! I opened <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=308126">308126</a> to follow up.

@@ -1,0 +1,10 @@
+---
+layout: post
+title: RoR nirvana
+---
+
+From <a href="http://blog.wonsys.net/posts/9-empowering-the-developer/">The Wonsys blog</a>:
+
+bq. So you can imagine when we started looking into Rails, it was developer’s Nirvana. We immediately realized it didn’t get in our way: we were finally able to think about how to solve a problem without having to worry how to put it in code — and that’s mostly due to the power of Ruby.
+
+I had the same feeling.

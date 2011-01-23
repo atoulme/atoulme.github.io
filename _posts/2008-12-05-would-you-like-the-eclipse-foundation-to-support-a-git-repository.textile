@@ -1,0 +1,11 @@
+---
+layout: post
+title: Would you like the Eclipse Foundation to support a git repository ?
+---
+
+Would you like to be able to be hosted on <a href="http://git.or.cz/">git</a> at eclipse.org ?
+Then please vote for this <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=257706">bug</a>.
+
+If you are interested into tooling support, Egit should be your deal. They are currently building an <a href="http://wiki.eclipse.org/EGit/Proposal">informal proposal</a> to join Eclipse. How about having the git tooling project hosted on git ?
+
+Thanks to rcjsuen, ketan and ijuma for the insightful IRC chat.

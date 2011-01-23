@@ -1,0 +1,54 @@
+---
+layout: post
+title: How to create a plugin for Buildr
+---
+
+h2. Prerequisites:
+
+
+<ul><li>Install git.</li>
+<li>Install ruby, rubygems, and the braid gem.</li></ul>
+
+h2. The steps:
+
+
+h3. The basics:
+
+
+<ul><li>Create a new folder and cd to it.</li>
+<li>run @git init@</li>
+<li>run @braid add git://github.com/apache/buildr.git --branch trunk buildr@</li>
+<li>run @ln -s buildr/rakelib rakelib@</li>
+<li>Create your .gemspec file.</li>
+<li>Then copy buildr/Rakefile to Rakefile, and replace the reference to buildr.gemspec to your .gemspec.</li>
+<li>Create your structure: a lib, a spec folder.</li>
+<li>run @echo "_reports" >> .gitignore@</li></ul>
+h3. The spec setup
+
+
+<ul><li>Create spec/spec_helpers.rb</li>
+<li>Paste this code in it:</li></ul>
+@<pre>
+unless defined?(SpecHelpers)
+  module SandboxHook
+    
+    def SandboxHook.included(spec_helpers)
+      # For testing we use the gem requirements specified on the buildr4osgi.gemspec
+      spec = Gem::Specification.load(File.expand_path('../my.gemspec', File.dirname(__FILE__)))
+      spec.dependencies.each { |dep| gem dep.name, dep.version_requirements.to_s }
+      # Make sure to load from these paths first, we don't want to load any
+      # code from Gem library.
+      $LOAD_PATH.unshift File.expand_path('../lib', File.dirname(__FILE__))
+      require 'mymodule'
+    end
+  end
+  require File.join(File.dirname(__FILE__), "/../buildr/spec/spec_helpers.rb")
+
+end
+@</pre>
+
+h3. You're done.
+
+
+Try rake -T to see the buildr tasks available, use @rake coverage@ to run tests and @rake failed@ when you need to insist.
+ 

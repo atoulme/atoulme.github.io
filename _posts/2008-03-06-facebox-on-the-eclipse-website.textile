@@ -1,0 +1,12 @@
+---
+layout: post
+title: Facebox on the Eclipse website
+---
+
+I would like to be able to use <a href="http://famspam.com/facebox">Facebox</a> on the <a href="http://www.eclipse.org">Eclipse website</a>, particularly our <a href="http://www.eclipse.org/stp/bpmn">BPMN page</a>.
+
+Facebox is a neat Javascript library built on top of <a href="http://jquery.com/">JQuery</a> that shows images and/or HTML in nice boxes showing on top of the existing page. See the Facebox <a href="http://famspam.com/facebox">index page</a> for examples.
+
+Of course I would craft some kind of theme to match the Eclipse site, right now the box looks too much like a well known social website.
+
+I opened a <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=221766">bug</a> against the Eclipse website to examine possible issues regarding the Eclipse policy. Those two libraries are licensed under the <a href="http://dev.jquery.com/browser/trunk/jquery/MIT-LICENSE.txt">MIT license</a>.

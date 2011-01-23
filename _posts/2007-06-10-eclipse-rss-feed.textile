@@ -1,0 +1,8 @@
+---
+layout: post
+title: Eclipse Rss feed
+---
+
+I might be contributing a feed to <a href="http://www.planeteclipse.org">PlanetEclipse</a>.
+
+The <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=191864">request is right over there</a>, feel free to comment!

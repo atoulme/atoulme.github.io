@@ -1,0 +1,22 @@
+---
+layout: post
+title: Going back to Windows
+---
+
+I left Windows back in 2006 with no regret, moving to Linux and now Mac.
+
+Yersterday I had to do some maintenance work on a family computer. The thing was dead slow and clogged with popups.
+
+Here is a simple list of software to survive those situations:
+-RegCleaner:
+The killer app for Windows. Just get it and edit your registry settings. You will be amazed to see how many freaky programs are being launched on startup without asking for consent.
+-Ad-aware Free:
+I found something like 400 malwares on the computer. That was a good head start.
+-Antivir:
+Antivir was completely outdated on the computer. Upgrading to the latest version, I found 50 viruses.
+-Sygate Personal Firewall
+I really like SPF because it's free, and it asks you when a program needs to access to Internet.
+The popup is pretty annoying, yet you learn how your computer works, and you really take control over the network access.
+You can gradually set filters, so that the firewall doesn't bother you all the time ; you will notice first hand when a virus tries to use the port 25 or connect to some poker website.
+
+Hope this helps someone!

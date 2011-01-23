@@ -1,0 +1,18 @@
+---
+layout: post
+title: Gutsy
+---
+
+I just moved to <a href="http://kubuntu.org/">kubuntu Gutsy</a>.
+
+It's very good. It was running well at the first boot, and the ATI drivers were activated in 3 clicks.
+
+Overall (I'm moving from Dapper), the gain in performance and graphics is very noticeable. My computer has never been so silent and so fast.
+
+There are still two small glitches:
+
+I can't put my computer to hibernate. Well, it does hibernate, but I can't expect it to wake up.
+Here is the <a href="https://bugs.launchpad.net/ubuntu/+source/linux-source-2.6.22/+bug/121653">Ubuntu bug</a> to watch.
+
+Dolphin. I don't like it. I have gotten used to the unique features of Konqueror, the copy To action, the tab support.
+Feel free to sign the <a href="http://www.petitiononline.com/mod_perl/signed.cgi?konqKDE4&1">petition</a> to have KDE 4 offer the user to choose his own file manager.

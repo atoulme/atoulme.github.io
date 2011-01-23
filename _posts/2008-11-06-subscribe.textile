@@ -1,0 +1,9 @@
+---
+layout: post
+title: Subscribe
+---
+
+<iframe src="http://feeds.feedburner.com/LunarOcean" width="800" height="2000" frameborder="0">
+<a href="http://feeds.feedburner.com/LunarOcean">Hmm, you are using a very old browser.
+Click here to go directly to included content.</a>
+</iframe>

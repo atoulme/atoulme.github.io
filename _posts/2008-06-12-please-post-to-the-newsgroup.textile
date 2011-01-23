@@ -1,0 +1,27 @@
+---
+layout: post
+title: Please post to the newsgroup
+---
+
+Lately I have had a lot of private emails from people asking for help both on the <a href="http://www.eclipse.org/stp/bpmn">Eclipse</a> and <a href="http://bpms.intalio.com/forums.html">Intalio</a> sides.
+
+Here is the answer I come up with now:
+
+bq. Hi, as an Eclipse committer I cannot reply to conversations in private, as they include IP that might lead to litigation (for example if next month Intalio comes up with the system you describe, and I helped you with that, your company could sue).
+
+If you wish to talk to me privately, there needs to be an agreement between our companies, you can contact sales@intalio.com to that regard.
+
+
+Depending wether this is Eclipse or Intalio:
+bq. 
+In the mean time, please post to the forum: http://bpms.intalio.com/forums.html and I will reply there, as well as the community.
+
+
+bq. 
+In the mean time, you can post to the newsgroup, to stp-dev@eclipse.org or stp-user@eclipse.org. (and I'll reply the best I can).
+You can also ask on #eclipse-stp on irc.freenode.net.
+
+
+So if you are tempted to talk to me privately, please tell me why, or you will get something like this email.
+
+Question to the Eclipse community: how do you guys handle emails like this ? is there a guideline for committers posted somewhere ? (I didn't really look, it might be just around the corner).

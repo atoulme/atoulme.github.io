@@ -1,0 +1,6 @@
+---
+layout: post
+title: Signal events
+---
+
+Our signal events, ugly yet.

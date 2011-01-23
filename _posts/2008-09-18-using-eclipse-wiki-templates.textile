@@ -1,0 +1,17 @@
+---
+layout: post
+title: Using Eclipse wiki templates
+---
+
+For Eclipsecon 2008, I took the challenge to write all the material of my <a href="http://www.eclipsecon.org/2008/?page=sub/&id=496">talk</a> on a <a href="http://wiki.eclipse.org/STP/BPMN_Component/EclipseCon2008">wiki page</a>. Along the way I discovered the power of templates.
+Templates are an easy way to give a very cool look and feel to text elements on a mediawiki-based wiki.
+
+For example, here is my latest addition, <a href="http://wiki.eclipse.org/Template:Faq">Template:Faq</a>, in <a href="http://wiki.eclipse.org/STP_FAQ">action</a>:
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/09/picture-12.png' title='An example of the use of the Faq template'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/09/picture-12.thumbnail.png' alt='An example of the use of the Faq template' /></a>
+
+I have been contributing some other templates in the past, check out for example <a href="http://wiki.eclipse.org/Template:Warning">Warning</a> and <a href="http://wiki.eclipse.org/Template:Announce">Announce</a> for example.
+
+Until recently those templates were still a well kept secret. I went over to the good folks on #wikimedia who offered me <a href="http://wiki.eclipse.org/Special:Allpages/Template:">the link to show them all</a>.
+
+I also included it <a href="http://wiki.eclipse.org/Help:Editing">in the standard help page</a>. I hope this helps someone!
+

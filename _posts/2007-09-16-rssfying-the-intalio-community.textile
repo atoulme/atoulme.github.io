@@ -1,0 +1,9 @@
+---
+layout: post
+title: RSSifying the Intalio community
+---
+
+I want to help the Intalio community by giving our users the possibility to broadcast their blog posts over a common RSS feed, and eventually a common UI, much like <a href="http://planeteclipse.org">planeteclipse.org</a> works.
+
+Anyone against the name **planet.intalio.com** ? Please voice your opinions in the comments !
+

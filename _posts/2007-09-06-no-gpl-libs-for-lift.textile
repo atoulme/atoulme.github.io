@@ -1,0 +1,14 @@
+---
+layout: post
+title: no GPL libs for lift
+---
+
+There is an interesting discussion going on the <a href="http://groups.google.com/group/liftweb/browse_thread/thread/1b1e48d7309f22d?hl=en">lift mailing list</a>.
+
+The principal maintainer, David Pollak, doesn't want to abide by the FSF and add GPL or LGPL code to his code base.
+
+Well, I kinda agree.
+
+In terms of freedom, having to redistribute your source code when using one of those libraries is actually reducing your freedom.
+
+Maybe the ultimate DRM ?

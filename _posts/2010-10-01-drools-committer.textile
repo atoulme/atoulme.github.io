@@ -1,0 +1,12 @@
+---
+layout: post
+title: Drools Committer
+---
+
+I have been actively involved in BPMN 2.0 for the past months, helping (humbly) with our <a href="http://www.eclipse.org/modeling/mdt/?project=bpmn2">Eclipse BPMN 2.0 project</a>,  and refactoring the <a href="http://code.google.com/p/oryx-editor/">Oryx project</a>, which we moved as <a href="http://github.com/intalio/process-designer">a branch to github</a> under the appellation "Process Designer".
+
+As I worked on those technologies, I had a look around for the best tool to run BPMN 2.0 processes. Pragmatically, Drools is the best tool out there for the job.
+
+I discussed with the team and provided a few insights to help them with Oryx (which got me listed as a contributor without accentuation, in case you were wondering who the hell "Antoine Toulm" was).
+
+There is still a lot to achieve. I pushed a few fixes for OSGi ; I see the team is very active on refactoring their web framework, which should prove interesting. I hope that other guys in my team help as well, and maybe integrate the Eclipse BPMN 2.0 model into Drools Flow. Stay tuned for our patches!

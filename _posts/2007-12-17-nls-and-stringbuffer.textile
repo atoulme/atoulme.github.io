@@ -1,0 +1,31 @@
+---
+layout: post
+title: NLS and StringBuffer
+---
+
+I was surprised to find in the <a href="http://download.eclipse.org/eclipse/downloads/drops/S-3.4M4-200712131700/eclipse-news-M4.html">M4 News And Noteworthy</a> list a shortcut to change a concatenated @String@ to @StringBuffer@.
+
+At first, it looks like a good idea.
+
+<pre>String s = "offset " + offset + " is at line " + line;</pre>
+
+is changed to:
+<pre>
+StringBuffer stringBuffer = new StringBuffer();
+stringBuffer.append("offset ");
+stringBuffer.append(offset);
+stringBuffer.append(" is at line ");
+stringBuffer.append(line);
+</pre>
+
+_I know using StringBuffers is better for performance_ UPDATE: I confused StringBuffer with StringBuilder! look at this <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=213301">bug</a> for changing StringBuffer to StringBuilder.
+
+I would have rather been going for this:
+
+<pre>NLS.bind("offset {0} is at line {1}", offset, line);</pre>
+
+Just because this is so much easier to internationalize.
+
+I have almost finished doing i18n for the BPMN modeler, a component of the STP project, and I really lost time on such cases.
+
+Just my $0.02!

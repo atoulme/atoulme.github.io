@@ -1,0 +1,10 @@
+---
+layout: post
+title: Requirements Tracker
+---
+
+This is my first post over what is my most time consuming hobby, to the strong dismay of my wife, <a href="http://www.requirements-tracker.com">Requirements Tracker</a>.
+
+This website offers the possibility to create requirements and manage their lifecycle. 
+
+I just added a basic functionality to add a RSS feed by project. Hopefully this should be consolidated and extended to the requirements by next week.

@@ -1,0 +1,14 @@
+---
+layout: post
+title: Scala Eclipse plugin
+---
+
+Scala is a Java based language that combines the best of Ruby with strong types.
+
+Sean McDirmid just released a new beta version of the plugin.
+
+It is available through an update site: http://lamp.epfl.ch/~mcdirmid/scala.update
+
+Congratulations to Sean for this achievement ! I look forward to dive into Scala and help on this front.
+
+The complete announcement is available <a href="http://news.gmane.org/gmane.comp.lang.scala">here</a>.

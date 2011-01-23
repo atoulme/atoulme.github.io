@@ -1,0 +1,20 @@
+---
+layout: post
+title: Manifest reader in Ruby
+---
+
+Manifest files are incorporated in jar files to help describe them.
+In the OSGi world, they have a critical mission: describe the OSGi bundle that the jar becomes, giving its name, its transitive dependencies and its execution parameters.
+
+I initiated some time ago a project named <a href="http://manifest.rubyforge.org">Manifest</a> in Rubyforge, licensed under the Apache 2 License. 
+<a href="http://www.labnotes.org">Assaf</a> helped put some meat on the bones with his reader used in the Buildr tests (<a href="http://svn.apache.org/repos/asf/incubator/buildr/trunk/spec/java_packaging_spec.rb">source</a>, around line 41).
+I added some more code to parse the OSGi attributes. For example, when you parse the @org.eclipse.compare@ plugin, you can query it like this:
+<pre>
+manifest.sections.first["Require-Bundle"]["org.eclipse.core.expressions"]["bundle-version"]
+</pre>
+This returns @"[3.3.0,4.0.0)"@. 
+
+The first release is tagged 0.0.1, and you can install it with rubygems:
+<pre>
+gem install manifest
+</pre>

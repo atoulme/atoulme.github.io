@@ -1,0 +1,6 @@
+---
+layout: post
+title: Refactoring Eclipse
+---
+
+Before we touch any code, we should establish what Eclipse is today and what Eclipse wants to be tomorrow.

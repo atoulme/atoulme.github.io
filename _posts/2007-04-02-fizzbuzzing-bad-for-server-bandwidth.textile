@@ -1,0 +1,8 @@
+---
+layout: post
+title: Fizzbuzzing bad for server bandwidth
+---
+
+FizzBuzz is getting way too far. It's even become <a href="http://www.adampetersen.se/articles/fizzbuzz.htm">exotic !</a>.
+
+Stop losing your time ! In my imnsho, here is a good piece of <a href="http://blog.labnotes.org/2007/03/02/learning-from-fizzbuzz-the-developer-pysche-and-code-reuse/">advice</a>.

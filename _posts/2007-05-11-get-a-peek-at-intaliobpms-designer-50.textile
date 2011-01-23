@@ -1,0 +1,10 @@
+---
+layout: post
+title: Take a peek at Intalio|BPMS Designer 5.0
+---
+
+Intalio|BPMS Designer works on top of the <a href="http://www.eclipse.org/stp/bpmn">BPMN modeler</a> we develop in <a href="http://www.eclipse.org/stp">the SOA Tools Platform project</a>.
+
+Here is a <a href="http://designerlog.intalio.com">log</a> we are populating using <a href="http://www.tumblr.com">Tumblr</a>. 
+
+It's simple, non intrusive, and getting to the point. Hope you like it !

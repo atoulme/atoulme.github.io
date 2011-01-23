@@ -1,0 +1,13 @@
+---
+layout: post
+title: Disastrous experiment with Bugzilla
+---
+
+I don't have much love for Bugzilla.
+It got bitter just now when I tried this <a href="http://www.google.fr/search?q=bpmn+site%3Abugs.eclipse.org&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a">search</a> on Google. I just looked for references of the word bpmn on bugs.eclipse.org, and the page returns no results.
+
+In the same category, <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=248706">did you know the feeds created with Bugzilla aren't working with Feedburner or Y!Pipes</a> ? Google Reader has apparently implemented a hack to turn around the issue.
+
+Back in 2001 (?), Bugzilla was a nice choice. Is it still the case ? Can we put up with a silo at one of the most critical places of our system ?
+
+Is the EMO still looking for places to accelerate Eclipse ecosystem growth ? Look no further!

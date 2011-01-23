@@ -1,0 +1,146 @@
+---
+layout: post
+title: Build a REST web service Royal Canin Style
+---
+
+h2. Introduction
+
+
+
+As an Intalio employee, I participate to the <a href="http://itredux.com/2009/01/25/a-first-taste-of-dogfood/">Intalio Dogfood project</a>. I came too early to the office one morning, had an interesting discussion with the <a href="http://itredux.com">CEO</a> that ended on his team.
+
+The schedule for building our marketing process is aggressive as we want to maximize the ROI. At the same time, it makes use of a lot of technologies that will push our platform in all directions.
+
+Later, on the very same day he had recruited me, he and showed me his first attempt at defining the process we would be working on. And well, instead of a BPMN diagram, he showed me a spreadsheet.
+
+As <a href="http://davethinkingaloud.blogspot.com/2009/01/untitled.html">David French says</a>, that's really not an "IT developer style of solution". Yep, it's business all the way, but my IT skills are there to make it happen. So...
+
+At first, we thought it would be ok to generate a BPMN diagram, and then BPEL, from the spreadsheet, but that was too complex ; that also meant the spreadsheet would contain way more information, in particular the data and the mappings.
+
+<a href="www.rickgeneva.com">Rick Geneva</a> joined our team then and proposed to go for a diagram that would poll the spreadsheet for data, and execute depending on the content of the cells. So it was that simple: I had to design a web service that would take the URL of the published spreadsheet and would turn it into XML data to be fed into the process.
+
+h2. Why REST ?
+
+
+I have a little knowledge of building web services, I designed one for the Facebook application I had put online in 2007. It was smartly using FCGI and Ruby to produce SOAP messages. I had got the recipe from <a href="http://onbpms.org">Pascal</a> who had designed the <a href="http://github.com/intalio/time-service/tree/master">Time Service</a> in the same way.
+
+However, the <a href="http://itredux.com/2009/01/25/a-first-taste-of-dogfood/">Dogfood project</a> required that I integrate the application with our Java server, so I had to try new things.
+
+I didn't feel like writing the service in Java as I wanted it to be as short as possible. I have a good experience of Ruby now and wanted to see some of it in action.
+
+As a matter of fact, the SOAP libraries in the Ruby world are not doing too well. Some are deprecated, some are still relevant but somehow they don't inspire much confidence.
+
+So I chose to build a REST service as there is more community around it, at least in the Ruby world.
+
+h3. Micro-frameworks
+
+
+
+<a href="http://labnotes.org">Assaf</a> pointed me to Rack, a framework to run web applications. I didn't want to run a full fledged Rails application for a simple web service that had no need for storing data or even html pages.
+
+I first settled for <a href="http://camping.rubyforge.org/files/README.html">Camping</a>. It was a smart and good looking framework. It was looking enough like Rails, separating the models, the controllers and the views that I thought I would be safe with it. However it wasn't possible for a controller to render text directly, so the code wasn't too DRY, and I didn't find a way to catch the body of the request.
+
+I then approached <a href="http://www.sinatrarb.com/">Sinatra</a>. What a cool framework. Sinatra defines a REST service in three lines:
+
+<pre>@get "/" do
+  return "Hello world!"
+end
+@</pre>
+
+On top of that, it is possible to gain access to the body of the request: @url = @request.body.read@
+
+I designed my Sinatra application, then ran it very directly with ruby:
+<pre>@$>ruby lib/csv2xml.rb@</pre>
+
+To test your application while it is running, you can just send something via wget:
+<pre>@wget http://localhost:4567/ --post-data=your-data --header="Content-Type:text/xml"@</pre>
+
+h4. Installing and running jruby-rack
+
+
+The objective is to deploy on a Java web server, remember ? Assaf had pointed me to jruby-rack. The author of the library is <a href="http://blog.nicksieger.com/">Nick Sieger</a>, a member of the JRuby team. The jruby-rack gem installs on top of JRuby and requires to have maven installed. It all went smoothly though.
+
+Once installed, I went looking for examples in the github repository and found some instructions to bundle my Sinatra application:
+
+1. add a config.ru file at the root of your repository. That file should contain the minimum set of instructions to run. See mine for example.
+2. Run rackup config.ru to make sure everything works.
+
+So far, so good. The hard part starts now.
+
+h4. Warble me already!
+
+
+To transform your application into a war, Nick created a gem named warbler.
+You run it like this on your application: @jruby -S warble war@
+
+It's going to create a .war file. Leave it there and take a little time to review the code dumped into tmp/war/.
+
+<ul>
+<li>First, check that web.xml doesn't contain invalid characters. Your config.ru file was pasted in there, and the XML is escaped. I filed a <a href="http://jira.codehaus.org/browse/JRUBY-3342">bug</a> for this, and Nick fixed it promptly, so you shouldn't have to face it anymore hopefully.</li>
+<li>Second, check the version of jruby-rack used in the lib folder. It must be at least 0.9.4 for everything to run smoothly. Otherwise, Sinatra will complain of a missing library.</li>
+</ul>
+
+If your need to, make changes and jar again the /tmp/war directory contents with <pre>@jar cf csv2xml.war  -C tmp/war .@</pre>
+
+Deploy to your server. For the Dogfood project, we will be using Tomcat. So I dropped the war in the webapps folder of Tomcat. It was recognized and expanded as a folder.
+
+Then you can try the same operation on your server as the one you were doing when running the application locally:
+
+<pre>@wget http://localhost:4567/ --post-data=your-data --header="Content-Type:text/xml"@</pre>
+
+h2. Integrating with Intalio|Designer
+
+
+<img src="http://www.lunar-ocean.com/wp-content/uploads/2009/01/picture-1.png" alt="REST connector for Intalio|Designer 5.2.1" title="REST connector for Intalio|Designer 5.2.1" width="610" height="300" class="alignright size-full wp-image-240" />
+
+I discovered while trying to integrate with ODE that it would not be able to send plain-text requests, ie I can't send "http://www.intalio.com" to a REST service because we have an issue extracting the text node from the element I pass to the service ; I filed a <a href="http://issues.apache.org/jira/browse/ODE-502">bug</a> about it.
+
+So for this service we will need to use XML all over. For the input, we just want to have an element wrapping a text node ; for the output we need to return a complete tree of the cells of the spreadsheet.
+
+I wrote the xsd by hand in Intalio|Designer. I forgot the maxOccurs attribute :( but it was quickly fixed, thanks to Pascal. I particularly enjoyed writing my XSD directly as I could see the result in the process explorer every time I saved the file. 
+
+I used the REST connector that was added to Intalio|Designer as of 5.2.1 to design the WSDL of the service.
+I just had to punch in the URL and the parameters I wanted to use.
+
+I used a test diagram to run my service. It queries the service for me and returns its response to my console. 
+
+During that phase, I had to do some debugging. In that case, you should open the log4j.properties file of the server and change the org.apache.commons.httpclient category to DEBUG. That way you will see everything that gets in and out of the server.
+I also pushed org.apache.ode to DEBUG to get more information on the process state.  
+
+My biggest obstacles were to parse the XML sent to get the text without doing any magic...
+I settled for using REXML, and using this code does the trick:
+<pre><code lang="ruby">url = @request.body.read # Get the request body
+  url.gsub!(/\n/, '') #Remove any newline characters as REXML chokes on them.
+  doc = REXML::Document.new url // create a new document
+  url = REXML::XPath.first( doc, '////text()' ).to_s // look for the most embedded text() node@</pre>
+
+... and to return XML that was in the schema namespace.
+
+I had to make sure I would use a prefix for each element ("csv2xml") and that the target namespace and the namespace were both declared.
+<pre>@x.csv2xml :content, {"xmlns:csv2xml" => "http://www.intalio.com/csv2xml",
+                       :targetNamespace => "http://www.intalio.com/csv2xml"}@</pre>
+
+And then it all worked... I got my XML back!
+
+<pre><code lang="xml"><?xml version="1.0"?>
+<csv2xml:content targetNamespace="http://www.intalio.com/csv2xml" xmlns:csv2xml="http://www.intalio.com/csv2xml">
+  <csv2xml:row>
+    <csv2xml:cell/>
+    <csv2xml:cell>B</csv2xml:cell>
+    <csv2xml:cell>C</csv2xml:cell>
+  </csv2xml:row>
+  <csv2xml:row>
+    <csv2xml:cell>1</csv2xml:cell>
+    <csv2xml:cell>1-B</csv2xml:cell>
+    <csv2xml:cell>1-C</csv2xml:cell>
+  </csv2xml:row>
+  <csv2xml:row>
+    <csv2xml:cell>2</csv2xml:cell>
+    <csv2xml:cell>2-B</csv2xml:cell>
+    <csv2xml:cell>2-C</csv2xml:cell>
+  </csv2xml:row>
+</csv2xml:content>@</pre>
+
+All the code used in this blog post is <a href="http://github.com/intalio/csv2xml/tree/master">available on Github under the GPL license</a>. 
+
+Thanks for the help of nicksieger and rtomayko on #jruby and #sinatra.

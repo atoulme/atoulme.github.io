@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Babel: committer rights and updates"
+---
+
+Hi,
+
+I have <a href="http://dev.eclipse.org/mhonarc/lists/babel-dev/msg00472.html">just been voted a committer</a> on the <a href="http://eclipse.org/babel">Babel</a> project, and I'd like to thank the team for their warm welcome. Apparently, I fit right in as they <a href="http://www.eclipse.org/newsportal/article.php?id=220&group=eclipse.technology.babel#220">didn't have an Eclipse plugin developer on board just yet</a>. 
+
+Right now, we are working on pushing for more translations of better quality, well delivered.
+
+More translations:
+I got way too much credit on this. Before, when you added a new version of a project, the previous translations were not translated. Now, they get migrated, and as a bonus, the translations from other projects that match your English string apply as well.
+
+Better quality:
+Kit <a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=113122">made a critical improvement</a> for the last release. It is now possible to run Eclipse with a dummy language that will show which strings are not translated correctly.
+
+Most projects didn't create their map files for 3.4 SR1. If you are an Eclipse project maintainer, and have changes in your translations for SR1, you might want to create the map files for this new version.
+
+Also, map files may be missing information, or containing the test plugins that are not packaged in the final feature. I know Denis and Kit are actively working on making all those glitches go away. I think this question may be partly better addressed during delivery.
+
+Right now, there is <a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=114274">one global update site</a> with a category per language. Each feature contains all the plugins of all the projects in a given language. At Intalio, we imagined a way to map the fragments to our plugins. I think <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=248027">p2 should be enhanced</a> in this way to make this all work:
+p2 should:
+-make a list of all the plugins installed.
+-install all the fragments present on the update site matching the plugins.
+-create a feature on the fly matching the downloaded fragments.
+
+What do you think of this proposal ? Is it a goal worth pursuing ?
+
+"La cerise sur le gateau" would be to have p2 run this either inside Eclipse or headless, so we can create localized EPPs. 
+
+By the way, this begs the question of why we need features in the first place. Thoughts ?

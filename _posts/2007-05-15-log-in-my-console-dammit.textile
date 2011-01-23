@@ -1,0 +1,8 @@
+---
+layout: post
+title: Log in my console, please...
+---
+
+<pre>eclipse -consoleLog</pre>
+
+How could I live without that before ?

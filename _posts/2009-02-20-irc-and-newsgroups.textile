@@ -1,0 +1,26 @@
+---
+layout: post
+title: IRC and newsgroups
+---
+
+I just had this discussion with <a href="http://blog.hantsuki.org/">Rem<abbr title="or i, he doesn't mind">y</abbr> Suen</a>:
+
+<pre>
+rcjsuen: toulmean: It is certainly nice that newsgroups answers can be archived whereas IRC isn't.
+toulmean: rcjsuen: well. We could archive the IRC discussions with echelog to some extent ?
+rcjsuen: toulmean: In a way. I guess part of the issue is that newsgroups postings are generally better formulated than IRC chat logs.
+toulmean: rcjsuen: well, yeah, but I prefer IRC because of the human touch.
+rcjsuen: But well, it isn't something we can do anything about anyway.
+toulmean: yeah. You know eventually we could add a command to KOS-MOS: remember last 5 exchanges with x, y, z
+toulmean: and post those exchanges to the newsgroup
+toulmean: rcjsuen: then KOS-MOS would send back the url to the message it posted
+rcjsuen: I don't know about that.
+toulmean: rcjsuen: so all the guys asking hard questions can ask them, then we push the questions to the newsgroup, so there is no overlap.
+toulmean: rcjsuen: otherwise people ask once, two, thee times in different places. It's hard.
+rcjsuen: Right.
+toulmean: rcjsuen: just an idea, do what you want with it.
+rcjsuen: toulmean: When I remember to (which I usually don't), I try to put the question in the FAQ when it's been asked a lot.
+toulmean: rcjsuen: let's about it again later ? let's let it sink a bit.
+</pre>
+
+What do you think ? A keeper ? 

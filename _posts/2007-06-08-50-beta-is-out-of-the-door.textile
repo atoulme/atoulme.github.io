@@ -1,0 +1,10 @@
+---
+layout: post
+title: 5.0 Beta is out of the door.
+---
+
+We've publicly announced tonight that Intalio|BPMS 5.0 Beta is out on our community web site. It actually has been there for some time.
+It's been a thrilling month, and more is coming.
+The GA is next on the list. 
+
+Thanks everyone for your feedback on our product! We appreciate your support.

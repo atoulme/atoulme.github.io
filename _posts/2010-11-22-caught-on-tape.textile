@@ -1,0 +1,10 @@
+---
+layout: post
+title: Caught on tape
+---
+
+I was finally caught on tape saying good things about Apache Buildr.
+
+<a href="http://marakana.com/forums/ruby/ruby_on_rails/199.html">Enjoy my crappy French accent!</a>
+
+Thanks to Engine Yard and Linkedin for hosting this meetup, next time we will bring more goodies from the OSGi front.

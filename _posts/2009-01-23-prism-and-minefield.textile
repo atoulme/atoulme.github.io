@@ -1,0 +1,6 @@
+---
+layout: post
+title: Prism and Minefield
+---
+
+I used <a href="http://www.mozilla.org/projects/minefield/">Minefield</a> for a few months and somehow it managed to keep the RAM busy at all times. I switched to <a href="https://wiki.mozilla.org/Prism">Prism</a>, and things got back into control. Not sure what the difference between the product is, I'm just happy I stopped participating to global warming that much.

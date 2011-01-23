@@ -1,0 +1,22 @@
+---
+layout: post
+title: IRC logging
+---
+
+I love IRC. I dig IRC. IRC beats Facebook and is still a solid competitor to Twitter.
+
+I am using IRC aggressively to coordinate our team in 3 different geographies. We even use IRC in the same office because pinging Brian for the fifth time in the day is completely ok if it makes his client glitter. Having Brian (or me) remove his earphones and lose his focus is really not worth it. If you're particularly unlucky, Brian was listening to "Optimistic", and he will probably find all the possible shortcuts to get back to it ASAP.
+
+Anyways. IRC is awesome.
+
+So we need to log IRC. It's so great, we want to watch repeats. I want to copy chunks to emails to avoid repeating myself, show them to my boss to give a feel of the team, and in general have a great communication.
+IRC by default doesn't log anything. Your client can keep a copy of the log, but it's not very easy to read, let alone share with others.
+
+I started looking around for a solution and found this <a href="http://www.jibble.org/logbot/">logBot</a> project. Pretty simple, you use a Java program to connect to the channel, piping its output to a file, interpreted by a PHP script to serve you a nice HTML page.
+
+I modified it a bit and placed the <a href="https://github.com/atoulme/logBot">sources</a> on github. The main modification is that you can pass a key to access your room, and identify the bot against Freenode's nickServ.
+
+As a bonus, check out the cool <a href="https://github.com/atoulme/logBot/blob/master/Buildfile">Buildfile</a> that comes with it to create a nice distrib.
+
+Forks and suggestions are welcome.
+

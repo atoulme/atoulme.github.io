@@ -1,0 +1,8 @@
+---
+layout: post
+title: Galileo is out! Get the bits from Intalio now.
+---
+
+Maybe you heard some humming out there, or your favorite place ran out of beer suddenly. That's a sure sign a <a href="http://eclipse.org">new Eclipse release</a> came out.
+
+As an Eclipse member, Intalio provides a <a href="http://galileo.intalio.com">page</a> to download the latest Eclipse Classic SDK. Enjoy!
