@@ -1,5 +1,5 @@
 =Blog
-My personal blog. I moved out of wordpress using this script:https://gist.github.com/777555 and changed the layout of brixen's blog to make it as thin as possible.
+My personal blog. I moved out of wordpress using this script[link:https://gist.github.com/777555] and changed the layout of brixen's blog to make it as thin as possible.
 
 It is available on atoulme.github.com/blog
 
