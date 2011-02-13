@@ -1,0 +1,16 @@
+---
+layout: post
+title: Query wikipedia over DNS TXT queries with Apache Camel 
+---
+
+Coming from the excellent "One thing well":http://onethingwell.org/post/2858158431/wikipedia-cli blog, a "commandlinefu":http://www.commandlinefu.com/commands/view/2829/query-wikipedia-via-console-over-dns trick to get "Wikipedia":http://www.wikipedia.org to spit definitions:
+
+bq. Query Wikipedia by issuing a DNS query for a TXT record. The TXT record will also include a short URL to the complete corresponding Wikipedia entry.You can also write a little shell script like:
+[..]
+dig +short txt ${1}.wp.dg.cx
+
+I'd like to take it a notch further and see if that would be possible to do with Apache Camel.
+
+Camel doesn't have support for DNS by default. But it seems pretty easy to port and integrate "DNSJava":http://www.xbill.org/dnsjava/ with it for example.
+
+I'm starting a little experiment "here":https://github.com/atoulme/camel-dns, I'll let you know how that works out.
