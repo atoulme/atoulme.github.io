@@ -1,0 +1,12 @@
+---
+layout: post
+title: Detect git changes
+---
+
+I recently had the need to detect changes in a git repository.
+There really aren't good ways to do this without cloning the repository that I know of.
+
+If you have a local clone, it is fairly easy. Here is a bash function that does the job by comparing the most recent commit on HEAD and the remote master.
+It implies you work with the remote master branch, but that's easily changeable.
+
+<script src="https://gist.github.com/907059.js"> </script>

@@ -1,0 +1,10 @@
+---
+layout: post
+title: Latest jenkins build info
+---
+
+Maybe you're like me, and you have the obsessive compulsive need to tinker with your development process.
+
+If yes, then this script is for you ; it asks Jenkins for the result of the last build you ran, and gets back a Ruby object with the build version, the changes introduced and whether it was successful or not.
+
+<script src="https://gist.github.com/911001.js"> </script>
