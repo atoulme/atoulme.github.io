@@ -1,0 +1,54 @@
+---
+layout: post
+title: Getting help spelling words - Introducing the spell project
+---
+
+!/images/sadioe.png(NOT MY WIFE'S NAME!)!
+
+When I finally received my credit card after spending an hour spelling every other identifier I had, from my mother's maiden name to my email address to my SSN,
+I was really frustrated to see the cards come in with the wrong name and a facetious first name.
+
+I could easily tell my French accent and the bad quality of the line were to blame for those results.
+
+Determined to get this right, I called back from a better spot in a silent room. This time, the cards came in ok - but my email address got in mangled.
+
+I decided to look into phonetics to spell my name correctly, and being lazy, I looked at how to _never_ have to think about it again.
+
+I took up the say command line from Mac. It tells my name fine, and the -o option outputs a aiff file for it that I could convert back to wav easily.
+
+That solves the French accent issue. But I wanted to make double sure the guy on the other end of the line would get this right.
+
+Next up, I took the nato alphabet and outputted each letter into a separate file. I converted all files to wav.
+
+h1. Bringing it on the interwebs
+
+I created a simple html file that went like this:
+
+<script src="https://gist.github.com/1359555.js"> </script>
+
+The html loads up all wav files using the audio tags, and you play them in the order given by the string you enter in the text input.
+The catch in there - and you see the code trying desperately to make up for it - is that the play() method of the audio tag is triggering playing, but returns right away. It's difficult to catch when the feedback is completed (I didn't find a way to register an event handler).
+
+So the code is doing a dodgy thing, it's waiting the length of the sound, plus an extra 200 milliseconds, then plays the next letter.
+If there's a way to listen to the feedback of the audio tag, I would definitely love feedback!
+
+h1. Server-side ruby
+
+So the next best thing to try, put Ruby to work and see how it could combine the sounds to stream them out.
+
+I stumbled into this "most excellent blog post":http://yannesposito.com/Scratch/en/blog/2010-10-14-Fun-with-wav/ that deals with WAV. The goal of the author was to analyze wav files ; it mentioned how to decompose the binary format of a wav file, and the last piece in Ruby showed how to use unpack to read a wav file with a one-liner.
+
+@data.unpack 'Z4 i Z8 i s s i i s s Z4 i s*'@
+
+I took this Ruby for a spin and I managed to read my wav files and even _combine_ them on the fly.
+
+I put together some minimal code to load all the sounds available in memory, then combine them into the order dictated by the sentence required.
+
+By placing it behind a sinatra app, it should be easy to serve sounds based on strings.
+
+The code is licensed under MIT license, available on "github":https://github.com/atoulme/spell.
+
+Being a week-end rambling, the code comes with no tests, miss support for numbers, and god forbid you use a multi-byte character!
+
+Please feel free to fork it and have fun out of it.
+
