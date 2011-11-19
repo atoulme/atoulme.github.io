@@ -1,0 +1,25 @@
+---
+layout: post
+title: Spelling webapp online
+---
+
+Following on my previous post, I wrapped the code behind a minimalistic Sinatra app, deployed with Passenger and Nginx.
+
+Try it out below: the page uses the HTML5 audio tag, and oh boy this thing is just pure joy, all the controls show automagically :)
+
+<script type="text/javascript">
+     function loadAudioTag() {
+         audio = document.getElementById('audio');
+         audiodiv = document.getElementById('audiodiv'); 
+         if (audio) {
+            audiodiv.removeChild(audio);
+         } 
+         audio = document.createElement('audio');
+         audio.src = '/spell/get_sound?message=' + document.getElementById('text').value ;
+         audio.controls = 'controls' ; audio.id = 'audio'; 
+         document.getElementById('audiodiv').appendChild(audio);
+     }
+  </script>
+  
+<input type="text" width="200" id="text"/><input type="button" onClick="loadAudioTag();" value="Spell this in the NATO phonetic alphabet"/>
+<div id="audiodiv"></div>
