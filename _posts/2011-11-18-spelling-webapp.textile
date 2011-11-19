@@ -15,7 +15,7 @@ Try it out below: the page uses the HTML5 audio tag, and oh boy this thing is ju
             audiodiv.removeChild(audio);
          } 
          audio = document.createElement('audio');
-         audio.src = '/spell/get_sound?message=' + document.getElementById('text').value ;
+         audio.src = 'http://www.worserer.com/spell/get_sound?message=' + document.getElementById('text').value ;
          audio.controls = 'controls' ; audio.id = 'audio'; 
          document.getElementById('audiodiv').appendChild(audio);
      }
