@@ -1,0 +1,14 @@
+---
+layout: post
+title: Some praise for Waze
+---
+
+!/images/nicksieger-waze.png(Nick Sieger on Waze)!
+
+I never had heard of free apps of the kind before, so I installed it for a quick tour.
+
+I was instantly blown away by the smart idea behind the app. It’s a multi-agent beast where all users report instantly the traffic conditions through their phones. They can either report explicitly or just by signaling their speed via the built-in “GPS” capabilities of the iPhone.
+
+I didn’t catch as much the vibe of the community behind it, but it looks like there are contests and social experiences you can try out. I could potentially relate to other drivers stuck in traffic like me, or get prizes for using the app regularly.
+
+An other smart thing ; you can report occurrences (accidents, traffic) by pressing big buttons. The minute you switch to a keyboard, the application will stop you if you are driving.
