@@ -1,0 +1,10 @@
+---
+layout: post
+title: Congratulations, Mr Stallman!
+---
+
+I think congratulations are in order for Mr Stallman and his staff for sharing one of his interests: parrots. On one hand, it made half the web "snicker":http://daringfireball.net/linked/2011/10/26/rms ; on the other hand, it triggered a series of posts by well read bloggers who deeply care about "free":http://scripting.com/stories/2011/10/31/whyIStandUpForStallman.html  "expression":http://raganwald.posterous.com/i-also-stand-up-for-stallman.
+
+While I believe that it probably wasn’t the goal, this post reinforced Mr Stallman’s persona and other parts of his message ("the distinction between Linux and GNU/Linux":http://scripting.com/stories/2011/10/31/whyIStandUpForStallman.html#comment-352247635) were further distilled on the web, maybe reaching further.
+
+Sincere congratulations, this is very good PR. I admire that Mr Stallman shared this personal trait with the world. I hope to hear more about parrots - why are they fascinating and what can we learn from them ?
