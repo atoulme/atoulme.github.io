@@ -18,6 +18,10 @@ The main reason Ryan points out is the use of sockets and file selectors, using 
 
 There is a strong revival of the "Unix philosophy":http://en.wikipedia.org/wiki/Unix_philosophy driving this move, which can be oversimplified by "creating a program that does one thing well":https://twitter.com/#!/rtomayko/status/131469814093979649.
 
+Ryan actually mentioned that on his "blog":http://tomayko.com/writings/unicorn-is-unix on an unrelated topic, Unicorn.
+
+bq. We should be doing more of this. A lot more of this. I’m talking about fork(2), execve(2), pipe(2), socketpair(2), select(2), kill(2), sigaction(2), and so on and so forth. These are our friends. They want so badly just to help us.
+
 MRI stands for "Matz's Ruby Interpreter". It is a C-based implementation of the Ruby language.
 
 h2. Where is the JVM shining ?
