@@ -1,0 +1,10 @@
+---
+layout: post
+title: Class methods and private modifiers
+---
+
+A nice puzzle for Ruby n00bs like me: 
+
+<script src="https://gist.github.com/1450622.js"> </script>
+
+Yep, the private keyword only works with the methods defined as instance methods. Amazing detail :)
