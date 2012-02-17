@@ -2,7 +2,6 @@
  +Containers
  *************************************/
 body{
-        border-top:5px solid white;
         color:#555;
         font-family: Georgia, "Times New Roman", Times, serif;
         font-size: x-small;
@@ -10,28 +9,28 @@ body{
         line-height:1.5;
         margin:0;
         padding:0;
-        text-align:center;
+        background: #fff;
 }
 #wrap{
-        margin:0;
         text-align:left;
-        width:100%;
+        width:1024px;
         font-size: 120%;
-        padding: 0
-        margin: 5px 0 0 0;
+        margin: auto;
 }
 #content{
         background-color:#fff;
         font-size:1.2em;
         float:right;
         padding:1em 25px 1em 25px;
-        width:75%;
+        width: 700px;
 }
 #sidebar{
         font-size:1.1em;
         float:left;
-        padding: 1em 25px 1em 25px;
-        width:18%;
+        padding: 1em 0 1em 1em;
+        width:220px;
+        background: #fff;
+        
 }
 #header{
         clear: both;
@@ -39,6 +38,8 @@ body{
         padding: 25px;
         text-align: center;
         font-size: 120%;
+        background: #fff;
+        
 }
 #footer{
         background-color:#fff;
@@ -46,6 +47,8 @@ body{
         clear:both;
         font-size:0.9em;
         padding:1em 2em 1em 2em;
+        text-align: center;
+        background: #fff;
 }
 /*************************************
  +Hn and p
@@ -133,7 +136,12 @@ div.meta p {
 }
 
 .entry{
+        padding: 10px;
         margin-bottom:3em;
+        -moz-box-shadow:    3px 3px 5px 6px #ccc;
+        -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+        box-shadow:         3px 3px 5px 6px #ccc;
+        
 }
 .entrybody {
            font-size: 1.2em;
