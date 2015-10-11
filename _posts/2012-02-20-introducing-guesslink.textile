@@ -3,8 +3,6 @@ layout: post
 title: Introducing Guesslink
 ---
 
-I worked on this pet project for just a little while taking care of our new family addition, Joseph! 
-
 Based on a Rails architecture and deployed on heroku, "Guess Link":http://www.guesslink.net is a simple URL shortener that protects your link with a question and password of your choosing. I used "Twitter's bootstrap":http://twitter.github.com/bootstrap to create the look and feel quickly.
 
 It's useful when sharing a link to your photo albums, or that new website you've been brewing.
