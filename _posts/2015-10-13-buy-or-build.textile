@@ -1,0 +1,49 @@
+---
+layout: post
+title: Buy or build? It does not matter
+---
+h3. Why you should no longer care
+
+Enterprises use custom software to scale. They get increased productivity from enabling their employees to work as knowledge workers, tapping into the company's systems of records and enabling real-time decisions. Custom software gives them a competitive advantage, the more so when they customize it to align with their core values. It also allows for technology strategies that embrace business and industry changes.
+
+Ten years ago, the technology community had scathing debates on buying vs building custom software. Their arguments mattered little then; they matter not now. It all comes down to which approach reduces the organizational risk the most.
+
+For example, buying packaged software works well in the case of stable, well-known requirements, and when the project is short of time. Building software is better when a) requirements change constantly, b) technology presents a competitive advantage, c) and especially if there are in-house resources available to implement and support the effort.
+
+This whole discussion was fabricated out of thin air. Software vendors were simply failing to address the market need. The industry could no deliver solutions out of the box and customize them to fit exact business specifications. Thus a false dichotomy of buy vs build was introduced by software vendors for their own benefit.
+
+Today, that discussion barely even registers. Some companies have built a culture around buying software, and paying dearly for upgrades and maintenance, with the consolation of keeping operations running smoothly. Others have surrendered to developing all custom software for their core operations in hopes of deriving that elusive value, albeit at the expense of scalability and adaptability.
+
+In this current bipolar software market, the vendor competition has increased. SaaS vendors carved out a few low-risk niches and are driving the user license costs into the floor. Traditional vendors, desperate to stay relevant, are putting more lipstick on the proverbial pigs, yet buyers keep making the rounds without ever going for the plunge.
+
+Developers keep living on the latest, the greatest, the bleeding edge of innovation. Yesterday - Rails, today - Node.js, tomorrow - microservices... meanwhile there's plenty of old, proven, working code in Cobol, C, Java to maintain. While they embrace technology changes, they have trouble increasing the rate of successful solution deliveries to their organizations. They use agile technologies to churn through requirements and satisfy end users. They share knowledge through open source projects and forums. A commendable effort, indeed, but naive at best, given the latest history that is full of hijacked and castrated open source projects, victims of greed and corporate vanity.
+
+The market is long overdue and ready for a do-over.  Yet it takes a big man or a woman to make this leap of reason and evidence.  Ready?
+
+First begin by leaving your favorite conference room, and take the rest of your IT friends with you.  The solutions architect is now in charge.  He calls the shots.  Don’t worry.  If you don’t like the blueprints, you can always get another architect to draw up an alternative solution.  But please don’t tell architects how to do their job. (Think this through, would you want to live in a hi-rise building built by a committee?)
+
+Architects are professionally inoculated against software vendors’ shenanigans.  They are just like well-trained medical doctors in that respect.  The business users’ interests will always prevail in their minds.
+
+The choice to solve a business need with software is always bureaucratic, and always political.  Architects, on the other hand, are largely concerned with what you will do with it and how.  How it is financed is immaterial at this best, and is usually a harmful discussion at this point. Instead of looking for the cheapest/quickest/bestest solution to buy, they identify the functionality gaps that exists in your organization and propose how to a) close them with the existing tools and methods, b) and augment them with new technology only if that serves very specific business objectives.  Architecting well-integrated compound solutions is the only way to future-proof your enterprise, unless you are in favor of disruptive fork-lift upgrades every few years (a career limiting approach).
+ 
+Core enterprise systems that preserve canonical operations data are essential to the tapestry of the overall solution. Architects balance the volatility of requirements across the entire canvas of enterprise resources, weaving the rigidity of core systems, databases, ERPs, and legacy mainframes into the modern framework of mobile-centric users.  Architects pay proper respect to legacy, yet their primary focus is on the end-user, the infamous last mile.
+
+The last mile is where flexibility and mobility meet core enterprise values.    It is a fertile ground for organizational knowledge workers to deliver topmost value to the end users.  While satisfying customers one person at a time is a lofty goal, it is rather an unaccomplishable one, if you are rubber stamping solutions with rigid business rules and archaic transactional data. 
+
+Delivering modern business software is not a choice of buying versus building.  Rather, it is a architectural process of craftily weaving core enterprise resources into a continuous dialog of your customers with your knowledge workers.  When the organization chooses to maintain its focus on satisfying the needs of its customers (read Joseph Schumpeter), it becomes largely immaterial whether to buy or build.  Instead, choose to stay away from restrictive technology relationships or misguided capitalization discussions.  
+
+For an example of how innovative technology providers enable architects to deliver value to the modern enterprise without engaging in the false dichotomy, see www.goappo.com.
+
+
+Antoine Toulme
+VP, Chief Architect | GOAPPO INC
+www.linkedin.com/in/toulmean 
+antoine@goappo.com	
+
+References:
+http://www.techrepublic.com/article/buy-vs-build-six-steps-to-making-the-right-decision/
+http://discuss.joelonsoftware.com/default.asp?biz.5.100499.24
+http://www.forbes.com/sites/chuckcohn/2014/09/15/build-vs-buy-how-to-know-when-you-should-build-custom-software-over-canned-solutions/
+https://www.youtube.com/watch?v=pCofmZlC72g
+
+
