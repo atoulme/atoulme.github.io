@@ -1,0 +1,40 @@
+---
+layout: post
+title: Only four types of wine, and three types of enterprise systems
+---
+There are only four types of wine in the world: red, white, the ones you like, and the ones you don’t. For you, wine drinkers, regardless of what you pick, you will either end up with red or white. Your personal preferences determine the rest, and are responsible for the endless variety and pricing options.
+
+Similarly, with enterprise software, we have Systems of Record, Systems of Engagement, and Decision-Making Systems. But unlike wine, it is the organizational requirements, and not personal preferences, that bring us the cornucopia of available business software.
+
+Systems of Record are the ERPs, CRMs, HRs, Manufacturing and other core enterprise systems. They are the authoritative sources of information about the company and its customers. They are transactional in nature, and maintain integrity and validation of the company’s data.
+
+Systems of Engagement extend the core value of enterprise to internal knowledge workers and external end-users. Until recently, these users had to rely on phones and email to conduct their business. Developed with GOAPPO, Systems of Engagement are natively integrated with core enterprise systems, and engage mobile and desktop users with relevant, real-time insights and decision-making capabilities. Unlike some alternatives, our technology preserves organizational integrity, enforces governance, and ensures compliance.
+
+Our rapid application development platform significantly accelerates the project’s time to market, and delivers integrated, secure, and mobile software without massively blowing the budget. Here are some of the examples of the business solutions our customers have delivered:
+
+Government:
+* Citizen portal
+* Public worker workstation
+* Data Analyst dashboard
+
+Healthcare:
+* Surgical Outcome Analysis and Dashboard
+
+Enterprise:
+* Supply Chain Optimization with Geospatial tracking
+* Sales Fulfillment and Enablement Suite
+* Purchase Workflow Management
+* Employee Onboarding
+
+For software vendors, we supplement software offerings with custom solutions that integrate with customers systems, satisfy in-house requirements and lower adoption barriers. Vendors use our technology to lower customer acquisition costs and reduce sales and IT friction.
+
+For decision makers inside the enterprise, the discussion is not buy or build [LINK TO ARTICLE] anymore. It's all about speed and matching unique requirements.
+
+Contact us to learn more about our portfolio and partners.
+
+Antoine Toulme
+VP, Chief Architect | GOAPPO INC
+www.linkedin.com/in/toulmean 
+antoine@goappo.com	
+Office: (775) 432-6424 x332
+Cell: (650) 799-1161
