@@ -1,0 +1,16 @@
+---
+layout: post
+title: How to get a raise if you develop in .NET.
+---
+
+You dedicated your career to the Microsoft ecosystem. Violating that commitment has never appealed to you much... until recently.  The writing is on the wall: in the last few years Microsoft itself has started blending with open source platforms. This move makes keeping your core skills intact while becoming effective on other in-demand platforms, and making your expertise transferrable to other tools and methods.
+
+On the modeling side, you can invest in "DMN, CMMN, BPMN":http://www.slideshare.net/dgagne/bpmncmmndmn-an-intro-to-the-triple-crown-of-process-improvement-standards-denis-gagne to carry out complex business-centric engagements.
+On the integration side, micro-services are in fashion; look for stable, extensible frameworks based on Enterprise Integration Patterns, such as "Apache Camel":http://camel.apache.org or "Spring Integration":http://projects.spring.io/spring-integration/.
+When it comes to handling data, reach out for straightforward solutions that leverage plain objects, such as Apache Lucene and "Elastic Search":https://github.com/elastic/elasticsearch, "MongoDB":https://github.com/mongodb, "OrientDB":https://github.com/orientechnologies/orientdb or "Infinispan":https://github.com/infinispan/infinispan.
+
+Developers who work in .NET alone "make 15% less":http://www.indeed.com/salary?q1=.NET+developer&l1 than the "ones":http://www.indeed.com/salary?q1=Software+Architect&l1 harnessing those technologies. The choice is clear.
+
+
+About the author
+Antoine is the Chief Architect of "GOAPPO":http://www.goappo.com, introducing a new paradigm to turn business requirements into business applications in one single, predictable step.
