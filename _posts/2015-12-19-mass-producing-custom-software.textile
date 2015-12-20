@@ -1,0 +1,24 @@
+---
+layout: post
+title: Mass producing custom software – no longer "mission impossible"
+---
+In the enterprise space, the cost of configuring and customizing a software package usually outweighs its license.  Revenue is revenue, right?
+
+From the perspective of a software maker, these dollars come with the curse of mobilizing teams for professional services delivery and managing projects tied up with the customer objectives. Over time, customer configuration and customizations creep into the product line, adding bloat and spaghetti code to keep everyone happy.
+
+To fix this, product owners introduce flexible, plugin-based architectures where users can easily extend the offering. This approach introduces entropy by allowing unchecked code to co-execute with the product, making emerging problems difficult to diagnose. Product interfaces must be planned and maintained rigorously through versioning and deprecation policies. Plus, these initiatives require a dedicated team to maintain and extend the platform.
+
+A new, strong alternative consists of keeping the application's runtime completely separated from the its business logic. With this approach, targeted business objectives can now be fulfilled along the following four dimensions:
+
+* Roles and people change over time. Most products provide for design-time changes of permissions and group. Most CRMs allow for some modularization of rights or roles along a tree of groups. To implement the new paradigm of keeping the core and business logic separated, software makers need a capability to create groups and permissions at run time. For example, creating an ad hoc team around an incident report, or granting permissions to a temp member of a team in the absence of the primary resource.
+
+* Processes and workflows change incessantly to deliver best practices and compliance. Some business applications keep track of the state of transactions with a simple selection of predetermined states, while most offer a degenerate “comments” field to record the current status. Some try to offload complex processes to a dedicated BPM engine, which introduces its own lifecycle of events, human interactions, and integrations. Instead, software makers need to utilize light workflows that accentuate human interaction, complemented by flexible business logic. This approach provides for easy-to-document and easy-to-change workflows, keeps your attention on the actual work taking place, and separates top-level business logic from system-to-system integrations.
+
+* Data increases in complexity over time. Most databases start out with a grand plan, but get bloated with extra information, ending up containing incomplete or invalid information.  Adding new business logic to databases impacts their ability to retain truthful information. Some enterprise software allows extra columns as a way to cope with unstructured data. To address this challenge, software makers must separate the core source-of-truth database from unstructured data stores that can deal with unpredictable variations in business environments. Both sources can be connected via explicit connections at different moments of the lifecycle of objects. For example, a user can work on a purchase order in an ad-hoc environment, and record it to the JD Edwards backend once it passes all the legal and financial compliance checks.
+
+* Enterprise software usually offers integrations at the edge of its functionality, for the backup and data consumption purposes only. Instead of perpetuating proprietary plug-ins, open enterprise integration patterns should be used to deliver cross-platform interconnects. Additionally, software makers should deliver an open architecture that provides business logic execution and instant integration in response to in-application events. 
+
+For each customer engagement, it is now possible to adapt the software meaningfully without impacting the long term vision of the product. Changes come in fast, while the core runtime continues to receive updates, allowing customers to concentrate on their objectives, and software makers to provide them with excellent support.
+
+About the author
+Antoine is the Chief Architect of "GOAPPO":http://www.goappo.com, the swiss army knife of business applications.
