@@ -1,0 +1,28 @@
+---
+layout: post
+title: INDEX.LIST and java -jar
+---
+When you compile your own jars, you are offered to create an index for them. The index is generated under @META-INF/INDEX.LIST@. The index just like a database index helps jars load faster.
+
+When you run a program in Eclipse or in debug mode, you will likely rely on @java -cp CLASSPATH@, where the classpath is a list of resources and jars.
+
+However, when you get to production state, you usually rely on @java -jar@ to load a single jar. The jar contains a Class-Path entry in @META-INF/MANIFEST.MF@ and loads all subsequent entries.
+
+The distinction is subtle but you need to understand it; when you start with @java -cp@, each entry is considered a URL to a resource and loaded on its own. When you run with @java -jar@, there is only one entry in the classpath with a subloader.
+
+Therefore, from the point of view of Java, when it loads one resource, and finds at least one @META-INF/INDEX.LIST@ in it, it will assume these are the contents of the whole entry (the main jar and all the entries it refers to in @Class-Path@).
+
+As a result, the jar will not find resources such as @spring.handlers@ or @spring.schemas@ since they're not indexed.
+
+To find out if you have at least one @META-INF/INDEX.LIST@ in your classpath, you can perform this check:
+
+bc. URLClassLoader classLoader = (URLClassLoader) Thread.currentThread().getContextClassLoader();
+Enumeration<URL> enumeration = classLoader.findResources("META-INF/INDEX.LIST");
+while (enumeration.hasMoreElements()) {
+  System.err.println(enumeration.nextElement().toString());
+}
+
+
+The fix : remove indexing from your jars. If you must use indexing, you should index the final jar instead.
+
+You are indexing jars if you run the maven-compiler-plugin with @<indexing>true</indexing>@ setting on.
