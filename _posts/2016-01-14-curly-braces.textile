@@ -1,0 +1,27 @@
+---
+layout: post
+title: Curly braces in Java
+---
+
+When I started learning Java, I touched upon this "technique":http://stackoverflow.com/questions/4484884/java-just-curly-braces with a more senior programmer. It consists in declaring code in blocks separated by curly braces.
+
+In effect, the programmer used it to debug faster code and copy and paste blocks that used the same variable.
+
+This is really only useful when you deal with rich UI code and you need to declare ten times a label. An example:
+
+bc. {
+  vbox.getChildren().add(new Label("A"));
+  TextField aBox = new TextField();
+  aBox.setPromptText("A stuff");
+  vbox.getChildren().add(aBox);
+  aBox.setText("A stuff");
+}
+{
+  vbox.getChildren().add(new Label("B"));
+  TextField aBox = new TextField();
+  aBox.setPromptText("B stuff");
+  vbox.getChildren().add(aBox);
+  aBox.setText("B value");
+}
+
+This stuff is old, but you never know, it might save you from copy/pasta mistakes.
