@@ -28,13 +28,10 @@ Enterprise:
 
 For software vendors, we supplement software offerings with custom solutions that integrate with customers systems, satisfy in-house requirements and lower adoption barriers. Vendors use our technology to lower customer acquisition costs and reduce sales and IT friction.
 
-For decision makers inside the enterprise, the discussion is not buy or build [LINK TO ARTICLE] anymore. It's all about speed and matching unique requirements.
+For decision makers inside the enterprise, the discussion is not "buy or build":/2015/10/13/buy-or-build.html anymore. It's all about speed and matching unique requirements.
 
 Contact us to learn more about our portfolio and partners.
 
 Antoine Toulme
 VP, Chief Architect | GOAPPO INC
-www.linkedin.com/in/toulmean 
-antoine@goappo.com	
-Office: (775) 432-6424 x332
-Cell: (650) 799-1161
+www.linkedin.com/in/toulmean

@@ -1,3 +1,6 @@
 ---
-pygments: true
+highlighter: pygments
+gems:
+- jekyll-textile-converter
+- kramdown
 ---

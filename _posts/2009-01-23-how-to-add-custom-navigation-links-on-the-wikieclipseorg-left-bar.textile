@@ -26,7 +26,7 @@ Just save it, and do it as often as needed.
 Go to your <a href="http://wiki.eclipse.org/STP/BPMN_Component">wiki page</a> and edit it
 </li>
 <li>
-Add this to the page: {{#eclipseproject:your.project.id}}
+Add this to the page: {% raw %}{{#eclipseproject:your.project.id}}{% endraw %}
 I prefer <a href="http://wiki.eclipse.org/STP/BPMN_Component/Wiki_guidelines">using a template</a> for this though.
 </li>
 </ol>
