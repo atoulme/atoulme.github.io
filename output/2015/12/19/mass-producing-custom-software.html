@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Join The Machine</title>
+  <meta name="description" content="Personal blog of Antoine Toulme" />
+  <meta name="generator" content="Textile" />
+  <link href="/stylesheets/main.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/feed/atom.xml" rel="alternate" title="Personal blog of Antoine Toulme" type="application/atom+xml" />
+  <link rel="apple-touch-icon" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" href="/images/favicon.ico" />
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2663492-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+<body>
+    <div id="wrap">  
+    <div id="sidebar" class="mobile-hide">
+      <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
+      <div id="subscribe">
+        <p><a href="/feed/atom.xml">Atom feed</a></p>
+      </div>
+
+      <div id="about">
+        Personal blog. All ideas expressed my own.
+      </div>
+
+      <h2 id="latest_posts">Latest posts</h2>
+      <ul>
+      
+        <li><a href="/2016/01/14/curly-braces.html">Curly braces in Java</a></li>
+      
+        <li><a href="/2016/01/08/INDEX.LIST-and-java-jar.html">INDEX.LIST and java -jar</a></li>
+      
+        <li><a href="/2015/12/19/mass-producing-custom-software.html">Mass producing custom software – no longer "mission impossible"</a></li>
+      
+        <li><a href="/2015/12/11/net-developer.html">How to get a raise if you develop in .NET.</a></li>
+      
+        <li><a href="/2015/10/22/four-types-of-wine.html">Only four types of wine, and three types of enterprise systems</a></li>
+      
+        <li><a href="/2015/10/13/buy-or-build.html">Buy or build? It does not matter</a></li>
+      
+        <li><a href="/2012/02/20/introducing-guesslink.html">Introducing Guesslink</a></li>
+      
+        <li><a href="/2011/12/08/class-methods-and-private-modifiers.html">Class methods and private modifiers</a></li>
+      
+        <li><a href="/2011/11/23/praise-for-waze.html">Some praise for Waze</a></li>
+      
+        <li><a href="/2011/11/23/congrats-mr-stallman.html">Congratulations, Mr Stallman!</a></li>
+      
+        <li><a href="/2011/11/18/spelling-webapp.html">Spelling webapp online</a></li>
+      
+        <li><a href="/2011/11/11/spelling-correctly.html">Getting help spelling words - Introducing the spell project</a></li>
+      
+        <li><a href="/2011/04/08/latest-jenkins-build-info.html">Latest jenkins build info</a></li>
+      
+        <li><a href="/2011/04/08/detect-git-changes.html">Detect git changes</a></li>
+      
+        <li><a href="/2011/02/13/query-wikipedia-...-apache-camel.html">Query wikipedia over DNS TXT queries with Apache Camel</a></li>
+      
+        <li><a href="/2010/11/22/caught-on-tape.html">Caught on tape</a></li>
+      
+        <li><a href="/2010/11/20/irc-logging.html">IRC logging</a></li>
+      
+        <li><a href="/2010/10/01/drools-committer.html">Drools Committer</a></li>
+      
+        <li><a href="/2010/06/22/speaker_tag.html">Eclipse OMG Symposium Speaker Tag</a></li>
+      
+        <li><a href="/2010/06/22/eclipse-omg-symposium-2010.html">Eclipse OMG symposium 2010</a></li>
+      
+      </ul>
+      
+    </div>
+    <div id="content">
+      <div id="header"><h1><a href="/">Join The Machine</a></h1>
+  <p class="description" id="description" style="height: 100px;">
+    
+  </p>
+  <script type="text/javascript">
+    var lyrics = ["Welcome my son<br>Welcome to the machine<br>Where have you been?<br>It's alright we know where you've been"
+,
+    "You've been in the pipeline<br>Filling in time<br>Provided with toys and scouting for boys<br>You brought a guitar to punish your ma"
+,
+    "And you didn't like school<br>And you know you're nobody's fool<br>So welcome to the machine"
+,
+    "Welcome my son<br>Welcome to the machine<br>What did you dream?<br>It's alright we told you what to dream"
+,
+    "You dreamed of a big star<br>He played a mean guitar<br>He always ate in the Steak Bar<br>He loved to drive in his Jaguar<br>So welcome to the machine"]
+  var i = 0;
+  var fn = function() {
+    document.getElementById("description").innerHTML = lyrics[i];
+    i++;
+    if (i >= lyrics.length) {
+      i = 0;
+    }
+  };
+  fn();
+  window.setInterval(fn, 5000);
+  </script> 
+</div>
+      <div class="entry home">
+        <h2 class="entrytitle">Mass producing custom software – no longer "mission impossible"</h2>
+        
+        <div class="meta">
+  <p><span class="date">19 December 2015</span></p>
+</div>
+         <div class="entrybody"><p>In the enterprise space, the cost of configuring and customizing a software package usually outweighs its license.  Revenue is revenue, right?</p>
+<p>From the perspective of a software maker, these dollars come with the curse of mobilizing teams for professional services delivery and managing projects tied up with the customer objectives. Over time, customer configuration and customizations creep into the product line, adding bloat and spaghetti code to keep everyone happy.</p>
+<p>To fix this, product owners introduce flexible, plugin-based architectures where users can easily extend the offering. This approach introduces entropy by allowing unchecked code to co-execute with the product, making emerging problems difficult to diagnose. Product interfaces must be planned and maintained rigorously through versioning and deprecation policies. Plus, these initiatives require a dedicated team to maintain and extend the platform.</p>
+<p>A new, strong alternative consists of keeping the application&#8217;s runtime completely separated from the its business logic. With this approach, targeted business objectives can now be fulfilled along the following four dimensions:</p>
+<ul>
+	<li>Roles and people change over time. Most products provide for design-time changes of permissions and group. Most CRMs allow for some modularization of rights or roles along a tree of groups. To implement the new paradigm of keeping the core and business logic separated, software makers need a capability to create groups and permissions at run time. For example, creating an ad hoc team around an incident report, or granting permissions to a temp member of a team in the absence of the primary resource.</li>
+</ul>
+<ul>
+	<li>Processes and workflows change incessantly to deliver best practices and compliance. Some business applications keep track of the state of transactions with a simple selection of predetermined states, while most offer a degenerate “comments” field to record the current status. Some try to offload complex processes to a dedicated <span class="caps">BPM</span> engine, which introduces its own lifecycle of events, human interactions, and integrations. Instead, software makers need to utilize light workflows that accentuate human interaction, complemented by flexible business logic. This approach provides for easy-to-document and easy-to-change workflows, keeps your attention on the actual work taking place, and separates top-level business logic from system-to-system integrations.</li>
+</ul>
+<ul>
+	<li>Data increases in complexity over time. Most databases start out with a grand plan, but get bloated with extra information, ending up containing incomplete or invalid information.  Adding new business logic to databases impacts their ability to retain truthful information. Some enterprise software allows extra columns as a way to cope with unstructured data. To address this challenge, software makers must separate the core source-of-truth database from unstructured data stores that can deal with unpredictable variations in business environments. Both sources can be connected via explicit connections at different moments of the lifecycle of objects. For example, a user can work on a purchase order in an ad-hoc environment, and record it to the JD Edwards backend once it passes all the legal and financial compliance checks.</li>
+</ul>
+<ul>
+	<li>Enterprise software usually offers integrations at the edge of its functionality, for the backup and data consumption purposes only. Instead of perpetuating proprietary plug-ins, open enterprise integration patterns should be used to deliver cross-platform interconnects. Additionally, software makers should deliver an open architecture that provides business logic execution and instant integration in response to in-application events.</li>
+</ul>
+<p>For each customer engagement, it is now possible to adapt the software meaningfully without impacting the long term vision of the product. Changes come in fast, while the core runtime continues to receive updates, allowing customers to concentrate on their objectives, and software makers to provide them with excellent support.</p>
+<p>About the author<br />
+Antoine is the Chief Architect of <a href="http://www.goappo.com"><span class="caps">GOAPPO</span></a>, the swiss army knife of business applications.</p></div>
+         
+      </div>
+    </div>
+    
+  </div>
+
+  <div id="footer">Powered by <a href="http://textile.thresholdstate.com/">Textile</a> <br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Join the Machine</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.github.com/atoulme" property="cc:attributionName" rel="cc:attributionURL">Antoine Toulme</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.github.com/atoulme/blog" rel="dct:source">www.github.com/atoulme/blog</a>.</div>
+</body>
+</html>

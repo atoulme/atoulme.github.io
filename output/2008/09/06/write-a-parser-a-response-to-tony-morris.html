@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Join The Machine</title>
+  <meta name="description" content="Personal blog of Antoine Toulme" />
+  <meta name="generator" content="Textile" />
+  <link href="/stylesheets/main.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/feed/atom.xml" rel="alternate" title="Personal blog of Antoine Toulme" type="application/atom+xml" />
+  <link rel="apple-touch-icon" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" href="/images/favicon.ico" />
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2663492-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+<body>
+    <div id="wrap">  
+    <div id="sidebar" class="mobile-hide">
+      <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
+      <div id="subscribe">
+        <p><a href="/feed/atom.xml">Atom feed</a></p>
+      </div>
+
+      <div id="about">
+        Personal blog. All ideas expressed my own.
+      </div>
+
+      <h2 id="latest_posts">Latest posts</h2>
+      <ul>
+      
+        <li><a href="/2016/01/14/curly-braces.html">Curly braces in Java</a></li>
+      
+        <li><a href="/2016/01/08/INDEX.LIST-and-java-jar.html">INDEX.LIST and java -jar</a></li>
+      
+        <li><a href="/2015/12/19/mass-producing-custom-software.html">Mass producing custom software – no longer "mission impossible"</a></li>
+      
+        <li><a href="/2015/12/11/net-developer.html">How to get a raise if you develop in .NET.</a></li>
+      
+        <li><a href="/2015/10/22/four-types-of-wine.html">Only four types of wine, and three types of enterprise systems</a></li>
+      
+        <li><a href="/2015/10/13/buy-or-build.html">Buy or build? It does not matter</a></li>
+      
+        <li><a href="/2012/02/20/introducing-guesslink.html">Introducing Guesslink</a></li>
+      
+        <li><a href="/2011/12/08/class-methods-and-private-modifiers.html">Class methods and private modifiers</a></li>
+      
+        <li><a href="/2011/11/23/praise-for-waze.html">Some praise for Waze</a></li>
+      
+        <li><a href="/2011/11/23/congrats-mr-stallman.html">Congratulations, Mr Stallman!</a></li>
+      
+        <li><a href="/2011/11/18/spelling-webapp.html">Spelling webapp online</a></li>
+      
+        <li><a href="/2011/11/11/spelling-correctly.html">Getting help spelling words - Introducing the spell project</a></li>
+      
+        <li><a href="/2011/04/08/latest-jenkins-build-info.html">Latest jenkins build info</a></li>
+      
+        <li><a href="/2011/04/08/detect-git-changes.html">Detect git changes</a></li>
+      
+        <li><a href="/2011/02/13/query-wikipedia-...-apache-camel.html">Query wikipedia over DNS TXT queries with Apache Camel</a></li>
+      
+        <li><a href="/2010/11/22/caught-on-tape.html">Caught on tape</a></li>
+      
+        <li><a href="/2010/11/20/irc-logging.html">IRC logging</a></li>
+      
+        <li><a href="/2010/10/01/drools-committer.html">Drools Committer</a></li>
+      
+        <li><a href="/2010/06/22/speaker_tag.html">Eclipse OMG Symposium Speaker Tag</a></li>
+      
+        <li><a href="/2010/06/22/eclipse-omg-symposium-2010.html">Eclipse OMG symposium 2010</a></li>
+      
+      </ul>
+      
+    </div>
+    <div id="content">
+      <div id="header"><h1><a href="/">Join The Machine</a></h1>
+  <p class="description" id="description" style="height: 100px;">
+    
+  </p>
+  <script type="text/javascript">
+    var lyrics = ["Welcome my son<br>Welcome to the machine<br>Where have you been?<br>It's alright we know where you've been"
+,
+    "You've been in the pipeline<br>Filling in time<br>Provided with toys and scouting for boys<br>You brought a guitar to punish your ma"
+,
+    "And you didn't like school<br>And you know you're nobody's fool<br>So welcome to the machine"
+,
+    "Welcome my son<br>Welcome to the machine<br>What did you dream?<br>It's alright we told you what to dream"
+,
+    "You dreamed of a big star<br>He played a mean guitar<br>He always ate in the Steak Bar<br>He loved to drive in his Jaguar<br>So welcome to the machine"]
+  var i = 0;
+  var fn = function() {
+    document.getElementById("description").innerHTML = lyrics[i];
+    i++;
+    if (i >= lyrics.length) {
+      i = 0;
+    }
+  };
+  fn();
+  window.setInterval(fn, 5000);
+  </script> 
+</div>
+      <div class="entry home">
+        <h2 class="entrytitle">Write a parser... A response to Tony Morris</h2>
+        
+        <div class="meta">
+  <p><span class="date">06 September 2008</span></p>
+</div>
+         <div class="entrybody"><p>This should have been a comment to <a href="http://blog.tmorris.net/haskell-scala-java-7-functional-java-java/">Tony Morris blog post</a> comparing the compositional properties of programs solving the same problem. The thing is, I&#8217;m not too happy with the way the problem is solved.</p>
+<p>Hi Tony,</p>
+<p>sorry this is looking more and more like a FizzBuzz thing, but I can&#8217;t resist posting my own solution to this one.</p>
+<p>I look at your code and I don&#8217;t understand it. The way you solve the problem is incorrect in my opinion.<br />
+I think the problem can be solved by looking at each character of the string and identify it as we parse them:<br />
+1. it is an opening bracket. Fine, we store it.<br />
+2. it is a closing bracket. We see if it matches the last opening bracket. If yes, we continue, if not, we leave and return false.<br />
+3. it&#8217;s something else, return false.</p>
+<p>Here is some code I wrote that does it:</p>
+<p>@<pre><br />
+public class Balancer {</p>
+private final static Map&lt;Character, Character&gt; _closingMatches =
+new HashMap&lt;Character, Character&gt;();
+
+
+static {
+<p>//        _closingMatches.put(&#8216;}&#8217;, &#8216;{&#8217;);<br />
+        _closingMatches.put(&#8216;)&#8217;, &#8216;(&#8217;);<br />
+        _closingMatches.put(&#8216;]&#8217;, &#8216;[&#8217;);<br />
+    }</p>
+public static void balance(String str) {
+if (str.length() % 2 == 1) {
+System.err.println(&#8220;Not balanced&#8221;);
+return;
+}
+
+Stack<Character> opening = new Stack<Character>();
+for (char c : str.toCharArray()) {
+if (_closingMatches.containsKey&#169;) {
+if (opening.size() == 0 ||
+!_closingMatches.get&#169;.equals(opening.lastElement())) {
+System.err.println(&#8220;not balanced&#8221;);
+return;
+} else {
+opening.pop();
+}
+} else if (_closingMatches.containsValue&#169;) {
+opening.add&#169;;
+} else {
+System.err.println(&#8220;not balanced&#8221;);
+return;
+}
+}
+
+if (opening.size() == 0) {
+System.err.println(&#8220;Balanced!&#8221;);
+} else {
+System.err.println(&#8220;Not balanced&#8221;);
+}
+}
+
+public static void main(String[] args) {
+for (String str : args) {
+balance(str);
+}
+}
+<p>}<br />
+</pre>@<br />
+In particular have a look at how it is easy to add a new character, and change the behavior of the code by changing the series of if else.<br />
+I would love to be able to code this in other languages like you did, but my only area of expertise besides Java is a bit of Ruby.</p>
+<p>So, here goes:<br />
+@<pre><br />
+CLOSING_MATCHES = {&#8217;)&#8216;=&gt;&#8217;(&#8216;, &#8217;]&#8217;=&gt;&#8217;[&#8217;}</p>
+<p>def balance(str) <br />
+  return false if ((str.size % 2) == 1)<br />
+  opening = []<br />
+  str.scan(/./) {|c| <br />
+    if (CLOSING_MATCHES.key? c)<br />
+      if (CLOSING_MATCHES&#169; != opening.last)<br />
+        return false<br />
+      else<br />
+        opening.pop<br />
+      end <br />
+    elsif (CLOSING_MATCHES.value? c)<br />
+      opening &lt;&lt; c<br />
+    else<br />
+      return false<br />
+    end<br />
+  }<br />
+  return opening.empty?<br />
+end<br />
+for str in $* do<br />
+  result = balance(str) ? &#8220;Balanced&#8221; : &#8220;Not balanced&#8221;<br />
+  p result <br />
+end<br />
+</pre>@</p>
+<p>I think what went wrong was the idea of tokens, though I&#8217;d be glad to be proven the contrary.</p>
+<p>Two conclusions that go in the direction of your original topic:<br />
+1. The code doesn&#8217;t really matter. By default a code is not readable. <br />
+2. The algorithm is important. What makes code readable is when you can read the algorithm by looking at it. There you can reuse pieces of the algorithm, that seldom are taking place by introducing sub methods in the code, but most of the time are a quick copy/paste :)</p></div>
+         
+      </div>
+    </div>
+    
+  </div>
+
+  <div id="footer">Powered by <a href="http://textile.thresholdstate.com/">Textile</a> <br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Join the Machine</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.github.com/atoulme" property="cc:attributionName" rel="cc:attributionURL">Antoine Toulme</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.github.com/atoulme/blog" rel="dct:source">www.github.com/atoulme/blog</a>.</div>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Join The Machine</title>
+  <meta name="description" content="Personal blog of Antoine Toulme" />
+  <meta name="generator" content="Textile" />
+  <link href="/stylesheets/main.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/feed/atom.xml" rel="alternate" title="Personal blog of Antoine Toulme" type="application/atom+xml" />
+  <link rel="apple-touch-icon" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" href="/images/favicon.ico" />
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2663492-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+<body>
+    <div id="wrap">  
+    <div id="sidebar" class="mobile-hide">
+      <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
+      <div id="subscribe">
+        <p><a href="/feed/atom.xml">Atom feed</a></p>
+      </div>
+
+      <div id="about">
+        Personal blog. All ideas expressed my own.
+      </div>
+
+      <h2 id="latest_posts">Latest posts</h2>
+      <ul>
+      
+        <li><a href="/2016/01/14/curly-braces.html">Curly braces in Java</a></li>
+      
+        <li><a href="/2016/01/08/INDEX.LIST-and-java-jar.html">INDEX.LIST and java -jar</a></li>
+      
+        <li><a href="/2015/12/19/mass-producing-custom-software.html">Mass producing custom software – no longer "mission impossible"</a></li>
+      
+        <li><a href="/2015/12/11/net-developer.html">How to get a raise if you develop in .NET.</a></li>
+      
+        <li><a href="/2015/10/22/four-types-of-wine.html">Only four types of wine, and three types of enterprise systems</a></li>
+      
+        <li><a href="/2015/10/13/buy-or-build.html">Buy or build? It does not matter</a></li>
+      
+        <li><a href="/2012/02/20/introducing-guesslink.html">Introducing Guesslink</a></li>
+      
+        <li><a href="/2011/12/08/class-methods-and-private-modifiers.html">Class methods and private modifiers</a></li>
+      
+        <li><a href="/2011/11/23/praise-for-waze.html">Some praise for Waze</a></li>
+      
+        <li><a href="/2011/11/23/congrats-mr-stallman.html">Congratulations, Mr Stallman!</a></li>
+      
+        <li><a href="/2011/11/18/spelling-webapp.html">Spelling webapp online</a></li>
+      
+        <li><a href="/2011/11/11/spelling-correctly.html">Getting help spelling words - Introducing the spell project</a></li>
+      
+        <li><a href="/2011/04/08/latest-jenkins-build-info.html">Latest jenkins build info</a></li>
+      
+        <li><a href="/2011/04/08/detect-git-changes.html">Detect git changes</a></li>
+      
+        <li><a href="/2011/02/13/query-wikipedia-...-apache-camel.html">Query wikipedia over DNS TXT queries with Apache Camel</a></li>
+      
+        <li><a href="/2010/11/22/caught-on-tape.html">Caught on tape</a></li>
+      
+        <li><a href="/2010/11/20/irc-logging.html">IRC logging</a></li>
+      
+        <li><a href="/2010/10/01/drools-committer.html">Drools Committer</a></li>
+      
+        <li><a href="/2010/06/22/speaker_tag.html">Eclipse OMG Symposium Speaker Tag</a></li>
+      
+        <li><a href="/2010/06/22/eclipse-omg-symposium-2010.html">Eclipse OMG symposium 2010</a></li>
+      
+      </ul>
+      
+    </div>
+    <div id="content">
+      <div id="header"><h1><a href="/">Join The Machine</a></h1>
+  <p class="description" id="description" style="height: 100px;">
+    
+  </p>
+  <script type="text/javascript">
+    var lyrics = ["Welcome my son<br>Welcome to the machine<br>Where have you been?<br>It's alright we know where you've been"
+,
+    "You've been in the pipeline<br>Filling in time<br>Provided with toys and scouting for boys<br>You brought a guitar to punish your ma"
+,
+    "And you didn't like school<br>And you know you're nobody's fool<br>So welcome to the machine"
+,
+    "Welcome my son<br>Welcome to the machine<br>What did you dream?<br>It's alright we told you what to dream"
+,
+    "You dreamed of a big star<br>He played a mean guitar<br>He always ate in the Steak Bar<br>He loved to drive in his Jaguar<br>So welcome to the machine"]
+  var i = 0;
+  var fn = function() {
+    document.getElementById("description").innerHTML = lyrics[i];
+    i++;
+    if (i >= lyrics.length) {
+      i = 0;
+    }
+  };
+  fn();
+  window.setInterval(fn, 5000);
+  </script> 
+</div>
+      <div class="entry home">
+        <h2 class="entrytitle">OSGi.does.not.like.5 token versions</h2>
+        
+        <div class="meta">
+  <p><span class="date">23 June 2007</span></p>
+</div>
+         <div class="entrybody"><p>I switched to Eclipse 3.3 for fun (and the <a href="http://www.eclipse.org/org/press-release/20070612cb_europareviews.php">T-shirt</a> was tempting too), and banged into my first obstacle. Now the four digits scheme is strictly enforced for the version numbers. <br />
+That&#8217;s ok with me, I just changed the version numbers to add one more &#8216;.&#8217; somewhere.</p>
+<p>The thing is&#8230; our build system adds the build number as a new token.</p>
+<p>So when building my new artifact, I had a version like this 1.0.0.0.001. That&#8217;s quite ugly. Well, I didn&#8217;t put too much attention into it.</p>
+<p>Then switching to Eclipse 3.3 would not happen.</p>
+<p>Here is the stacktrace you get when trying to activate a plugin with 5 tokens:</p>
+<pre>org.osgi.framework.BundleException: 
+Exception in org.eclipse.update.internal.configurator.ConfigurationActivator.start() of bundle org.eclipse.update.configurator.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:1018)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:974)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:346)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:350)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1118)</pre>
+<p>with a nested stacktrace:</p>
+<pre>Caused by: org.eclipse.core.runtime.CoreException: 
+Cannot create configuration in file:/home/atoulme/eclipse/configuration/
+	at org.eclipse.update.internal.configurator.Utils.newCoreException(Utils.java:96)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.initialize(ConfigurationActivator.java:111)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.start(ConfigurationActivator.java:69)</pre>
+<p>with a root exception:</p>
+<pre>org.eclipse.core.runtime.CoreException: Cannot create configuration in file:/home/atoulme/eclipse/configuration/
+	at org.eclipse.update.internal.configurator.Utils.newCoreException(Utils.java:96)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.initialize(ConfigurationActivator.java:111)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.start(ConfigurationActivator.java:69)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:999)
+	at java.security.AccessController.doPrivileged(Native Method)</pre>
+<p>Ordinarily, having a stacktrace means you already won. You just have to go at the right line of code, fix the problem and get the thing running.<br />
+In this case, the bundles that were throwing the exception are completely out of the Eclipse <span class="caps">SDK</span> workspace code, so the only option I had was to go look at it on cvs.<br />
+I ended downloading the code, compiling it in my 3.2.2 workspace and add a line in the <code>getPlatformConfiguration()</code> method.</p>
+<pre>**
+	 * Creates and starts the platform configuration.
+	 * @return the just started platform configuration
+	 */
+	private PlatformConfiguration getPlatformConfiguration(URL installURL, Location configLocation) {
+		try {
+			PlatformConfiguration.startup(installURL, configLocation);
+		} catch (Exception e) {
+			System.err.println("THERE WAS AN EXCEPTION" + e);
+			e.printStackTrace();
+			if (platformTracker != null) {
+				String message = e.getMessage();
+				if (message == null)
+					message = ""; //$NON-NLS-1$
+				Utils.log(Utils.newStatus(message, e));
+			}
+		}
+		return PlatformConfiguration.getCurrent();
+
+	}</pre>
+<p>Suddenly, I had the right stacktrace popping up:</p>
+<pre>
+THERE WAS AN EXCEPTIONjava.lang.IllegalArgumentException: invalid format
+java.lang.IllegalArgumentException: invalid format
+        at org.osgi.framework.Version.&lt;init&gt;(Version.java:143)
+        at org.osgi.framework.Version.parseVersion(Version.java:209)
+        at org.eclipse.update.internal.configurator.VersionedIdentifier.&lt;init&gt;(VersionedIdentifier.java:21)
+</pre>
+<p>Please look at the <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.osgi/osgi/src/org/osgi/framework/Version.java?view=markup">constructor of the Version class</a> if you want to know more on the version string parsing. It says it better than an hundred words.</p>
+<p>I hope this helps people migrating to Eclipse 3.3. I am 100% guilty of not respecting the OSGi standard (and I am now running to get this all fixed, and up and running with the latest RC!).</p>
+<p>I opened a <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=194102">bugzilla entry</a> to report this hidden stacktrace, feel free to comment it!</p></div>
+         
+      </div>
+    </div>
+    
+  </div>
+
+  <div id="footer">Powered by <a href="http://textile.thresholdstate.com/">Textile</a> <br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Join the Machine</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.github.com/atoulme" property="cc:attributionName" rel="cc:attributionURL">Antoine Toulme</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.github.com/atoulme/blog" rel="dct:source">www.github.com/atoulme/blog</a>.</div>
+</body>
+</html>

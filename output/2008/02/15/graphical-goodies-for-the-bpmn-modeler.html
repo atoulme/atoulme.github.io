@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Join The Machine</title>
+  <meta name="description" content="Personal blog of Antoine Toulme" />
+  <meta name="generator" content="Textile" />
+  <link href="/stylesheets/main.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/feed/atom.xml" rel="alternate" title="Personal blog of Antoine Toulme" type="application/atom+xml" />
+  <link rel="apple-touch-icon" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" href="/images/favicon.ico" />
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2663492-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+<body>
+    <div id="wrap">  
+    <div id="sidebar" class="mobile-hide">
+      <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
+      <div id="subscribe">
+        <p><a href="/feed/atom.xml">Atom feed</a></p>
+      </div>
+
+      <div id="about">
+        Personal blog. All ideas expressed my own.
+      </div>
+
+      <h2 id="latest_posts">Latest posts</h2>
+      <ul>
+      
+        <li><a href="/2016/01/14/curly-braces.html">Curly braces in Java</a></li>
+      
+        <li><a href="/2016/01/08/INDEX.LIST-and-java-jar.html">INDEX.LIST and java -jar</a></li>
+      
+        <li><a href="/2015/12/19/mass-producing-custom-software.html">Mass producing custom software – no longer "mission impossible"</a></li>
+      
+        <li><a href="/2015/12/11/net-developer.html">How to get a raise if you develop in .NET.</a></li>
+      
+        <li><a href="/2015/10/22/four-types-of-wine.html">Only four types of wine, and three types of enterprise systems</a></li>
+      
+        <li><a href="/2015/10/13/buy-or-build.html">Buy or build? It does not matter</a></li>
+      
+        <li><a href="/2012/02/20/introducing-guesslink.html">Introducing Guesslink</a></li>
+      
+        <li><a href="/2011/12/08/class-methods-and-private-modifiers.html">Class methods and private modifiers</a></li>
+      
+        <li><a href="/2011/11/23/praise-for-waze.html">Some praise for Waze</a></li>
+      
+        <li><a href="/2011/11/23/congrats-mr-stallman.html">Congratulations, Mr Stallman!</a></li>
+      
+        <li><a href="/2011/11/18/spelling-webapp.html">Spelling webapp online</a></li>
+      
+        <li><a href="/2011/11/11/spelling-correctly.html">Getting help spelling words - Introducing the spell project</a></li>
+      
+        <li><a href="/2011/04/08/latest-jenkins-build-info.html">Latest jenkins build info</a></li>
+      
+        <li><a href="/2011/04/08/detect-git-changes.html">Detect git changes</a></li>
+      
+        <li><a href="/2011/02/13/query-wikipedia-...-apache-camel.html">Query wikipedia over DNS TXT queries with Apache Camel</a></li>
+      
+        <li><a href="/2010/11/22/caught-on-tape.html">Caught on tape</a></li>
+      
+        <li><a href="/2010/11/20/irc-logging.html">IRC logging</a></li>
+      
+        <li><a href="/2010/10/01/drools-committer.html">Drools Committer</a></li>
+      
+        <li><a href="/2010/06/22/speaker_tag.html">Eclipse OMG Symposium Speaker Tag</a></li>
+      
+        <li><a href="/2010/06/22/eclipse-omg-symposium-2010.html">Eclipse OMG symposium 2010</a></li>
+      
+      </ul>
+      
+    </div>
+    <div id="content">
+      <div id="header"><h1><a href="/">Join The Machine</a></h1>
+  <p class="description" id="description" style="height: 100px;">
+    
+  </p>
+  <script type="text/javascript">
+    var lyrics = ["Welcome my son<br>Welcome to the machine<br>Where have you been?<br>It's alright we know where you've been"
+,
+    "You've been in the pipeline<br>Filling in time<br>Provided with toys and scouting for boys<br>You brought a guitar to punish your ma"
+,
+    "And you didn't like school<br>And you know you're nobody's fool<br>So welcome to the machine"
+,
+    "Welcome my son<br>Welcome to the machine<br>What did you dream?<br>It's alright we told you what to dream"
+,
+    "You dreamed of a big star<br>He played a mean guitar<br>He always ate in the Steak Bar<br>He loved to drive in his Jaguar<br>So welcome to the machine"]
+  var i = 0;
+  var fn = function() {
+    document.getElementById("description").innerHTML = lyrics[i];
+    i++;
+    if (i >= lyrics.length) {
+      i = 0;
+    }
+  };
+  fn();
+  window.setInterval(fn, 5000);
+  </script> 
+</div>
+      <div class="entry home">
+        <h2 class="entrytitle">Graphical goodies for the BPMN modeler</h2>
+        
+        <div class="meta">
+  <p><span class="date">15 February 2008</span></p>
+</div>
+         <div class="entrybody"><p>We have worked hard on the <span class="caps">BPMN</span> modeler and have a few things to show off.</p>
+<h3>Some semantic changes</h3>
+<ul>
+        <li>Associations can target sequence and messaging edges.</li>
+<p>At the semantic level only. We are actively working on making it possible to connect them in the diagram.<br />
+	<li>Pools hold messaging edges.</li><br />
+We haven&#8217;t worked on making it possible in the editor as well, but the semantic model accepts those now.</p>
+</ul>
+<h3>Support for <span class="caps">BPMN</span> 1.1</h3>
+<p>We are heading for basic support of <span class="caps">BPMN</span> 1.1. You can deactivate it in the <span class="caps">BPMN</span> Diagrams preference page.<br />
+<ul><br />
+	<li><abbr title="How could we live without them ?">Signal events</abbr></li><br />
+They really don&#8217;t look good yet, and we are looking for help on <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=219070">that</a><br />
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/signal-events.png' title='Signal events'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/signal-events.png' alt='Signal events' /></a>.<br />
+	<li>The look and feel of shapes is <span class="caps">BPMN</span> 1.1 compliant</li><br />
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/multiple-events-bpmn-11-representation.png' title='Multiple event and event-based gateway a la BPMN 1.1 sauce'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/multiple-events-bpmn-11-representation.png' alt='Multiple event and event-based gateway a la BPMN 1.1 sauce' /></a><br />
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/bpmn11-event-shapes.png' title='Throwing and catching events are not drawn in the same way'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/bpmn11-event-shapes.png' alt='Throwing and catching events are not drawn in the same way' /></a></p>
+</ul>
+<li><abbr title="A picture is worth a thousand words here.">Routing of sequence edges with gateways has drastically improved.</abbr></li>
+<p><a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/tmp.jpg' title='Nice looking diagram'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/tmp.thumbnail.jpg' alt='Nice looking diagram' /></a><br />
+h3. More</p>
+<ul>
+	<li>We have added the link and multiple events to the palette.</li>
+<p>We miss images for those items right now, as well as the ones for the signal event. Working on that bit.<br />
+<li>Only one connection handle shows at a time in the diagram.</li><br />
+We wanted to have only one connection handle showing at a time. That way when you mouse over the shapes, they don&#8217;t animate all at the same time.<br />
+	<li>Terminate events are better centered</li><br />
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/better-centered-terminate-events.png' title='Better centered terminate end events'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/better-centered-terminate-events.png' alt='Better centered terminate end events' /></a><br />
+<li>Improvements over lanes</li><br />
+<a href='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/pools-with-colorful-lanes.png' title='Lanes'><img src='http://www.lunar-ocean.com/blog/wp-content/uploads/2008/02/pools-with-colorful-lanes.thumbnail.png' alt='Lanes' /></a><br />
+Lanes can now have a background color, and they resize in a better way that they used to.<br />
+	<li>We have fixed a <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=218761">pesky bug</a> when using the <span class="caps">BPMN</span> modeler in a different editing domain.</li></p>
+</ul>
+<p>We hope you enjoy those improvements, will be inspired by them and will give us a hand at the next Eclipse bug day!</p></div>
+         
+      </div>
+    </div>
+    
+  </div>
+
+  <div id="footer">Powered by <a href="http://textile.thresholdstate.com/">Textile</a> <br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Join the Machine</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.github.com/atoulme" property="cc:attributionName" rel="cc:attributionURL">Antoine Toulme</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.github.com/atoulme/blog" rel="dct:source">www.github.com/atoulme/blog</a>.</div>
+</body>
+</html>

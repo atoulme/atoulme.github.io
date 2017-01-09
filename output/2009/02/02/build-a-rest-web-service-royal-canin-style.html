@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Join The Machine</title>
+  <meta name="description" content="Personal blog of Antoine Toulme" />
+  <meta name="generator" content="Textile" />
+  <link href="/stylesheets/main.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/feed/atom.xml" rel="alternate" title="Personal blog of Antoine Toulme" type="application/atom+xml" />
+  <link rel="apple-touch-icon" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" href="/images/favicon.ico" />
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2663492-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+<body>
+    <div id="wrap">  
+    <div id="sidebar" class="mobile-hide">
+      <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
+      <div id="subscribe">
+        <p><a href="/feed/atom.xml">Atom feed</a></p>
+      </div>
+
+      <div id="about">
+        Personal blog. All ideas expressed my own.
+      </div>
+
+      <h2 id="latest_posts">Latest posts</h2>
+      <ul>
+      
+        <li><a href="/2016/01/14/curly-braces.html">Curly braces in Java</a></li>
+      
+        <li><a href="/2016/01/08/INDEX.LIST-and-java-jar.html">INDEX.LIST and java -jar</a></li>
+      
+        <li><a href="/2015/12/19/mass-producing-custom-software.html">Mass producing custom software – no longer "mission impossible"</a></li>
+      
+        <li><a href="/2015/12/11/net-developer.html">How to get a raise if you develop in .NET.</a></li>
+      
+        <li><a href="/2015/10/22/four-types-of-wine.html">Only four types of wine, and three types of enterprise systems</a></li>
+      
+        <li><a href="/2015/10/13/buy-or-build.html">Buy or build? It does not matter</a></li>
+      
+        <li><a href="/2012/02/20/introducing-guesslink.html">Introducing Guesslink</a></li>
+      
+        <li><a href="/2011/12/08/class-methods-and-private-modifiers.html">Class methods and private modifiers</a></li>
+      
+        <li><a href="/2011/11/23/praise-for-waze.html">Some praise for Waze</a></li>
+      
+        <li><a href="/2011/11/23/congrats-mr-stallman.html">Congratulations, Mr Stallman!</a></li>
+      
+        <li><a href="/2011/11/18/spelling-webapp.html">Spelling webapp online</a></li>
+      
+        <li><a href="/2011/11/11/spelling-correctly.html">Getting help spelling words - Introducing the spell project</a></li>
+      
+        <li><a href="/2011/04/08/latest-jenkins-build-info.html">Latest jenkins build info</a></li>
+      
+        <li><a href="/2011/04/08/detect-git-changes.html">Detect git changes</a></li>
+      
+        <li><a href="/2011/02/13/query-wikipedia-...-apache-camel.html">Query wikipedia over DNS TXT queries with Apache Camel</a></li>
+      
+        <li><a href="/2010/11/22/caught-on-tape.html">Caught on tape</a></li>
+      
+        <li><a href="/2010/11/20/irc-logging.html">IRC logging</a></li>
+      
+        <li><a href="/2010/10/01/drools-committer.html">Drools Committer</a></li>
+      
+        <li><a href="/2010/06/22/speaker_tag.html">Eclipse OMG Symposium Speaker Tag</a></li>
+      
+        <li><a href="/2010/06/22/eclipse-omg-symposium-2010.html">Eclipse OMG symposium 2010</a></li>
+      
+      </ul>
+      
+    </div>
+    <div id="content">
+      <div id="header"><h1><a href="/">Join The Machine</a></h1>
+  <p class="description" id="description" style="height: 100px;">
+    
+  </p>
+  <script type="text/javascript">
+    var lyrics = ["Welcome my son<br>Welcome to the machine<br>Where have you been?<br>It's alright we know where you've been"
+,
+    "You've been in the pipeline<br>Filling in time<br>Provided with toys and scouting for boys<br>You brought a guitar to punish your ma"
+,
+    "And you didn't like school<br>And you know you're nobody's fool<br>So welcome to the machine"
+,
+    "Welcome my son<br>Welcome to the machine<br>What did you dream?<br>It's alright we told you what to dream"
+,
+    "You dreamed of a big star<br>He played a mean guitar<br>He always ate in the Steak Bar<br>He loved to drive in his Jaguar<br>So welcome to the machine"]
+  var i = 0;
+  var fn = function() {
+    document.getElementById("description").innerHTML = lyrics[i];
+    i++;
+    if (i >= lyrics.length) {
+      i = 0;
+    }
+  };
+  fn();
+  window.setInterval(fn, 5000);
+  </script> 
+</div>
+      <div class="entry home">
+        <h2 class="entrytitle">Build a REST web service Royal Canin Style</h2>
+        
+        <div class="meta">
+  <p><span class="date">02 February 2009</span></p>
+</div>
+         <div class="entrybody"><h2>Introduction</h2>
+<p>As an Intalio employee, I participate to the <a href="http://itredux.com/2009/01/25/a-first-taste-of-dogfood/">Intalio Dogfood project</a>. I came too early to the office one morning, had an interesting discussion with the <a href="http://itredux.com"><span class="caps">CEO</span></a> that ended on his team.</p>
+<p>The schedule for building our marketing process is aggressive as we want to maximize the <span class="caps">ROI</span>. At the same time, it makes use of a lot of technologies that will push our platform in all directions.</p>
+<p>Later, on the very same day he had recruited me, he and showed me his first attempt at defining the process we would be working on. And well, instead of a <span class="caps">BPMN</span> diagram, he showed me a spreadsheet.</p>
+<p>As <a href="http://davethinkingaloud.blogspot.com/2009/01/untitled.html">David French says</a>, that&#8217;s really not an &#8220;IT developer style of solution&#8221;. Yep, it&#8217;s business all the way, but my IT skills are there to make it happen. So&#8230;</p>
+<p>At first, we thought it would be ok to generate a <span class="caps">BPMN</span> diagram, and then <span class="caps">BPEL</span>, from the spreadsheet, but that was too complex ; that also meant the spreadsheet would contain way more information, in particular the data and the mappings.</p>
+<p><a href="www.rickgeneva.com">Rick Geneva</a> joined our team then and proposed to go for a diagram that would poll the spreadsheet for data, and execute depending on the content of the cells. So it was that simple: I had to design a web service that would take the <span class="caps">URL</span> of the published spreadsheet and would turn it into <span class="caps">XML</span> data to be fed into the process.</p>
+<h2>Why <span class="caps">REST</span> ?</h2>
+<p>I have a little knowledge of building web services, I designed one for the Facebook application I had put online in 2007. It was smartly using <span class="caps">FCGI</span> and Ruby to produce <span class="caps">SOAP</span> messages. I had got the recipe from <a href="http://onbpms.org">Pascal</a> who had designed the <a href="http://github.com/intalio/time-service/tree/master">Time Service</a> in the same way.</p>
+<p>However, the <a href="http://itredux.com/2009/01/25/a-first-taste-of-dogfood/">Dogfood project</a> required that I integrate the application with our Java server, so I had to try new things.</p>
+<p>I didn&#8217;t feel like writing the service in Java as I wanted it to be as short as possible. I have a good experience of Ruby now and wanted to see some of it in action.</p>
+<p>As a matter of fact, the <span class="caps">SOAP</span> libraries in the Ruby world are not doing too well. Some are deprecated, some are still relevant but somehow they don&#8217;t inspire much confidence.</p>
+<p>So I chose to build a <span class="caps">REST</span> service as there is more community around it, at least in the Ruby world.</p>
+<h3>Micro-frameworks</h3>
+<p><a href="http://labnotes.org">Assaf</a> pointed me to Rack, a framework to run web applications. I didn&#8217;t want to run a full fledged Rails application for a simple web service that had no need for storing data or even html pages.</p>
+<p>I first settled for <a href="http://camping.rubyforge.org/files/README.html">Camping</a>. It was a smart and good looking framework. It was looking enough like Rails, separating the models, the controllers and the views that I thought I would be safe with it. However it wasn&#8217;t possible for a controller to render text directly, so the code wasn&#8217;t too <span class="caps">DRY</span>, and I didn&#8217;t find a way to catch the body of the request.</p>
+<p>I then approached <a href="http://www.sinatrarb.com/">Sinatra</a>. What a cool framework. Sinatra defines a <span class="caps">REST</span> service in three lines:</p>
+<pre>@get "/" do
+  return "Hello world!"
+end
+@</pre>
+<p>On top of that, it is possible to gain access to the body of the request: <code>url = @request.body.read</code></p>
+<p>I designed my Sinatra application, then ran it very directly with ruby:<br />
+<pre><code>$&gt;ruby lib/csv2xml.rb</code></pre></p>
+<p>To test your application while it is running, you can just send something via wget:<br />
+<pre><code>wget http://localhost:4567/ --post-data=your-data --header="Content-Type:text/xml"</code></pre></p>
+<h4>Installing and running jruby-rack</h4>
+<p>The objective is to deploy on a Java web server, remember ? Assaf had pointed me to jruby-rack. The author of the library is <a href="http://blog.nicksieger.com/">Nick Sieger</a>, a member of the JRuby team. The jruby-rack gem installs on top of JRuby and requires to have maven installed. It all went smoothly though.</p>
+<p>Once installed, I went looking for examples in the github repository and found some instructions to bundle my Sinatra application:</p>
+<p>1. add a config.ru file at the root of your repository. That file should contain the minimum set of instructions to run. See mine for example.<br />
+2. Run rackup config.ru to make sure everything works.</p>
+<p>So far, so good. The hard part starts now.</p>
+<h4>Warble me already!</h4>
+<p>To transform your application into a war, Nick created a gem named warbler.<br />
+You run it like this on your application: <code>jruby -S warble war</code></p>
+<p>It&#8217;s going to create a .war file. Leave it there and take a little time to review the code dumped into tmp/war/.</p>
+<ul>
+<li>First, check that web.xml doesn&#8217;t contain invalid characters. Your config.ru file was pasted in there, and the <span class="caps">XML</span> is escaped. I filed a <a href="http://jira.codehaus.org/browse/JRUBY-3342">bug</a> for this, and Nick fixed it promptly, so you shouldn&#8217;t have to face it anymore hopefully.</li>
+<li>Second, check the version of jruby-rack used in the lib folder. It must be at least 0.9.4 for everything to run smoothly. Otherwise, Sinatra will complain of a missing library.</li>
+</ul>
+<p>If your need to, make changes and jar again the /tmp/war directory contents with <pre><code>jar cf csv2xml.war  -C tmp/war .</code></pre></p>
+<p>Deploy to your server. For the Dogfood project, we will be using Tomcat. So I dropped the war in the webapps folder of Tomcat. It was recognized and expanded as a folder.</p>
+<p>Then you can try the same operation on your server as the one you were doing when running the application locally:</p>
+<pre>@wget http://localhost:4567/ --post-data=your-data --header="Content-Type:text/xml"@</pre>
+<h2>Integrating with Intalio|Designer</h2>
+<p><img src="http://www.lunar-ocean.com/wp-content/uploads/2009/01/picture-1.png" alt="REST connector for Intalio|Designer 5.2.1" title="REST connector for Intalio|Designer 5.2.1" width="610" height="300" class="alignright size-full wp-image-240" /></p>
+<p>I discovered while trying to integrate with <span class="caps">ODE</span> that it would not be able to send plain-text requests, ie I can&#8217;t send &#8220;http://www.intalio.com&#8221; to a <span class="caps">REST</span> service because we have an issue extracting the text node from the element I pass to the service ; I filed a <a href="http://issues.apache.org/jira/browse/ODE-502">bug</a> about it.</p>
+<p>So for this service we will need to use <span class="caps">XML</span> all over. For the input, we just want to have an element wrapping a text node ; for the output we need to return a complete tree of the cells of the spreadsheet.</p>
+<p>I wrote the xsd by hand in Intalio|Designer. I forgot the maxOccurs attribute :( but it was quickly fixed, thanks to Pascal. I particularly enjoyed writing my <span class="caps">XSD</span> directly as I could see the result in the process explorer every time I saved the file.</p>
+<p>I used the <span class="caps">REST</span> connector that was added to Intalio|Designer as of 5.2.1 to design the <span class="caps">WSDL</span> of the service.<br />
+I just had to punch in the <span class="caps">URL</span> and the parameters I wanted to use.</p>
+<p>I used a test diagram to run my service. It queries the service for me and returns its response to my console.</p>
+<p>During that phase, I had to do some debugging. In that case, you should open the log4j.properties file of the server and change the org.apache.commons.httpclient category to <span class="caps">DEBUG</span>. That way you will see everything that gets in and out of the server.<br />
+I also pushed org.apache.ode to <span class="caps">DEBUG</span> to get more information on the process state.</p>
+<p>My biggest obstacles were to parse the <span class="caps">XML</span> sent to get the text without doing any magic&#8230;<br />
+I settled for using <span class="caps">REXML</span>, and using this code does the trick:<br />
+<pre><code lang="ruby">url = @request.body.read # Get the request body
+  url.gsub!(/\n/, '') #Remove any newline characters as REXML chokes on them.
+  doc = REXML::Document.new url // create a new document
+  url = REXML::XPath.first( doc, '////text()' ).to_s // look for the most embedded text() node@&lt;/pre&gt;</p>
+<p>&#8230; and to return <span class="caps">XML</span> that was in the schema namespace.</p>
+<p>I had to make sure I would use a prefix for each element (&#8220;csv2xml&#8221;) and that the target namespace and the namespace were both declared.<br />
+<pre><code>x.csv2xml :content, {"xmlns:csv2xml" =&gt; "http://www.intalio.com/csv2xml",
+                       :targetNamespace =&gt; "http://www.intalio.com/csv2xml"}</code></pre></p>
+<p>And then it all worked&#8230; I got my <span class="caps">XML</span> back!</p>
+<pre><code lang="xml">&lt;?xml version="1.0"?&gt;
+&lt;csv2xml:content targetNamespace="http://www.intalio.com/csv2xml" xmlns:csv2xml="http://www.intalio.com/csv2xml"&gt;
+  &lt;csv2xml:row&gt;
+    &lt;csv2xml:cell/&gt;
+    &lt;csv2xml:cell&gt;B&lt;/csv2xml:cell&gt;
+    &lt;csv2xml:cell&gt;C&lt;/csv2xml:cell&gt;
+  &lt;/csv2xml:row&gt;
+  &lt;csv2xml:row&gt;
+    &lt;csv2xml:cell&gt;1&lt;/csv2xml:cell&gt;
+    &lt;csv2xml:cell&gt;1-B&lt;/csv2xml:cell&gt;
+    &lt;csv2xml:cell&gt;1-C&lt;/csv2xml:cell&gt;
+  &lt;/csv2xml:row&gt;
+  &lt;csv2xml:row&gt;
+    &lt;csv2xml:cell&gt;2&lt;/csv2xml:cell&gt;
+    &lt;csv2xml:cell&gt;2-B&lt;/csv2xml:cell&gt;
+    &lt;csv2xml:cell&gt;2-C&lt;/csv2xml:cell&gt;
+  &lt;/csv2xml:row&gt;
+&lt;/csv2xml:content&gt;@</pre>
+<p>All the code used in this blog post is <a href="http://github.com/intalio/csv2xml/tree/master">available on Github under the <span class="caps">GPL</span> license</a>.</p>
+<p>Thanks for the help of nicksieger and rtomayko on #jruby and #sinatra.</p></div>
+         
+      </div>
+    </div>
+    
+  </div>
+
+  <div id="footer">Powered by <a href="http://textile.thresholdstate.com/">Textile</a> <br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Join the Machine</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.github.com/atoulme" property="cc:attributionName" rel="cc:attributionURL">Antoine Toulme</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.github.com/atoulme/blog" rel="dct:source">www.github.com/atoulme/blog</a>.</div>
+</body>
+</html>
