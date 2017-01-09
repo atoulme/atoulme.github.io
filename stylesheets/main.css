@@ -140,17 +140,16 @@ div.meta p {
 .entry{
   padding: 10px;
   margin-bottom:3em;
-  box-shadow: 10px 10px 1px 1px #f3f3f3;
+  box-shadow: 10px 10px 1px 1px #c3c3c3;
   border-radius: 15px;
   text-shadow: #fff 1px 1px 2px;
-  background: -webkit-gradient(linear, center top, center bottom, from(#ddd), to(#ccc));
+  background: -webkit-gradient(linear, center top, center bottom, from(#ccc), to(#f3f3f3));
 }
 .entrybody {
-           font-size: 1.2em;
 }
 
 .entrymeta{
-        font-size:0.9em;
+        font-size:80%;
 }
 .postedby{
         background:#fff url(../images/user.gif) no-repeat;
