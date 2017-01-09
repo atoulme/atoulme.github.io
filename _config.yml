@@ -3,5 +3,5 @@ highlighter: pygments
 gems:
 - jekyll-textile-converter
 - kramdown
-destination: output
+destination: docs
 ---
